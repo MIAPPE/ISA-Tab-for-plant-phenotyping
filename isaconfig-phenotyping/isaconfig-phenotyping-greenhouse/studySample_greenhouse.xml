@@ -14,8 +14,7 @@
 			</description>
 			<default-value/>
 			<recommended-ontologies>
-				<ontology id="" abbreviation="NEWT" name="NEWT UniProt Taxonomy Database" version="Jun 2010"/>
-				<ontology id="1132" abbreviation="NCBITaxon" name="NCBI organismal classification" version="38802"/>
+				<ontology id="http://purl.obolibrary.org/obo/ncbitaxon" abbreviation="NCBITaxon" name="NCBI organismal classification" version="38802"/>
 			</recommended-ontologies>
 		</field>
 		<field header="Characteristics[Infraspecific name]" data-type="Ontology term" is-file-field="false" is-multiple-value="true" is-required="true" is-hidden="false" is-forced-ontology="false">
@@ -46,9 +45,7 @@
 			<description>
 				<![CDATA[Type of growth facility or environment where the plant grow: growth chamber GC / greenhouse GH / open top chamber OTC / experimental garder / field / ...]]>
 			</description>
-			<default-value>
-				<![CDATA[greenhouse]]>
-			</default-value>
+			<default-value><![CDATA[greenhouse]]></default-value>
 		</field>
 		<field header="Characteristics[Geographic location]" data-type="Ontology term" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false">
 			<description>
@@ -56,7 +53,7 @@
 			</description>
 			<default-value/>
 			<recommended-ontologies>
-				<ontology id="http://data.bioontology.org/ontologies/GAZ" abbreviation="GAZ" name="Gazetteer" version="$Revision: 1.512 $"/>
+				<ontology id="http://purl.obolibrary.org/obo/gaz" abbreviation="GAZ" name="Gazetteer" version=""/>
 			</recommended-ontologies>
 		</field>
 		<protocol-field protocol-type ="Rooting"/>
@@ -66,8 +63,8 @@
 			</description>
 			<default-value/>
 			<recommended-ontologies>
-				<ontology id="http://data.bioontology.org/ontologies/ENVO" abbreviation="ENVO" name="Environment Ontology" version="releases/2014-09-16"/>
-				<ontology id="http://data.bioontology.org/ontologies/XEO" abbreviation="XEO" name="XEML Environment Ontology" version="1.6"/>
+				<ontology id="http://purl.obolibrary.org/obo/envo" abbreviation="ENVO" name="Environment Ontology" version="releases/2014-09-16"/>
+				<ontology id="http://purl.bioontology.org/ontology/XEO" abbreviation="XEO" name="XEML Environment Ontology" version="1.6"/>
 			</recommended-ontologies>
 		</field>
 		<field header="Parameter Value[Container type]" data-type="String" is-file-field="false" is-multiple-value="true" is-required="true" is-hidden="false" is-forced-ontology="false">

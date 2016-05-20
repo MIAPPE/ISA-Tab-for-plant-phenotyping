@@ -14,8 +14,7 @@
 			</description>
 			<default-value/>
 			<recommended-ontologies>
-				<ontology id="" abbreviation="NEWT" name="NEWT UniProt Taxonomy Database" version="Jun 2010"/>
-				<ontology id="1132" abbreviation="NCBITaxon" name="NCBI organismal classification" version="38802"/>
+				<ontology id="http://purl.obolibrary.org/obo/ncbitaxon" abbreviation="NCBITaxon" name="NCBI organismal classification" version="38802"/>
 			</recommended-ontologies>
 		</field>
 		<field header="Characteristics[Infraspecific name]" data-type="Ontology term" is-file-field="false" is-multiple-value="true" is-required="true" is-hidden="false" is-forced-ontology="false">
@@ -30,7 +29,7 @@
 			</description>
 			<default-value/>
 		</field>
-				<field header="Characteristics[Study start]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false">
+		<field header="Characteristics[Study start]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false">
 			<description>
 				<![CDATA[Date of start of the study]]>
 			</description>
@@ -54,7 +53,7 @@
 			</description>
 			<default-value/>
 			<recommended-ontologies>
-				<ontology id="http://data.bioontology.org/ontologies/GAZ" abbreviation="GAZ" name="Gazetteer" version="$Revision: 1.512 $"/>
+				<ontology id="http://purl.obolibrary.org/obo/gaz" abbreviation="GAZ" name="Gazetteer" version=""/>
 			</recommended-ontologies>
 		</field>
 		<field header="Sample Name" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false">
