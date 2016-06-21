@@ -1,0 +1,2 @@
+Dataset: A. Junker (2016-05-26): Raw images files from quantitative monitoring of 484 Arabidopsis thaliana plants using high-throughput plant phenotyping. doi:10.5447/IPK/2016/7
+Data descriptor: Arend D, et al. Quantitative monitoring of Arabidopsis thaliana growth and development using high-throughput plant phenotyping. Scientific Data. 2016.
