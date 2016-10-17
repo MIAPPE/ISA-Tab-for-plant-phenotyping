@@ -1,4 +1,4 @@
-﻿Sample Name	Characteristics[Organism part]	Term Source REF	Term Accession Number	Assay Name	Raw Data File	Protocol REF	Parameter Value[Trait Definition File]	Derived Data File
+Sample Name	Characteristics[Organism part]	Term Source REF	Term Accession Number	Assay Name	Raw Data File	Protocol REF	Parameter Value[Trait Definition File]	Derived Data File
 Sample1	whole plant	PO	3	Assay1	NA	Data transformation	tdf_polapgen_field.txt	d_polapgen_field2013.txt
 Sample2	whole plant	PO	3	Assay2	NA	Data transformation	tdf_polapgen_field.txt	d_polapgen_field2013.txt
 Sample3	whole plant	PO	3	Assay3	NA	Data transformation	tdf_polapgen_field.txt	d_polapgen_field2013.txt

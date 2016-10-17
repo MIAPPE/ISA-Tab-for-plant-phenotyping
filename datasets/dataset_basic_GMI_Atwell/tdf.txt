@@ -1,4 +1,4 @@
-﻿Variable ID	Trait	Term Source REF	Term Accession Number	Method	Term Source REF	Term Accession Number	Scale	Term Source REF	Term Accession Number
+Variable ID	Trait	Term Source REF	Term Accession Number	Method	Term Source REF	Term Accession Number	Scale	Term Source REF	Term Accession Number
 LD	LD	TO	TO:0000344	Number of days following stratification to opening of first flower. The experiment was stopped at 200 d, and accessions that had not flowered at that point were assigned a value of 200			days	UO	33
 LDV	LDV	TO	TO:0000344	Number of days to flowering under long days after 4 weeks vernalization.  Seeds were stratified, and days we counted from the end of stratification. The experiment was stopped at 200 d, and accessions that had not flowered at that point were assigned a value of 200			days	UO	33
 SD	SD	TO	TO:0000344	Number of days following stratification to opening of first flower. The experiment was stopped at 200 d, and accessions that had not flowered at that point were assigned a value of 200			days	UO	33

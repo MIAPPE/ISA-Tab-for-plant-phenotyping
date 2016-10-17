@@ -1,4 +1,4 @@
-﻿Sample Name	Characteristics[Organism Part]	Term Source REF	Term Accession Number	Assay Name	Raw Data File	Protocol REF	Parameter Value[Trait Definition File]	Derived Data File
+Sample Name	Characteristics[Organism Part]	Term Source REF	Term Accession Number	Assay Name	Raw Data File	Protocol REF	Parameter Value[Trait Definition File]	Derived Data File
 sample1				assay1020		Data transformation	tdf.txt	d_data.txt
 sample2				assay1		Data transformation	tdf.txt	d_data.txt
 sample3				assay1131		Data transformation	tdf.txt	d_data.txt

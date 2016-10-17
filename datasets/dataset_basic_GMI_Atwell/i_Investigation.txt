@@ -1,4 +1,4 @@
-﻿ONTOLOGY SOURCE REFERENCE						
+ONTOLOGY SOURCE REFERENCE						
 Term Source Name	OBI	EFO	UO	NCBITaxon	PO	GMI_accessions
 Term Source File	http://data.bioontology.org/ontologies/OBI	http://data.bioontology.org/ontologies/EFO	http://purl.obolibrary.org/obo/UO	http://data.bioontology.org/ontologies/NCBITAXON	http://data.bioontology.org/ontologies/PO	http://gwas.gmi.oeaw.ac.at/#/taxonomy/1/passports?alleleAssayId=0
 Term Source Version	23	118		6	10	

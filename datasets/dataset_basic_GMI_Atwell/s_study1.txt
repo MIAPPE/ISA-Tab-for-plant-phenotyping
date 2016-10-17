@@ -1,4 +1,4 @@
-﻿Source Name	Characteristics[Organism]	Term Source REF	Term Accession Number	Characteristics[Infraspecific name]	Term Source REF	Term Accession Number	Characteristics[Seed origin]	Characteristics[Study start]	Characteristics[Study duration]	Characteristics[Growth facility]	Characteristics[Geographic location]	Term Source REF	Term Accession Number	Sample Name
+Source Name	Characteristics[Organism]	Term Source REF	Term Accession Number	Characteristics[Infraspecific name]	Term Source REF	Term Accession Number	Characteristics[Seed origin]	Characteristics[Study start]	Characteristics[Study duration]	Characteristics[Growth facility]	Characteristics[Geographic location]	Term Source REF	Term Accession Number	Sample Name
 source1	Arabidopsis thaliana	NCBITaxon	3702	Bor-1	GMI_accessions	5837								sample1
 source1	Arabidopsis thaliana	NCBITaxon	3702	Bor-1	GMI_accessions	5837								sample2
 source1	Arabidopsis thaliana	NCBITaxon	3702	Bor-1	GMI_accessions	5837								sample3
@@ -1201,10 +1201,10 @@ source195	Arabidopsis thaliana	NCBITaxon	3702	Ull1-1	GMI_accessions	8426								
 source196	Arabidopsis thaliana	NCBITaxon	3702	Lisse	GMI_accessions	8430								sample1200
 source196	Arabidopsis thaliana	NCBITaxon	3702	Lisse	GMI_accessions	8430								sample1201
 source196	Arabidopsis thaliana	NCBITaxon	3702	Lisse	GMI_accessions	8430								sample1202
-source197	Arabidopsis thaliana	NCBITaxon	3702	Vinslöv		GMI_accessions	9057								sample1203
-source197	Arabidopsis thaliana	NCBITaxon	3702	Vinslöv		GMI_accessions	9057								sample1204
-source197	Arabidopsis thaliana	NCBITaxon	3702	Vinslöv		GMI_accessions	9057								sample1205
-source197	Arabidopsis thaliana	NCBITaxon	3702	Vinslöv		GMI_accessions	9057								sample1206
+source197	Arabidopsis thaliana	NCBITaxon	3702	Vinslöv	GMI_accessions	9057								sample1203
+source197	Arabidopsis thaliana	NCBITaxon	3702	Vinslöv	GMI_accessions	9057								sample1204
+source197	Arabidopsis thaliana	NCBITaxon	3702	Vinslöv	GMI_accessions	9057								sample1205
+source197	Arabidopsis thaliana	NCBITaxon	3702	Vinslöv	GMI_accessions	9057								sample1206
 source198	Arabidopsis thaliana	NCBITaxon	3702	Västervik	GMI_accessions	9058								sample1207
 source198	Arabidopsis thaliana	NCBITaxon	3702	Västervik	GMI_accessions	9058								sample1208
 source198	Arabidopsis thaliana	NCBITaxon	3702	Västervik	GMI_accessions	9058								sample1209

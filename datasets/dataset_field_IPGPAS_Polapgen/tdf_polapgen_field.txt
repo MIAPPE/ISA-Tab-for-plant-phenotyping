@@ -1,4 +1,4 @@
-﻿Variable ID	Trait	Term Source REF	Term Accession Number	Method	Term Source REF	Term Accession Number	Scale	Term Source REF	Term Accession Number
+Variable ID	Trait	Term Source REF	Term Accession Number	Method	Term Source REF	Term Accession Number	Scale	Term Source REF	Term Accession Number
 TGW	1000-grain weight	TO	382	1000 × weight of one grain averaged for weight of grains from 20 main spikes			g	UO	21
 GW_m2	Grain weight per m2	TO	181	Calculated as (Grain weight per spike * average number of spikes per m2)			g	UO	21
 GW_MS	Grain weight per main spike	TO	181	Average weight of hand-threshed grain from 20 randomly selected main spikes from each plot			g	UO	21

@@ -1,4 +1,4 @@
-﻿Assay Name	TGW	GW_m2	GW_MS	HD	main_spike	main_stem	G_MS	TL	Wvpd	Precipitation					
+Assay Name	TGW	GW_m2	GW_MS	HD	main_spike	main_stem	G_MS	TL	Wvpd	Precipitation					
 Assay1	59,07	665	0,96	45	8	50	16,2	29	6,27	271,6					
 Assay2	48,91	875	0,86	45	7,6	60	17,5	29	6,27	271,6					
 Assay3	56,21	745	1,1	44	7,5	60	19,5	29	6,27	271,6					
