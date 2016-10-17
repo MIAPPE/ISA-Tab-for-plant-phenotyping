@@ -1,4 +1,4 @@
-ONTOLOGY SOURCE REFERENCE									
+﻿ONTOLOGY SOURCE REFERENCE									
 Term Source Name	OBI	EFO	BIRNLEX	PO	GAZ	UO	NCBITaxon	ENVO	GRO
 Term Source File	http://data.bioontology.org/ontologies/OBI	http://data.bioontology.org/ontologies/EFO	http://data.bioontology.org/ontologies/BIRNLEX	http://data.bioontology.org/ontologies/PO	 http://purl.obolibrary.org/obo/GAZ	http://purl.obolibrary.org/obo/UO	http://data.bioontology.org/ontologies/NCBITAXON	http://purl.obolibrary.org/obo/ENVO	http://bioportal.bioontology.org/ontologies/GRO
 Term Source Version	23	118	1	10					
@@ -14,19 +14,19 @@ Comment [Last Opened With Configuration]	isaconfig-phenotyping-field
 INVESTIGATION PUBLICATIONS									
 Investigation PubMed ID									
 Investigation Publication DOI									
-Investigation Publication Author List	"Miko�ajczak Krzysztof; et al."								
+Investigation Publication Author List	"Mikołajczak Krzysztof; et al."								
 Investigation Publication Title	Quantitative trait loci for yield and yield-related traits in spring barley populations derived from crosses between European and Syrian cultivars.								
 Investigation Publication Status	submitted								
 Investigation Publication Status Term Accession Number	1794								
 Investigation Publication Status Term Source REF	EFO								
 INVESTIGATION CONTACTS									
-Investigation Person Last Name	Kuczynska	Krajewski	Cwiek						
-Investigation Person First Name	Anetta	Pawel	Hanna						
+Investigation Person Last Name	Kuczyńska	Krajewski	Ćwiek						
+Investigation Person First Name	Anetta	Paweł	Hanna						
 Investigation Person Mid Initials									
-Investigation Person Email	akuc@igr.poznan.pl	pkra@igr.poznan.pl	hcwi@igr.poznan.pl						
+Investigation Person Email	akuc@igr.Poznań.pl	pkra@igr.Poznań.pl	hcwi@igr.Poznań.pl						
 Investigation Person Phone									
 Investigation Person Fax									
-Investigation Person Address	Strzeszynska 34, 60-479 Poznan	Strzeszynska 34, 60-479 Poznan	Strzeszynska 34, 60-479 Poznan						
+Investigation Person Address	Strzeszyńska 34, 60-479 Poznań	Strzeszyńska 34, 60-479 Poznań	Strzeszyńska 34, 60-479 Poznań						
 Investigation Person Affiliation	IPG PAS	IPG PAS	IPG PAS						
 Investigation Person Roles	investigator	"investigator;data analyst"	data coder						
 Investigation Person Roles Term Accession Number	1739	"1739;1734"	1735						
@@ -80,13 +80,13 @@ Study Protocol Components Type
 Study Protocol Components Type Term Accession Number									
 Study Protocol Components Type Term Source REF									
 STUDY CONTACTS									
-Study Person Last Name	Miko�ajczak	Kuczynska							
+Study Person Last Name	Mikołajczak	Kuczyńska							
 Study Person First Name	Krzysztof	Anetta							
 Study Person Mid Initials									
-Study Person Email	kmik@igr.poznan.pl	akuc@igr.poznan.pl							
+Study Person Email	kmik@igr.Poznań.pl	akuc@igr.Poznań.pl							
 Study Person Phone									
 Study Person Fax									
-Study Person Address	Strzeszynska 34, 60-479 Poznan	Strzeszynska 34, 60-479 Poznan							
+Study Person Address	Strzeszyńska 34, 60-479 Poznań	Strzeszyńska 34, 60-479 Poznań							
 Study Person Affiliation	IPG PAS	IPG PAS							
 Study Person Roles	experiment performer	investigator							
 Study Person Roles Term Accession Number	647	1739							
@@ -140,13 +140,13 @@ Study Protocol Components Type
 Study Protocol Components Type Term Accession Number									
 Study Protocol Components Type Term Source REF									
 STUDY CONTACTS									
-Study Person Last Name	Miko�ajczak	Kuczynska							
+Study Person Last Name	Mikołajczak	Kuczynska							
 Study Person First Name	Krzysztof	Anetta							
 Study Person Mid Initials									
-Study Person Email	kmik@igr.poznan.pl	akuc@igr.poznan.pl							
+Study Person Email	kmik@igr.Poznań.pl	akuc@igr.Poznań.pl							
 Study Person Phone									
 Study Person Fax									
-Study Person Address	Strzeszynska 34, 60-479 Poznan	Strzeszynska 34, 60-479 Poznan							
+Study Person Address	Strzeszyńska 34, 60-479 Poznań	Strzeszyńska 34, 60-479 Poznań							
 Study Person Affiliation	IPG PAS	IPG PAS							
 Study Person Roles	experiment performer	investigator							
 Study Person Roles Term Accession Number	647	1739							
