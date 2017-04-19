@@ -1,39 +1,39 @@
 ONTOLOGY SOURCE REFERENCE						
-Term Source Name	OBI	EFO	UO	NCBITaxon	PO	GMI_accessions
+Term Source Name	OBI	EFO	UO	NCBITaxon	PO	GMI
 Term Source File	http://data.bioontology.org/ontologies/OBI	http://data.bioontology.org/ontologies/EFO	http://purl.obolibrary.org/obo/UO	http://data.bioontology.org/ontologies/NCBITAXON	http://data.bioontology.org/ontologies/PO	http://gwas.gmi.oeaw.ac.at/#/taxonomy/1/passports?alleleAssayId=0
 Term Source Version	23	118		6	10	
 Term Source Description	Ontology for Biomedical Investigations	Experimental Factor Ontology	Unit Ontology	National Center for Biotechnology Information (NCBI) Organismal Classification	Plant Ontology	Cataloque of Arabidopsis accessions at GMI
 INVESTIGATION						
-Investigation Identifier	study1					
-Investigation Title	Atwell et. al, Nature 2010					
+Investigation Identifier	GMI_Atwell_2010_v2					
+Investigation Title	Atwell et al., Nature 2010					
 Investigation Description	GWAS of 107 phenotypes in Arabidopsis thaliana inbred lines using ~250k SNPs in 199 accessions					
 Investigation Submission Date	2013-06-27					
 Investigation Public Release Date	2010-06-03					
-Comment [Created with configuration]	isaconfig-phenotyping-basic					
-Comment [Last Opened With Configuration]	isaconfig-phenotyping-basic					
+Comment[Created with configuration]	isaconfig-phenotyping-basic					
+Comment[Last Opened With Configuration]	isaconfig-phenotyping-basic					
 INVESTIGATION PUBLICATIONS						
-Investigation PubMed ID						
+Investigation PubMed ID	20336072					
 Investigation Publication DOI	10.1038/nature08800					
 Investigation Publication Author List	Susanna Atwell					
 Investigation Publication Title	Genome-wide association study of 107 phenotypes in Arabidopsis thaliana inbred lines					
 Investigation Publication Status	Published					
-Investigation Publication Status Term Accession Number	1796					
+Investigation Publication Status Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0001794					
 Investigation Publication Status Term Source REF	EFO					
 INVESTIGATION CONTACTS						
-Investigation Person Last Name	Uemit	Atwell				
-Investigation Person First Name	Seren	Susanna				
+Investigation Person Last Name	Atwell	Uemit				
+Investigation Person First Name	Susanna	Seren				
 Investigation Person Mid Initials						
-Investigation Person Email	uemit.seren@gmi.oeaw.ac.at	satwell@ucdavis.edu				
+Investigation Person Email	satwell@ucdavis.edu	uemit.seren@gmi.oeaw.ac.at				
 Investigation Person Phone						
 Investigation Person Fax						
 Investigation Person Address						
-Investigation Person Affiliation	Gregor Mendel Institute, Austrian Academy of Sciences, Vienna, Austria	Plant Sciences, UC Davies, USA				
-Investigation Person Roles	"data coder; data analyst"	investigator				
-Investigation Person Roles Term Accession Number	"1735; 1734"	1739				
-Investigation Person Roles Term Source REF	EFO	EFO				
+Investigation Person Affiliation	Plant Sciences, UC Davies, USA	Gregor Mendel Institute, Austrian Academy of Sciences, Vienna, Austria				
+Investigation Person Roles	investigator	"data coder; data analyst"				
+Investigation Person Roles Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0001739	http://www.ebi.ac.uk/efo/EFO_0001735; http://www.ebi.ac.uk/efo/EFO_0001734
+Investigation Person Roles Term Source REF	EFO	EFO;EFO
 STUDY						
 Study Identifier	GMI_Atwell_study					
-Study Title	Atwell et. al, Nature 2010					
+Study Title	Atwell et al., Nature 2010					
 Study Description						
 Study Submission Date						
 Study Public Release Date						
@@ -58,8 +58,8 @@ Study Factor Type Term Source REF
 STUDY ASSAYS						
 Study Assay File Name	a_study1.txt					
 Study Assay Measurement Type	phenotyping					
-Study Assay Measurement Type Term Accession Number	23					
-Study Assay Measurement Type Term Source REF	OBI					
+Study Assay Measurement Type Term Accession Number
+Study Assay Measurement Type Term Source REF
 Study Assay Technology Type						
 Study Assay Technology Type Term Accession Number						
 Study Assay Technology Type Term Source REF						
