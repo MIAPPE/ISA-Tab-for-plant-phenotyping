@@ -4,20 +4,20 @@ Term Source File	http://data.bioontology.org/ontologies/OBI	http://data.bioontol
 Term Source Version	23	118	1	10					
 Term Source Description	Ontology for Biomedical Investigations	Experimental Factor Ontology	Biomedical Informatics Research Network Project Lexicon	Plant Ontology	Gazetteer	Unit Ontology	NCBI taxonomy	Environment Ontology	Gene regulation ontology
 INVESTIGATION									
-Investigation Identifier									
-Investigation Title	POLAPGEN-BD field experiment								
+Investigation Identifier	POLAPGEN-BD-field_v2								
+Investigation Title	POLAPGEN-BD field experiments 2011-2013								
 Investigation Description	A public subset of POLAPGEN-BD project's data from field experiments 2011-2013								
 Investigation Submission Date	2015-09-01								
 Investigation Public Release Date	2015-09-01								
-Comment [Created with configuration]	isaconfig-phenotyping-field								
-Comment [Last Opened With Configuration]	isaconfig-phenotyping-field								
+Comment[Created with configuration]	isaconfig-phenotyping-field								
+Comment[Last Opened With Configuration]	isaconfig-phenotyping-field								
 INVESTIGATION PUBLICATIONS									
-Investigation PubMed ID									
-Investigation Publication DOI									
-Investigation Publication Author List	"Mikołajczak Krzysztof; et al."								
+Investigation PubMed ID	27227880								
+Investigation Publication DOI	10.1371/journal.pone.0155938								
+Investigation Publication Author List	Mikołajczak Krzysztof; et al.								
 Investigation Publication Title	Quantitative trait loci for yield and yield-related traits in spring barley populations derived from crosses between European and Syrian cultivars.								
-Investigation Publication Status	submitted								
-Investigation Publication Status Term Accession Number	1794								
+Investigation Publication Status	published								
+Investigation Publication Status Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0001796								
 Investigation Publication Status Term Source REF	EFO								
 INVESTIGATION CONTACTS									
 Investigation Person Last Name	Kuczyńska	Krajewski	Ćwiek						
@@ -26,11 +26,11 @@ Investigation Person Mid Initials
 Investigation Person Email	akuc@igr.poznan.pl	pkra@igr.poznan.pl	hcwi@igr.poznan.pl						
 Investigation Person Phone									
 Investigation Person Fax									
-Investigation Person Address	Strzeszyńska 34, 60-479 Poznań	Strzeszyńska 34, 60-479 Poznań	Strzeszyńska 34, 60-479 Poznań						
+Investigation Person Address	Strzeszyńska 34, 60-479 Poznań	Strzeszyńska 34, 60-479 Poznań	Strzeszyńska 34, 60-479 Poznań			
 Investigation Person Affiliation	IPG PAS	IPG PAS	IPG PAS						
-Investigation Person Roles	investigator	"investigator;data analyst"	data coder						
-Investigation Person Roles Term Accession Number	1739	"1739;1734"	1735						
-Investigation Person Roles Term Source REF	EFO	EFO	EFO						
+Investigation Person Roles	investigator	investigator;data analyst	data coder						
+Investigation Person Roles Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0001739	http://www.ebi.ac.uk/efo/EFO_0001739;http://www.ebi.ac.uk/efo/EFO_0001734	http://www.ebi.ac.uk/efo/EFO_0001735
+Investigation Person Roles Term Source REF	EFO	EFO;EFO	EFO					
 STUDY									
 Study Identifier	IPGPAS_POLAPGEN_study01								
 Study Title	POLAPGEN field								
@@ -40,7 +40,7 @@ Study Public Release Date	2015-09-01
 Study File Name	s_study1.txt								
 STUDY DESIGN DESCRIPTORS									
 Study Design Type	Randomized complete block design								
-Study Design Type Term Accession Number	500007								
+Study Design Type Term Accession Number	http://purl.obolibrary.org/obo/OBI_0500007
 Study Design Type Term Source REF	OBI								
 STUDY PUBLICATIONS									
 Study PubMed ID									
@@ -53,13 +53,13 @@ Study Publication Status Term Source REF
 STUDY FACTORS									
 Study Factor Name	Replication								
 Study Factor Type	replicate								
-Study Factor Type Term Accession Number	683								
+Study Factor Type Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0000683
 Study Factor Type Term Source REF	EFO								
 STUDY ASSAYS									
 Study Assay File Name	a_study1_phenotyping2012.txt								
 Study Assay Measurement Type	phenotyping								
-Study Assay Measurement Type Term Accession Number	23								
-Study Assay Measurement Type Term Source REF	OBI								
+Study Assay Measurement Type Term Accession Number
+Study Assay Measurement Type Term Source REF
 Study Assay Technology Type									
 Study Assay Technology Type Term Accession Number									
 Study Assay Technology Type Term Source REF									
@@ -72,9 +72,9 @@ Study Protocol Type Term Source REF
 Study Protocol Description			Each year fertiliser was added according to the soil-test recommendations for the cultivation of fodder barley.						
 Study Protocol URI									
 Study Protocol Version									
-Study Protocol Parameters Name	"Rooting medium; Plot size; Sowing density"	"Length of light period;Day temperature;Night temperature;Daily photon flux;Air humidity"	"Type of fertiliser;N before fertilisation;Amount of fertiliser"	"Volume;Frequency;Irrigation type"	Experimental unit	Trait Definition File			
-Study Protocol Parameters Name Term Accession Number	";;"	";;;;"	";;"	";;"					
-Study Protocol Parameters Name Term Source REF	";;"	";;;;"	";;"	";;"					
+Study Protocol Parameters Name	Rooting medium;Plot size;Sowing density;pH	Length of light period;Day temperature;Night temperature;Daily photon flux;Air humidity	Type of fertiliser;N before fertilisation;Amount of fertiliser	Volume;Frequency;Irrigation type	Experimental unit	Trait Definition File			
+Study Protocol Parameters Name Term Accession Number	;;;	;;;;	;;	;;					
+Study Protocol Parameters Name Term Source REF	;;;	;;;;	;;	;;					
 Study Protocol Components Name									
 Study Protocol Components Type									
 Study Protocol Components Type Term Accession Number									
@@ -86,10 +86,10 @@ Study Person Mid Initials
 Study Person Email	kmik@igr.poznan.pl	akuc@igr.poznan.pl							
 Study Person Phone									
 Study Person Fax									
-Study Person Address	Strzeszyńska 34, 60-479 Poznań	Strzeszyńska 34, 60-479 Poznań							
+Study Person Address	Strzeszyńska 34, 60-479 Poznań	Strzeszyńska 34, 60-479 Poznań					
 Study Person Affiliation	IPG PAS	IPG PAS							
 Study Person Roles	experiment performer	investigator							
-Study Person Roles Term Accession Number	647	1739							
+Study Person Roles Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0000647	http://www.ebi.ac.uk/efo/EFO_0001739
 Study Person Roles Term Source REF	EFO	EFO							
 STUDY									
 Study Identifier	IPGPAS_POLAPGEN_study02								
@@ -100,8 +100,8 @@ Study Public Release Date	2015-09-01
 Study File Name	s_study2.txt								
 STUDY DESIGN DESCRIPTORS									
 Study Design Type	Randomized complete block design								
-Study Design Type Term Accession Number	500007								
-Study Design Type Term Source REF	OBI								
+Study Design Type Term Accession Number	http://purl.obolibrary.org/obo/OBI_0500007
+Study Design Type Term Source REF	OBI
 STUDY PUBLICATIONS									
 Study PubMed ID									
 Study Publication DOI									
@@ -114,12 +114,12 @@ STUDY FACTORS
 Study Factor Name	Replication								
 Study Factor Type	replicate								
 Study Factor Type Term Accession Number	683								
-Study Factor Type Term Source REF	EFO								
+Study Factor Type Term Source REF	http://www.ebi.ac.uk/efo/EFO_0000EFO
 STUDY ASSAYS									
 Study Assay File Name	a_study1_phenotyping2013.txt								
 Study Assay Measurement Type	phenotyping								
-Study Assay Measurement Type Term Accession Number	23								
-Study Assay Measurement Type Term Source REF	OBI								
+Study Assay Measurement Type Term Accession Number
+Study Assay Measurement Type Term Source REF
 Study Assay Technology Type									
 Study Assay Technology Type Term Accession Number									
 Study Assay Technology Type Term Source REF									
@@ -132,9 +132,9 @@ Study Protocol Type Term Source REF
 Study Protocol Description			Each year fertiliser was added according to the soil-test recommendations for the cultivation of fodder barley.						
 Study Protocol URI									
 Study Protocol Version									
-Study Protocol Parameters Name	"Rooting medium; Plot size; Sowing density"	"Length of light period;Day temperature;Night temperature;Daily photon flux;Air humidity"	"Type of fertiliser;N before fertilisation;Amount of fertiliser"	"Volume;Frequency;Irrigation type"	Experimental unit	Trait Definition File			
-Study Protocol Parameters Name Term Accession Number	";;;;;"	";;;;"	";;"	";;"					
-Study Protocol Parameters Name Term Source REF	";;;;;"	";;;;"	";;"	";;"					
+Study Protocol Parameters Name	Rooting medium;Plot size;Sowing density;pH	Length of light period;Day temperature;Night temperature;Daily photon flux;Air humidity	Type of fertiliser;N before fertilisation;Amount of fertiliser	Volume;Frequency;Irrigation type	Experimental unit	Trait Definition File			
+Study Protocol Parameters Name Term Accession Number	;;;	;;;;	;;	;;					
+Study Protocol Parameters Name Term Source REF	;;;	;;;;	;;	;;					
 Study Protocol Components Name									
 Study Protocol Components Type									
 Study Protocol Components Type Term Accession Number									
@@ -146,8 +146,8 @@ Study Person Mid Initials
 Study Person Email	kmik@igr.poznan.pl	akuc@igr.poznan.pl							
 Study Person Phone									
 Study Person Fax									
-Study Person Address	Strzeszyńska 34, 60-479 Poznań	Strzeszyńska 34, 60-479 Poznań							
+Study Person Address	Strzeszyńska 34, 60-479 Poznań	Strzeszyńska 34, 60-479 Poznań					
 Study Person Affiliation	IPG PAS	IPG PAS							
 Study Person Roles	experiment performer	investigator							
-Study Person Roles Term Accession Number	647	1739							
+Study Person Roles Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0000647	http://www.ebi.ac.uk/efo/EFO_0001739
 Study Person Roles Term Source REF	EFO	EFO							

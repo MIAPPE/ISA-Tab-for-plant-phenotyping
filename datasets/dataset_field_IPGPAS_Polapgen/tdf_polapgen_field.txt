@@ -1,11 +1,11 @@
 Variable ID	Trait	Term Source REF	Term Accession Number	Method	Term Source REF	Term Accession Number	Scale	Term Source REF	Term Accession Number
-TGW	1000-grain weight	TO	382	1000 × weight of one grain averaged for weight of grains from 20 main spikes			g	UO	21
-GW_m2	Grain weight per m2	TO	181	Calculated as (Grain weight per spike * average number of spikes per m2)			g	UO	21
-GW_MS	Grain weight per main spike	TO	181	Average weight of hand-threshed grain from 20 randomly selected main spikes from each plot			g	UO	21
-HD	Heading stage	TO	137	Number of days from sowing to the beginning of heading—approximately 50% of spikes in a plot were in the growth stage 51 according to the BBCH scale 			days	UO	33
-main_spike	Length of main spike	TO	271	Average of manual measurements of 10 main spikes measured from the base of spike to the tip of the terminal spikelet (without awns)			cm	UO	15
-main_stem	Length of main stem	TO	207	Average of manual measurements of 10 main stems measured from soil surface to the tip of the spike (without awns)			cm	UO	15
-G_MS	Number of grains per main spike	TO	396	Average counted on the basis of 20 randomly selected main spikes from each plot			pcs		
-TL	Tillering stage	GRO	7049	Number of days from sowing to the beginning of tillering —approximately 50% of plants in a plot had tillers observed (visual assessment)			days	UO	33
-Wvpd	Water vapor pressure deficit	XEO	21	Average water vapor pressure deficit measurements throughout the whole experimentation period (months IV-VII)			hPa		
-Precipitation	Precipitation	ENVO	1000703	Sum of precipitation measurements throughout the whole experimentation period (months IV-VII)			mm	UO	16
+TGW	1000-grain weight	TO	http://purl.obolibrary.org/obo/TO_0000382	1000 × weight of one grain averaged for weight of grains from 20 main spikes			g	UO	http://purl.obolibrary.org/obo/UO_0000021
+GW_m2	Grain weight per m2	TO	http://purl.obolibrary.org/obo/TO_0000181	Calculated as (Grain weight per spike * average number of spikes per m2)			g	UO	http://purl.obolibrary.org/obo/UO_0000021
+GW_MS	Grain weight per main spike	TO	http://purl.obolibrary.org/obo/TO_0000181	Average weight of hand-threshed grain from 20 randomly selected main spikes from each plot			g	UO	http://purl.obolibrary.org/obo/UO_0000021
+HD	Heading stage	TO	http://purl.obolibrary.org/obo/TO_0000137	Number of days from sowing to the beginning of heading—approximately 50% of spikes in a plot were in the growth stage 51 according to the BBCH scale 			days	UO	http://purl.obolibrary.org/obo/UO_0000033
+main_spike	Length of main spike	TO	http://purl.obolibrary.org/obo/TO_0000271	Average of manual measurements of 10 main spikes measured from the base of spike to the tip of the terminal spikelet (without awns)			cm	UO	http://purl.obolibrary.org/obo/UO_0000015
+main_stem	Length of main stem	TO	http://purl.obolibrary.org/obo/TO_0000207	Average of manual measurements of 10 main stems measured from soil surface to the tip of the spike (without awns)			cm	UO	http://purl.obolibrary.org/obo/UO_0000015
+G_MS	Number of grains per main spike	TO	http://purl.obolibrary.org/obo/TO_0000396	Average counted on the basis of 20 randomly selected main spikes from each plot			pcs
+TL	Tillering stage			Number of days from sowing to the beginning of tillering —approximately 50% of plants in a plot had tillers observed (visual assessment)			days	UO	http://purl.obolibrary.org/obo/UO_0000033
+Wvpd	Water vapor pressure deficit	XEO	http://purl.obolibrary.org/obo/XEO_00021	Average water vapor pressure deficit measurements throughout the whole experimentation period (months IV-VII)			hPa
+Precipitation	Precipitation	ENVO	http://purl.obolibrary.org/obo/ENVO_01000703	Sum of precipitation measurements throughout the whole experimentation period (months IV-VII)			mm	UO	http://purl.obolibrary.org/obo/UO_0000016
