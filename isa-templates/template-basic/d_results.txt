@@ -1,0 +1,10 @@
+Assay Name	var1	var2	var3
+assay1	0,00	0,00	0,00
+assay2			
+assay3			
+assay4			
+assay5			
+assay6			
+assay7			
+assay8			
+assay9			
