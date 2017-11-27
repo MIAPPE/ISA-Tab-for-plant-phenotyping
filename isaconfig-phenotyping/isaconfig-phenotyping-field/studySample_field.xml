@@ -173,7 +173,7 @@
 			<description>
 				<![CDATA[Defines what type of experimental unit is defined as Sample. A unit of observation in the experiment can be a plot (in field experiments), a pot (in greenhouse experiments), individual plant or its part or product (e.g. a number of leaves, a bunch of seeds, a cone, a cell etc.). ]]>
 			</description>
-			<default-value/>
+			<default-value>plot</default-value>
 		</field>
 		<field header="Characteristics[Coordinates]" data-type="Ontology term" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false">
 			<description>
