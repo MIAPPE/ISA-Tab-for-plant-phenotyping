@@ -51,10 +51,10 @@ Study Publication Status
 Study Publication Status Term Accession Number									
 Study Publication Status Term Source REF									
 STUDY FACTORS									
-Study Factor Name
-Study Factor Type
-Study Factor Type Term Accession Number
-Study Factor Type Term Source REF
+Study Factor Name									
+Study Factor Type									
+Study Factor Type Term Accession Number									
+Study Factor Type Term Source REF									
 STUDY ASSAYS									
 Study Assay File Name	a_study1_phenotyping2012.txt								
 Study Assay Measurement Type	phenotyping								
@@ -73,8 +73,8 @@ Study Protocol Description				Each year fertiliser was added according to the so
 Study Protocol URI									
 Study Protocol Version									
 Study Protocol Parameters Name	Study start;Study duration;Growth facility;Geographic location	Rooting medium;Plot size;Sowing density;pH	Length of light period;Day temperature;Night temperature;Daily photon flux;Air humidity	Type of fertiliser;N before fertilisation;Amount of fertiliser	Volume;Frequency;Irrigation type		Trait Definition File;Organism part
-Study Protocol Parameters Name Term Accession Number	;;;	;;;	;;;;	;;	;;
-Study Protocol Parameters Name Term Source REF	;;;	;;;	;;;;	;;	;;
+Study Protocol Parameters Name Term Accession Number	;;;	;;;	;;;;	;;	;;		;
+Study Protocol Parameters Name Term Source REF	;;;	;;;	;;;;	;;	;;		;
 Study Protocol Components Name									
 Study Protocol Components Type									
 Study Protocol Components Type Term Accession Number									
@@ -111,10 +111,10 @@ Study Publication Status
 Study Publication Status Term Accession Number									
 Study Publication Status Term Source REF									
 STUDY FACTORS									
-Study Factor Name
-Study Factor Type
-Study Factor Type Term Accession Number
-Study Factor Type Term Source REF
+Study Factor Name									
+Study Factor Type									
+Study Factor Type Term Accession Number									
+Study Factor Type Term Source REF									
 STUDY ASSAYS									
 Study Assay File Name	a_study1_phenotyping2013.txt								
 Study Assay Measurement Type	phenotyping								
@@ -133,8 +133,8 @@ Study Protocol Description				Each year fertiliser was added according to the so
 Study Protocol URI									
 Study Protocol Version									
 Study Protocol Parameters Name	Study start;Study duration;Growth facility;Geographic location	Rooting medium;Plot size;Sowing density;pH	Length of light period;Day temperature;Night temperature;Daily photon flux;Air humidity	Type of fertiliser;N before fertilisation;Amount of fertiliser	Volume;Frequency;Irrigation type		Trait Definition File;Organism part
-Study Protocol Parameters Name Term Accession Number	;;;	;;;	;;;;	;;	;;
-Study Protocol Parameters Name Term Source REF	;;;	;;;	;;;;	;;	;;
+Study Protocol Parameters Name Term Accession Number	;;;	;;;	;;;;	;;	;;		;
+Study Protocol Parameters Name Term Source REF	;;;	;;;	;;;;	;;	;;		;
 Study Protocol Components Name									
 Study Protocol Components Type									
 Study Protocol Components Type Term Accession Number									

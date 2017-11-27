@@ -175,25 +175,25 @@
 			</description>
 			<default-value>plot</default-value>
 		</field>
-		<field header="Characteristics[Coordinates]" data-type="Ontology term" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false">
+		<field header="Characteristics[Coordinates]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false">
 			<description>
 				<![CDATA[Identificion of the sample in the field]]>
 			</description>
 			<default-value/>
 		</field>
-		<field header="Characteristics[Block]" data-type="Ontology term" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false">
+		<field header="Characteristics[Block]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false">
 			<description>
 				<![CDATA[Identificion of the sample in the field]]>
 			</description>
 			<default-value/>
 		</field>
-		<field header="Characteristics[Row]" data-type="Ontology term" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false">
+		<field header="Characteristics[Row]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false">
 			<description>
 				<![CDATA[Identificion of the sample in the field]]>
 			</description>
 			<default-value/>
 		</field>
-		<field header="Characteristics[Column]" data-type="Ontology term" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false">
+		<field header="Characteristics[Column]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="false" is-hidden="false" is-forced-ontology="false">
 			<description>
 				<![CDATA[Identificion of the sample in the field]]>
 			</description>

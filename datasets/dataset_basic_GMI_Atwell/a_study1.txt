@@ -1,1213 +1,1213 @@
-Sample Name	Characteristics[Organism part]	Term Source REF	Term Accession Number	Assay Name	Raw Data File	Protocol REF	Parameter Value[Trait Definition File]	Derived Data File
-sample1				assay1020		Data transformation	tdf.txt	d_data.txt
-sample2				assay1		Data transformation	tdf.txt	d_data.txt
-sample3				assay1131		Data transformation	tdf.txt	d_data.txt
-sample4				assay569		Data transformation	tdf.txt	d_data.txt
-sample5				assay293		Data transformation	tdf.txt	d_data.txt
-sample6				assay388		Data transformation	tdf.txt	d_data.txt
-sample7				assay198		Data transformation	tdf.txt	d_data.txt
-sample8				assay844		Data transformation	tdf.txt	d_data.txt
-sample9				assay749		Data transformation	tdf.txt	d_data.txt
-sample10				assay389		Data transformation	tdf.txt	d_data.txt
-sample11				assay2		Data transformation	tdf.txt	d_data.txt
-sample12				assay845		Data transformation	tdf.txt	d_data.txt
-sample13				assay570		Data transformation	tdf.txt	d_data.txt
-sample14				assay846		Data transformation	tdf.txt	d_data.txt
-sample15				assay3		Data transformation	tdf.txt	d_data.txt
-sample16				assay750		Data transformation	tdf.txt	d_data.txt
-sample17				assay294		Data transformation	tdf.txt	d_data.txt
-sample18				assay199		Data transformation	tdf.txt	d_data.txt
-sample19				assay390		Data transformation	tdf.txt	d_data.txt
-sample20				assay1132		Data transformation	tdf.txt	d_data.txt
-sample21				assay571		Data transformation	tdf.txt	d_data.txt
-sample22				assay1021		Data transformation	tdf.txt	d_data.txt
-sample23				assay572		Data transformation	tdf.txt	d_data.txt
-sample24				assay391		Data transformation	tdf.txt	d_data.txt
-sample25				assay4		Data transformation	tdf.txt	d_data.txt
-sample26				assay847		Data transformation	tdf.txt	d_data.txt
-sample27				assay848		Data transformation	tdf.txt	d_data.txt
-sample28				assay392		Data transformation	tdf.txt	d_data.txt
-sample29				assay573		Data transformation	tdf.txt	d_data.txt
-sample30				assay5		Data transformation	tdf.txt	d_data.txt
-sample31				assay574		Data transformation	tdf.txt	d_data.txt
-sample32				assay393		Data transformation	tdf.txt	d_data.txt
-sample33				assay849		Data transformation	tdf.txt	d_data.txt
-sample34				assay6		Data transformation	tdf.txt	d_data.txt
-sample35				assay200		Data transformation	tdf.txt	d_data.txt
-sample36				assay575		Data transformation	tdf.txt	d_data.txt
-sample37				assay850		Data transformation	tdf.txt	d_data.txt
-sample38				assay394		Data transformation	tdf.txt	d_data.txt
-sample39				assay751		Data transformation	tdf.txt	d_data.txt
-sample40				assay295		Data transformation	tdf.txt	d_data.txt
-sample41				assay1022		Data transformation	tdf.txt	d_data.txt
-sample42				assay7		Data transformation	tdf.txt	d_data.txt
-sample43				assay1133		Data transformation	tdf.txt	d_data.txt
-sample44				assay851		Data transformation	tdf.txt	d_data.txt
-sample45				assay8		Data transformation	tdf.txt	d_data.txt
-sample46				assay201		Data transformation	tdf.txt	d_data.txt
-sample47				assay296		Data transformation	tdf.txt	d_data.txt
-sample48				assay1134		Data transformation	tdf.txt	d_data.txt
-sample49				assay395		Data transformation	tdf.txt	d_data.txt
-sample50				assay1023		Data transformation	tdf.txt	d_data.txt
-sample51				assay752		Data transformation	tdf.txt	d_data.txt
-sample52				assay576		Data transformation	tdf.txt	d_data.txt
-sample53				assay396		Data transformation	tdf.txt	d_data.txt
-sample54				assay9		Data transformation	tdf.txt	d_data.txt
-sample55				assay577		Data transformation	tdf.txt	d_data.txt
-sample56				assay852		Data transformation	tdf.txt	d_data.txt
-sample57				assay578		Data transformation	tdf.txt	d_data.txt
-sample58				assay853		Data transformation	tdf.txt	d_data.txt
-sample59				assay397		Data transformation	tdf.txt	d_data.txt
-sample60				assay10		Data transformation	tdf.txt	d_data.txt
-sample61				assay11		Data transformation	tdf.txt	d_data.txt
-sample62				assay854		Data transformation	tdf.txt	d_data.txt
-sample63				assay579		Data transformation	tdf.txt	d_data.txt
-sample64				assay398		Data transformation	tdf.txt	d_data.txt
-sample65				assay580		Data transformation	tdf.txt	d_data.txt
-sample66				assay399		Data transformation	tdf.txt	d_data.txt
-sample67				assay855		Data transformation	tdf.txt	d_data.txt
-sample68				assay12		Data transformation	tdf.txt	d_data.txt
-sample69				assay581		Data transformation	tdf.txt	d_data.txt
-sample70				assay400		Data transformation	tdf.txt	d_data.txt
-sample71				assay297		Data transformation	tdf.txt	d_data.txt
-sample72				assay856		Data transformation	tdf.txt	d_data.txt
-sample73				assay202		Data transformation	tdf.txt	d_data.txt
-sample74				assay1135		Data transformation	tdf.txt	d_data.txt
-sample75				assay13		Data transformation	tdf.txt	d_data.txt
-sample76				assay1024		Data transformation	tdf.txt	d_data.txt
-sample77				assay14		Data transformation	tdf.txt	d_data.txt
-sample78				assay1025		Data transformation	tdf.txt	d_data.txt
-sample79				assay401		Data transformation	tdf.txt	d_data.txt
-sample80				assay754		Data transformation	tdf.txt	d_data.txt
-sample81				assay857		Data transformation	tdf.txt	d_data.txt
-sample82				assay203		Data transformation	tdf.txt	d_data.txt
-sample83				assay582		Data transformation	tdf.txt	d_data.txt
-sample84				assay298		Data transformation	tdf.txt	d_data.txt
-sample85				assay1136		Data transformation	tdf.txt	d_data.txt
-sample86				assay204		Data transformation	tdf.txt	d_data.txt
-sample87				assay583		Data transformation	tdf.txt	d_data.txt
-sample88				assay1026		Data transformation	tdf.txt	d_data.txt
-sample89				assay1137		Data transformation	tdf.txt	d_data.txt
-sample90				assay15		Data transformation	tdf.txt	d_data.txt
-sample91				assay299		Data transformation	tdf.txt	d_data.txt
-sample92				assay755		Data transformation	tdf.txt	d_data.txt
-sample93				assay402		Data transformation	tdf.txt	d_data.txt
-sample94				assay858		Data transformation	tdf.txt	d_data.txt
-sample95				assay1138		Data transformation	tdf.txt	d_data.txt
-sample96				assay584		Data transformation	tdf.txt	d_data.txt
-sample97				assay403		Data transformation	tdf.txt	d_data.txt
-sample98				assay756		Data transformation	tdf.txt	d_data.txt
-sample99				assay300		Data transformation	tdf.txt	d_data.txt
-sample100				assay859		Data transformation	tdf.txt	d_data.txt
-sample101				assay16		Data transformation	tdf.txt	d_data.txt
-sample102				assay205		Data transformation	tdf.txt	d_data.txt
-sample103				assay757		Data transformation	tdf.txt	d_data.txt
-sample104				assay206		Data transformation	tdf.txt	d_data.txt
-sample105				assay1027		Data transformation	tdf.txt	d_data.txt
-sample106				assay585		Data transformation	tdf.txt	d_data.txt
-sample107				assay17		Data transformation	tdf.txt	d_data.txt
-sample108				assay404		Data transformation	tdf.txt	d_data.txt
-sample109				assay860		Data transformation	tdf.txt	d_data.txt
-sample110				assay301		Data transformation	tdf.txt	d_data.txt
-sample111				assay1028		Data transformation	tdf.txt	d_data.txt
-sample112				assay302		Data transformation	tdf.txt	d_data.txt
-sample113				assay405		Data transformation	tdf.txt	d_data.txt
-sample114				assay207		Data transformation	tdf.txt	d_data.txt
-sample115				assay861		Data transformation	tdf.txt	d_data.txt
-sample116				assay758		Data transformation	tdf.txt	d_data.txt
-sample117				assay1139		Data transformation	tdf.txt	d_data.txt
-sample118				assay586		Data transformation	tdf.txt	d_data.txt
-sample119				assay18		Data transformation	tdf.txt	d_data.txt
-sample120				assay208		Data transformation	tdf.txt	d_data.txt
-sample121				assay303		Data transformation	tdf.txt	d_data.txt
-sample122				assay862		Data transformation	tdf.txt	d_data.txt
-sample123				assay759		Data transformation	tdf.txt	d_data.txt
-sample124				assay587		Data transformation	tdf.txt	d_data.txt
-sample125				assay1140		Data transformation	tdf.txt	d_data.txt
-sample126				assay19		Data transformation	tdf.txt	d_data.txt
-sample127				assay1029		Data transformation	tdf.txt	d_data.txt
-sample128				assay406		Data transformation	tdf.txt	d_data.txt
-sample129				assay1030		Data transformation	tdf.txt	d_data.txt
-sample130				assay863		Data transformation	tdf.txt	d_data.txt
-sample131				assay407		Data transformation	tdf.txt	d_data.txt
-sample132				assay20		Data transformation	tdf.txt	d_data.txt
-sample133				assay588		Data transformation	tdf.txt	d_data.txt
-sample134				assay304		Data transformation	tdf.txt	d_data.txt
-sample135				assay1141		Data transformation	tdf.txt	d_data.txt
-sample136				assay760		Data transformation	tdf.txt	d_data.txt
-sample137				assay209		Data transformation	tdf.txt	d_data.txt
-sample138				assay408		Data transformation	tdf.txt	d_data.txt
-sample139				assay210		Data transformation	tdf.txt	d_data.txt
-sample140				assay305		Data transformation	tdf.txt	d_data.txt
-sample141				assay864		Data transformation	tdf.txt	d_data.txt
-sample142				assay21		Data transformation	tdf.txt	d_data.txt
-sample143				assay589		Data transformation	tdf.txt	d_data.txt
-sample144				assay1031		Data transformation	tdf.txt	d_data.txt
-sample145				assay1142		Data transformation	tdf.txt	d_data.txt
-sample146				assay761		Data transformation	tdf.txt	d_data.txt
-sample147				assay211		Data transformation	tdf.txt	d_data.txt
-sample148				assay306		Data transformation	tdf.txt	d_data.txt
-sample149				assay22		Data transformation	tdf.txt	d_data.txt
-sample150				assay1032		Data transformation	tdf.txt	d_data.txt
-sample151				assay762		Data transformation	tdf.txt	d_data.txt
-sample152				assay865		Data transformation	tdf.txt	d_data.txt
-sample153				assay590		Data transformation	tdf.txt	d_data.txt
-sample154				assay409		Data transformation	tdf.txt	d_data.txt
-sample155				assay1143		Data transformation	tdf.txt	d_data.txt
-sample156				assay591		Data transformation	tdf.txt	d_data.txt
-sample157				assay763		Data transformation	tdf.txt	d_data.txt
-sample158				assay410		Data transformation	tdf.txt	d_data.txt
-sample159				assay307		Data transformation	tdf.txt	d_data.txt
-sample160				assay1144		Data transformation	tdf.txt	d_data.txt
-sample161				assay1033		Data transformation	tdf.txt	d_data.txt
-sample162				assay212		Data transformation	tdf.txt	d_data.txt
-sample163				assay23		Data transformation	tdf.txt	d_data.txt
-sample164				assay866		Data transformation	tdf.txt	d_data.txt
-sample165				assay1034		Data transformation	tdf.txt	d_data.txt
-sample166				assay1145		Data transformation	tdf.txt	d_data.txt
-sample167				assay213		Data transformation	tdf.txt	d_data.txt
-sample168				assay411		Data transformation	tdf.txt	d_data.txt
-sample169				assay764		Data transformation	tdf.txt	d_data.txt
-sample170				assay24		Data transformation	tdf.txt	d_data.txt
-sample171				assay592		Data transformation	tdf.txt	d_data.txt
-sample172				assay308		Data transformation	tdf.txt	d_data.txt
-sample173				assay867		Data transformation	tdf.txt	d_data.txt
-sample174				assay593		Data transformation	tdf.txt	d_data.txt
-sample175				assay868		Data transformation	tdf.txt	d_data.txt
-sample176				assay309		Data transformation	tdf.txt	d_data.txt
-sample177				assay214		Data transformation	tdf.txt	d_data.txt
-sample178				assay1146		Data transformation	tdf.txt	d_data.txt
-sample179				assay765		Data transformation	tdf.txt	d_data.txt
-sample180				assay1035		Data transformation	tdf.txt	d_data.txt
-sample181				assay412		Data transformation	tdf.txt	d_data.txt
-sample182				assay25		Data transformation	tdf.txt	d_data.txt
-sample183				assay413		Data transformation	tdf.txt	d_data.txt
-sample184				assay1036		Data transformation	tdf.txt	d_data.txt
-sample185				assay869		Data transformation	tdf.txt	d_data.txt
-sample186				assay26		Data transformation	tdf.txt	d_data.txt
-sample187				assay594		Data transformation	tdf.txt	d_data.txt
-sample188				assay215		Data transformation	tdf.txt	d_data.txt
-sample189				assay1147		Data transformation	tdf.txt	d_data.txt
-sample190				assay310		Data transformation	tdf.txt	d_data.txt
-sample191				assay766		Data transformation	tdf.txt	d_data.txt
-sample192				assay1037		Data transformation	tdf.txt	d_data.txt
-sample193				assay414		Data transformation	tdf.txt	d_data.txt
-sample194				assay595		Data transformation	tdf.txt	d_data.txt
-sample195				assay870		Data transformation	tdf.txt	d_data.txt
-sample196				assay27		Data transformation	tdf.txt	d_data.txt
-sample197				assay1148		Data transformation	tdf.txt	d_data.txt
-sample198				assay216		Data transformation	tdf.txt	d_data.txt
-sample199				assay767		Data transformation	tdf.txt	d_data.txt
-sample200				assay311		Data transformation	tdf.txt	d_data.txt
-sample201				assay217		Data transformation	tdf.txt	d_data.txt
-sample202				assay415		Data transformation	tdf.txt	d_data.txt
-sample203				assay871		Data transformation	tdf.txt	d_data.txt
-sample204				assay28		Data transformation	tdf.txt	d_data.txt
-sample205				assay1038		Data transformation	tdf.txt	d_data.txt
-sample206				assay596		Data transformation	tdf.txt	d_data.txt
-sample207				assay312		Data transformation	tdf.txt	d_data.txt
-sample208				assay768		Data transformation	tdf.txt	d_data.txt
-sample209				assay1149		Data transformation	tdf.txt	d_data.txt
-sample210				assay313		Data transformation	tdf.txt	d_data.txt
-sample211				assay1150		Data transformation	tdf.txt	d_data.txt
-sample212				assay29		Data transformation	tdf.txt	d_data.txt
-sample213				assay218		Data transformation	tdf.txt	d_data.txt
-sample214				assay872		Data transformation	tdf.txt	d_data.txt
-sample215				assay597		Data transformation	tdf.txt	d_data.txt
-sample216				assay416		Data transformation	tdf.txt	d_data.txt
-sample217				assay1039		Data transformation	tdf.txt	d_data.txt
-sample218				assay769		Data transformation	tdf.txt	d_data.txt
-sample219				assay770		Data transformation	tdf.txt	d_data.txt
-sample220				assay598		Data transformation	tdf.txt	d_data.txt
-sample221				assay1151		Data transformation	tdf.txt	d_data.txt
-sample222				assay417		Data transformation	tdf.txt	d_data.txt
-sample223				assay30		Data transformation	tdf.txt	d_data.txt
-sample224				assay219		Data transformation	tdf.txt	d_data.txt
-sample225				assay314		Data transformation	tdf.txt	d_data.txt
-sample226				assay873		Data transformation	tdf.txt	d_data.txt
-sample227				assay1040		Data transformation	tdf.txt	d_data.txt
-sample228				assay599		Data transformation	tdf.txt	d_data.txt
-sample229				assay418		Data transformation	tdf.txt	d_data.txt
-sample230				assay315		Data transformation	tdf.txt	d_data.txt
-sample231				assay1152		Data transformation	tdf.txt	d_data.txt
-sample232				assay220		Data transformation	tdf.txt	d_data.txt
-sample233				assay771		Data transformation	tdf.txt	d_data.txt
-sample234				assay31		Data transformation	tdf.txt	d_data.txt
-sample235				assay1041		Data transformation	tdf.txt	d_data.txt
-sample236				assay874		Data transformation	tdf.txt	d_data.txt
-sample237				assay1042		Data transformation	tdf.txt	d_data.txt
-sample238				assay419		Data transformation	tdf.txt	d_data.txt
-sample239				assay221		Data transformation	tdf.txt	d_data.txt
-sample240				assay875		Data transformation	tdf.txt	d_data.txt
-sample241				assay316		Data transformation	tdf.txt	d_data.txt
-sample242				assay772		Data transformation	tdf.txt	d_data.txt
-sample243				assay600		Data transformation	tdf.txt	d_data.txt
-sample244				assay1153		Data transformation	tdf.txt	d_data.txt
-sample245				assay32		Data transformation	tdf.txt	d_data.txt
-sample246				assay420		Data transformation	tdf.txt	d_data.txt
-sample247				assay601		Data transformation	tdf.txt	d_data.txt
-sample248				assay317		Data transformation	tdf.txt	d_data.txt
-sample249				assay33		Data transformation	tdf.txt	d_data.txt
-sample250				assay876		Data transformation	tdf.txt	d_data.txt
-sample251				assay1043		Data transformation	tdf.txt	d_data.txt
-sample252				assay1154		Data transformation	tdf.txt	d_data.txt
-sample253				assay773		Data transformation	tdf.txt	d_data.txt
-sample254				assay222		Data transformation	tdf.txt	d_data.txt
-sample255				assay318		Data transformation	tdf.txt	d_data.txt
-sample256				assay1044		Data transformation	tdf.txt	d_data.txt
-sample257				assay34		Data transformation	tdf.txt	d_data.txt
-sample258				assay223		Data transformation	tdf.txt	d_data.txt
-sample259				assay1155		Data transformation	tdf.txt	d_data.txt
-sample260				assay421		Data transformation	tdf.txt	d_data.txt
-sample261				assay602		Data transformation	tdf.txt	d_data.txt
-sample262				assay774		Data transformation	tdf.txt	d_data.txt
-sample263				assay877		Data transformation	tdf.txt	d_data.txt
-sample264				assay422		Data transformation	tdf.txt	d_data.txt
-sample265				assay775		Data transformation	tdf.txt	d_data.txt
-sample266				assay603		Data transformation	tdf.txt	d_data.txt
-sample267				assay224		Data transformation	tdf.txt	d_data.txt
-sample268				assay878		Data transformation	tdf.txt	d_data.txt
-sample269				assay35		Data transformation	tdf.txt	d_data.txt
-sample270				assay1045		Data transformation	tdf.txt	d_data.txt
-sample271				assay1156		Data transformation	tdf.txt	d_data.txt
-sample272				assay319		Data transformation	tdf.txt	d_data.txt
-sample273				assay604		Data transformation	tdf.txt	d_data.txt
-sample274				assay1157		Data transformation	tdf.txt	d_data.txt
-sample275				assay879		Data transformation	tdf.txt	d_data.txt
-sample276				assay423		Data transformation	tdf.txt	d_data.txt
-sample277				assay225		Data transformation	tdf.txt	d_data.txt
-sample278				assay1046		Data transformation	tdf.txt	d_data.txt
-sample279				assay776		Data transformation	tdf.txt	d_data.txt
-sample280				assay36		Data transformation	tdf.txt	d_data.txt
-sample281				assay320		Data transformation	tdf.txt	d_data.txt
-sample282				assay1158		Data transformation	tdf.txt	d_data.txt
-sample283				assay321		Data transformation	tdf.txt	d_data.txt
-sample284				assay777		Data transformation	tdf.txt	d_data.txt
-sample285				assay880		Data transformation	tdf.txt	d_data.txt
-sample286				assay37		Data transformation	tdf.txt	d_data.txt
-sample287				assay424		Data transformation	tdf.txt	d_data.txt
-sample288				assay605		Data transformation	tdf.txt	d_data.txt
-sample289				assay226		Data transformation	tdf.txt	d_data.txt
-sample290				assay1047		Data transformation	tdf.txt	d_data.txt
-sample291				assay322		Data transformation	tdf.txt	d_data.txt
-sample292				assay425		Data transformation	tdf.txt	d_data.txt
-sample293				assay38		Data transformation	tdf.txt	d_data.txt
-sample294				assay227		Data transformation	tdf.txt	d_data.txt
-sample295				assay1048		Data transformation	tdf.txt	d_data.txt
-sample296				assay606		Data transformation	tdf.txt	d_data.txt
-sample297				assay778		Data transformation	tdf.txt	d_data.txt
-sample298				assay881		Data transformation	tdf.txt	d_data.txt
-sample299				assay1159		Data transformation	tdf.txt	d_data.txt
-sample300				assay228		Data transformation	tdf.txt	d_data.txt
-sample301				assay1160		Data transformation	tdf.txt	d_data.txt
-sample302				assay882		Data transformation	tdf.txt	d_data.txt
-sample303				assay39		Data transformation	tdf.txt	d_data.txt
-sample304				assay779		Data transformation	tdf.txt	d_data.txt
-sample305				assay607		Data transformation	tdf.txt	d_data.txt
-sample306				assay323		Data transformation	tdf.txt	d_data.txt
-sample307				assay426		Data transformation	tdf.txt	d_data.txt
-sample308				assay1049		Data transformation	tdf.txt	d_data.txt
-sample309				assay40		Data transformation	tdf.txt	d_data.txt
-sample310				assay883		Data transformation	tdf.txt	d_data.txt
-sample311				assay229		Data transformation	tdf.txt	d_data.txt
-sample312				assay427		Data transformation	tdf.txt	d_data.txt
-sample313				assay608		Data transformation	tdf.txt	d_data.txt
-sample314				assay324		Data transformation	tdf.txt	d_data.txt
-sample315				assay1161		Data transformation	tdf.txt	d_data.txt
-sample316				assay780		Data transformation	tdf.txt	d_data.txt
-sample317				assay1050		Data transformation	tdf.txt	d_data.txt
-sample318				assay609		Data transformation	tdf.txt	d_data.txt
-sample319				assay1162		Data transformation	tdf.txt	d_data.txt
-sample320				assay41		Data transformation	tdf.txt	d_data.txt
-sample321				assay781		Data transformation	tdf.txt	d_data.txt
-sample322				assay1051		Data transformation	tdf.txt	d_data.txt
-sample323				assay230		Data transformation	tdf.txt	d_data.txt
-sample324				assay884		Data transformation	tdf.txt	d_data.txt
-sample325				assay428		Data transformation	tdf.txt	d_data.txt
-sample326				assay325		Data transformation	tdf.txt	d_data.txt
-sample327				assay429		Data transformation	tdf.txt	d_data.txt
-sample328				assay610		Data transformation	tdf.txt	d_data.txt
-sample329				assay42		Data transformation	tdf.txt	d_data.txt
-sample330				assay885		Data transformation	tdf.txt	d_data.txt
-sample331				assay1052		Data transformation	tdf.txt	d_data.txt
-sample332				assay1163		Data transformation	tdf.txt	d_data.txt
-sample333				assay231		Data transformation	tdf.txt	d_data.txt
-sample334				assay782		Data transformation	tdf.txt	d_data.txt
-sample335				assay326		Data transformation	tdf.txt	d_data.txt
-sample336				assay43		Data transformation	tdf.txt	d_data.txt
-sample337				assay1053		Data transformation	tdf.txt	d_data.txt
-sample338				assay611		Data transformation	tdf.txt	d_data.txt
-sample339				assay430		Data transformation	tdf.txt	d_data.txt
-sample340				assay327		Data transformation	tdf.txt	d_data.txt
-sample341				assay232		Data transformation	tdf.txt	d_data.txt
-sample342				assay886		Data transformation	tdf.txt	d_data.txt
-sample343				assay1164		Data transformation	tdf.txt	d_data.txt
-sample344				assay783		Data transformation	tdf.txt	d_data.txt
-sample345				assay233		Data transformation	tdf.txt	d_data.txt
-sample346				assay431		Data transformation	tdf.txt	d_data.txt
-sample347				assay1165		Data transformation	tdf.txt	d_data.txt
-sample348				assay328		Data transformation	tdf.txt	d_data.txt
-sample349				assay887		Data transformation	tdf.txt	d_data.txt
-sample350				assay44		Data transformation	tdf.txt	d_data.txt
-sample351				assay784		Data transformation	tdf.txt	d_data.txt
-sample352				assay612		Data transformation	tdf.txt	d_data.txt
-sample353				assay1054		Data transformation	tdf.txt	d_data.txt
-sample354				assay432		Data transformation	tdf.txt	d_data.txt
-sample355				assay1055		Data transformation	tdf.txt	d_data.txt
-sample356				assay45		Data transformation	tdf.txt	d_data.txt
-sample357				assay888		Data transformation	tdf.txt	d_data.txt
-sample358				assay785		Data transformation	tdf.txt	d_data.txt
-sample359				assay329		Data transformation	tdf.txt	d_data.txt
-sample360				assay234		Data transformation	tdf.txt	d_data.txt
-sample361				assay613		Data transformation	tdf.txt	d_data.txt
-sample362				assay1166		Data transformation	tdf.txt	d_data.txt
-sample363				assay786		Data transformation	tdf.txt	d_data.txt
-sample364				assay1167		Data transformation	tdf.txt	d_data.txt
-sample365				assay330		Data transformation	tdf.txt	d_data.txt
-sample366				assay46		Data transformation	tdf.txt	d_data.txt
-sample367				assay614		Data transformation	tdf.txt	d_data.txt
-sample368				assay889		Data transformation	tdf.txt	d_data.txt
-sample369				assay433		Data transformation	tdf.txt	d_data.txt
-sample370				assay235		Data transformation	tdf.txt	d_data.txt
-sample371				assay1056		Data transformation	tdf.txt	d_data.txt
-sample372				assay434		Data transformation	tdf.txt	d_data.txt
-sample373				assay47		Data transformation	tdf.txt	d_data.txt
-sample374				assay1057		Data transformation	tdf.txt	d_data.txt
-sample375				assay236		Data transformation	tdf.txt	d_data.txt
-sample376				assay787		Data transformation	tdf.txt	d_data.txt
-sample377				assay615		Data transformation	tdf.txt	d_data.txt
-sample378				assay890		Data transformation	tdf.txt	d_data.txt
-sample379				assay331		Data transformation	tdf.txt	d_data.txt
-sample380				assay891		Data transformation	tdf.txt	d_data.txt
-sample381				assay435		Data transformation	tdf.txt	d_data.txt
-sample382				assay616		Data transformation	tdf.txt	d_data.txt
-sample383				assay48		Data transformation	tdf.txt	d_data.txt
-sample384				assay237		Data transformation	tdf.txt	d_data.txt
-sample385				assay788		Data transformation	tdf.txt	d_data.txt
-sample386				assay1058		Data transformation	tdf.txt	d_data.txt
-sample387				assay1168		Data transformation	tdf.txt	d_data.txt
-sample388				assay332		Data transformation	tdf.txt	d_data.txt
-sample389				assay436		Data transformation	tdf.txt	d_data.txt
-sample390				assay789		Data transformation	tdf.txt	d_data.txt
-sample391				assay49		Data transformation	tdf.txt	d_data.txt
-sample392				assay238		Data transformation	tdf.txt	d_data.txt
-sample393				assay892		Data transformation	tdf.txt	d_data.txt
-sample394				assay617		Data transformation	tdf.txt	d_data.txt
-sample395				assay333		Data transformation	tdf.txt	d_data.txt
-sample396				assay1059		Data transformation	tdf.txt	d_data.txt
-sample397				assay1169		Data transformation	tdf.txt	d_data.txt
-sample398				assay334		Data transformation	tdf.txt	d_data.txt
-sample399				assay50		Data transformation	tdf.txt	d_data.txt
-sample400				assay239		Data transformation	tdf.txt	d_data.txt
-sample401				assay618		Data transformation	tdf.txt	d_data.txt
-sample402				assay1060		Data transformation	tdf.txt	d_data.txt
-sample403				assay893		Data transformation	tdf.txt	d_data.txt
-sample404				assay790		Data transformation	tdf.txt	d_data.txt
-sample405				assay437		Data transformation	tdf.txt	d_data.txt
-sample406				assay1170		Data transformation	tdf.txt	d_data.txt
-sample407				assay619		Data transformation	tdf.txt	d_data.txt
-sample408				assay791		Data transformation	tdf.txt	d_data.txt
-sample409				assay335		Data transformation	tdf.txt	d_data.txt
-sample410				assay240		Data transformation	tdf.txt	d_data.txt
-sample411				assay51		Data transformation	tdf.txt	d_data.txt
-sample412				assay1171		Data transformation	tdf.txt	d_data.txt
-sample413				assay438		Data transformation	tdf.txt	d_data.txt
-sample414				assay894		Data transformation	tdf.txt	d_data.txt
-sample415				assay1061		Data transformation	tdf.txt	d_data.txt
-sample416				assay439		Data transformation	tdf.txt	d_data.txt
-sample417				assay895		Data transformation	tdf.txt	d_data.txt
-sample418				assay620		Data transformation	tdf.txt	d_data.txt
-sample419				assay336		Data transformation	tdf.txt	d_data.txt
-sample420				assay52		Data transformation	tdf.txt	d_data.txt
-sample421				assay1062		Data transformation	tdf.txt	d_data.txt
-sample422				assay241		Data transformation	tdf.txt	d_data.txt
-sample423				assay792		Data transformation	tdf.txt	d_data.txt
-sample424				assay1172		Data transformation	tdf.txt	d_data.txt
-sample425				assay896		Data transformation	tdf.txt	d_data.txt
-sample426				assay440		Data transformation	tdf.txt	d_data.txt
-sample427				assay1173		Data transformation	tdf.txt	d_data.txt
-sample428				assay242		Data transformation	tdf.txt	d_data.txt
-sample429				assay53		Data transformation	tdf.txt	d_data.txt
-sample430				assay337		Data transformation	tdf.txt	d_data.txt
-sample431				assay1063		Data transformation	tdf.txt	d_data.txt
-sample432				assay793		Data transformation	tdf.txt	d_data.txt
-sample433				assay621		Data transformation	tdf.txt	d_data.txt
-sample434				assay1174		Data transformation	tdf.txt	d_data.txt
-sample435				assay243		Data transformation	tdf.txt	d_data.txt
-sample436				assay1064		Data transformation	tdf.txt	d_data.txt
-sample437				assay441		Data transformation	tdf.txt	d_data.txt
-sample438				assay897		Data transformation	tdf.txt	d_data.txt
-sample439				assay622		Data transformation	tdf.txt	d_data.txt
-sample440				assay338		Data transformation	tdf.txt	d_data.txt
-sample441				assay794		Data transformation	tdf.txt	d_data.txt
-sample442				assay54		Data transformation	tdf.txt	d_data.txt
-sample443				assay1065		Data transformation	tdf.txt	d_data.txt
-sample444				assay1175		Data transformation	tdf.txt	d_data.txt
-sample445				assay442		Data transformation	tdf.txt	d_data.txt
-sample446				assay795		Data transformation	tdf.txt	d_data.txt
-sample447				assay339		Data transformation	tdf.txt	d_data.txt
-sample448				assay898		Data transformation	tdf.txt	d_data.txt
-sample449				assay244		Data transformation	tdf.txt	d_data.txt
-sample450				assay55		Data transformation	tdf.txt	d_data.txt
-sample451				assay623		Data transformation	tdf.txt	d_data.txt
-sample452				assay1066		Data transformation	tdf.txt	d_data.txt
-sample453				assay1176		Data transformation	tdf.txt	d_data.txt
-sample454				assay340		Data transformation	tdf.txt	d_data.txt
-sample455				assay245		Data transformation	tdf.txt	d_data.txt
-sample456				assay899		Data transformation	tdf.txt	d_data.txt
-sample457				assay624		Data transformation	tdf.txt	d_data.txt
-sample458				assay796		Data transformation	tdf.txt	d_data.txt
-sample459				assay56		Data transformation	tdf.txt	d_data.txt
-sample460				assay443		Data transformation	tdf.txt	d_data.txt
-sample461				assay625		Data transformation	tdf.txt	d_data.txt
-sample462				assay1177		Data transformation	tdf.txt	d_data.txt
-sample463				assay797		Data transformation	tdf.txt	d_data.txt
-sample464				assay900		Data transformation	tdf.txt	d_data.txt
-sample465				assay246		Data transformation	tdf.txt	d_data.txt
-sample466				assay341		Data transformation	tdf.txt	d_data.txt
-sample467				assay1067		Data transformation	tdf.txt	d_data.txt
-sample468				assay57		Data transformation	tdf.txt	d_data.txt
-sample469				assay444		Data transformation	tdf.txt	d_data.txt
-sample470				assay445		Data transformation	tdf.txt	d_data.txt
-sample471				assay901		Data transformation	tdf.txt	d_data.txt
-sample472				assay58		Data transformation	tdf.txt	d_data.txt
-sample473				assay626		Data transformation	tdf.txt	d_data.txt
-sample474				assay446		Data transformation	tdf.txt	d_data.txt
-sample475				assay798		Data transformation	tdf.txt	d_data.txt
-sample476				assay342		Data transformation	tdf.txt	d_data.txt
-sample477				assay1068		Data transformation	tdf.txt	d_data.txt
-sample478				assay902		Data transformation	tdf.txt	d_data.txt
-sample479				assay1178		Data transformation	tdf.txt	d_data.txt
-sample480				assay59		Data transformation	tdf.txt	d_data.txt
-sample481				assay627		Data transformation	tdf.txt	d_data.txt
-sample482				assay247		Data transformation	tdf.txt	d_data.txt
-sample483				assay447		Data transformation	tdf.txt	d_data.txt
-sample484				assay628		Data transformation	tdf.txt	d_data.txt
-sample485				assay343		Data transformation	tdf.txt	d_data.txt
-sample486				assay248		Data transformation	tdf.txt	d_data.txt
-sample487				assay60		Data transformation	tdf.txt	d_data.txt
-sample488				assay1069		Data transformation	tdf.txt	d_data.txt
-sample489				assay1179		Data transformation	tdf.txt	d_data.txt
-sample490				assay903		Data transformation	tdf.txt	d_data.txt
-sample491				assay799		Data transformation	tdf.txt	d_data.txt
-sample492				assay904		Data transformation	tdf.txt	d_data.txt
-sample493				assay629		Data transformation	tdf.txt	d_data.txt
-sample494				assay249		Data transformation	tdf.txt	d_data.txt
-sample495				assay61		Data transformation	tdf.txt	d_data.txt
-sample496				assay1070		Data transformation	tdf.txt	d_data.txt
-sample497				assay1180		Data transformation	tdf.txt	d_data.txt
-sample498				assay344		Data transformation	tdf.txt	d_data.txt
-sample499				assay448		Data transformation	tdf.txt	d_data.txt
-sample500				assay800		Data transformation	tdf.txt	d_data.txt
-sample501				assay801		Data transformation	tdf.txt	d_data.txt
-sample502				assay1181		Data transformation	tdf.txt	d_data.txt
-sample503				assay250		Data transformation	tdf.txt	d_data.txt
-sample504				assay449		Data transformation	tdf.txt	d_data.txt
-sample505				assay630		Data transformation	tdf.txt	d_data.txt
-sample506				assay905		Data transformation	tdf.txt	d_data.txt
-sample507				assay345		Data transformation	tdf.txt	d_data.txt
-sample508				assay62		Data transformation	tdf.txt	d_data.txt
-sample509				assay1071		Data transformation	tdf.txt	d_data.txt
-sample510				assay1072		Data transformation	tdf.txt	d_data.txt
-sample511				assay906		Data transformation	tdf.txt	d_data.txt
-sample512				assay631		Data transformation	tdf.txt	d_data.txt
-sample513				assay1182		Data transformation	tdf.txt	d_data.txt
-sample514				assay450		Data transformation	tdf.txt	d_data.txt
-sample515				assay346		Data transformation	tdf.txt	d_data.txt
-sample516				assay63		Data transformation	tdf.txt	d_data.txt
-sample517				assay802		Data transformation	tdf.txt	d_data.txt
-sample518				assay251		Data transformation	tdf.txt	d_data.txt
-sample519				assay907		Data transformation	tdf.txt	d_data.txt
-sample520				assay1073		Data transformation	tdf.txt	d_data.txt
-sample521				assay347		Data transformation	tdf.txt	d_data.txt
-sample522				assay252		Data transformation	tdf.txt	d_data.txt
-sample523				assay64		Data transformation	tdf.txt	d_data.txt
-sample524				assay1183		Data transformation	tdf.txt	d_data.txt
-sample525				assay451		Data transformation	tdf.txt	d_data.txt
-sample526				assay632		Data transformation	tdf.txt	d_data.txt
-sample527				assay803		Data transformation	tdf.txt	d_data.txt
-sample528				assay1184		Data transformation	tdf.txt	d_data.txt
-sample529				assay804		Data transformation	tdf.txt	d_data.txt
-sample530				assay253		Data transformation	tdf.txt	d_data.txt
-sample531				assay1074		Data transformation	tdf.txt	d_data.txt
-sample532				assay908		Data transformation	tdf.txt	d_data.txt
-sample533				assay348		Data transformation	tdf.txt	d_data.txt
-sample534				assay633		Data transformation	tdf.txt	d_data.txt
-sample535				assay65		Data transformation	tdf.txt	d_data.txt
-sample536				assay452		Data transformation	tdf.txt	d_data.txt
-sample537				assay634		Data transformation	tdf.txt	d_data.txt
-sample538				assay453		Data transformation	tdf.txt	d_data.txt
-sample539				assay1185		Data transformation	tdf.txt	d_data.txt
-sample540				assay805		Data transformation	tdf.txt	d_data.txt
-sample541				assay254		Data transformation	tdf.txt	d_data.txt
-sample542				assay909		Data transformation	tdf.txt	d_data.txt
-sample543				assay349		Data transformation	tdf.txt	d_data.txt
-sample544				assay1075		Data transformation	tdf.txt	d_data.txt
-sample545				assay66		Data transformation	tdf.txt	d_data.txt
-sample546				assay910		Data transformation	tdf.txt	d_data.txt
-sample547				assay350		Data transformation	tdf.txt	d_data.txt
-sample548				assay67		Data transformation	tdf.txt	d_data.txt
-sample549				assay1076		Data transformation	tdf.txt	d_data.txt
-sample550				assay806		Data transformation	tdf.txt	d_data.txt
-sample551				assay635		Data transformation	tdf.txt	d_data.txt
-sample552				assay1186		Data transformation	tdf.txt	d_data.txt
-sample553				assay255		Data transformation	tdf.txt	d_data.txt
-sample554				assay454		Data transformation	tdf.txt	d_data.txt
-sample555				assay256		Data transformation	tdf.txt	d_data.txt
-sample556				assay1187		Data transformation	tdf.txt	d_data.txt
-sample557				assay636		Data transformation	tdf.txt	d_data.txt
-sample558				assay807		Data transformation	tdf.txt	d_data.txt
-sample559				assay911		Data transformation	tdf.txt	d_data.txt
-sample560				assay455		Data transformation	tdf.txt	d_data.txt
-sample561				assay351		Data transformation	tdf.txt	d_data.txt
-sample562				assay68		Data transformation	tdf.txt	d_data.txt
-sample563				assay1077		Data transformation	tdf.txt	d_data.txt
-sample564				assay257		Data transformation	tdf.txt	d_data.txt
-sample565				assay352		Data transformation	tdf.txt	d_data.txt
-sample566				assay808		Data transformation	tdf.txt	d_data.txt
-sample567				assay637		Data transformation	tdf.txt	d_data.txt
-sample568				assay69		Data transformation	tdf.txt	d_data.txt
-sample569				assay912		Data transformation	tdf.txt	d_data.txt
-sample570				assay456		Data transformation	tdf.txt	d_data.txt
-sample571				assay1078		Data transformation	tdf.txt	d_data.txt
-sample572				assay1188		Data transformation	tdf.txt	d_data.txt
-sample573				assay638		Data transformation	tdf.txt	d_data.txt
-sample574				assay1189		Data transformation	tdf.txt	d_data.txt
-sample575				assay809		Data transformation	tdf.txt	d_data.txt
-sample576				assay913		Data transformation	tdf.txt	d_data.txt
-sample577				assay70		Data transformation	tdf.txt	d_data.txt
-sample578				assay457		Data transformation	tdf.txt	d_data.txt
-sample579				assay258		Data transformation	tdf.txt	d_data.txt
-sample580				assay1079		Data transformation	tdf.txt	d_data.txt
-sample581				assay353		Data transformation	tdf.txt	d_data.txt
-sample582				assay458		Data transformation	tdf.txt	d_data.txt
-sample583				assay914		Data transformation	tdf.txt	d_data.txt
-sample584				assay259		Data transformation	tdf.txt	d_data.txt
-sample585				assay1080		Data transformation	tdf.txt	d_data.txt
-sample586				assay810		Data transformation	tdf.txt	d_data.txt
-sample587				assay639		Data transformation	tdf.txt	d_data.txt
-sample588				assay71		Data transformation	tdf.txt	d_data.txt
-sample589				assay354		Data transformation	tdf.txt	d_data.txt
-sample590				assay1190		Data transformation	tdf.txt	d_data.txt
-sample591				assay260		Data transformation	tdf.txt	d_data.txt
-sample592				assay811		Data transformation	tdf.txt	d_data.txt
-sample593				assay1191		Data transformation	tdf.txt	d_data.txt
-sample594				assay1081		Data transformation	tdf.txt	d_data.txt
-sample595				assay459		Data transformation	tdf.txt	d_data.txt
-sample596				assay915		Data transformation	tdf.txt	d_data.txt
-sample597				assay640		Data transformation	tdf.txt	d_data.txt
-sample598				assay355		Data transformation	tdf.txt	d_data.txt
-sample599				assay72		Data transformation	tdf.txt	d_data.txt
-sample600				assay356		Data transformation	tdf.txt	d_data.txt
-sample601				assay916		Data transformation	tdf.txt	d_data.txt
-sample602				assay1192		Data transformation	tdf.txt	d_data.txt
-sample603				assay812		Data transformation	tdf.txt	d_data.txt
-sample604				assay261		Data transformation	tdf.txt	d_data.txt
-sample605				assay641		Data transformation	tdf.txt	d_data.txt
-sample606				assay73		Data transformation	tdf.txt	d_data.txt
-sample607				assay460		Data transformation	tdf.txt	d_data.txt
-sample608				assay1193		Data transformation	tdf.txt	d_data.txt
-sample609				assay74		Data transformation	tdf.txt	d_data.txt
-sample610				assay813		Data transformation	tdf.txt	d_data.txt
-sample611				assay357		Data transformation	tdf.txt	d_data.txt
-sample612				assay461		Data transformation	tdf.txt	d_data.txt
-sample613				assay642		Data transformation	tdf.txt	d_data.txt
-sample614				assay917		Data transformation	tdf.txt	d_data.txt
-sample615				assay262		Data transformation	tdf.txt	d_data.txt
-sample616				assay1083		Data transformation	tdf.txt	d_data.txt
-sample617				assay814		Data transformation	tdf.txt	d_data.txt
-sample618				assay643		Data transformation	tdf.txt	d_data.txt
-sample619				assay918		Data transformation	tdf.txt	d_data.txt
-sample620				assay75		Data transformation	tdf.txt	d_data.txt
-sample621				assay462		Data transformation	tdf.txt	d_data.txt
-sample622				assay1084		Data transformation	tdf.txt	d_data.txt
-sample623				assay358		Data transformation	tdf.txt	d_data.txt
-sample624				assay263		Data transformation	tdf.txt	d_data.txt
-sample625				assay463		Data transformation	tdf.txt	d_data.txt
-sample626				assay815		Data transformation	tdf.txt	d_data.txt
-sample627				assay76		Data transformation	tdf.txt	d_data.txt
-sample628				assay359		Data transformation	tdf.txt	d_data.txt
-sample629				assay644		Data transformation	tdf.txt	d_data.txt
-sample630				assay919		Data transformation	tdf.txt	d_data.txt
-sample631				assay1085		Data transformation	tdf.txt	d_data.txt
-sample632				assay264		Data transformation	tdf.txt	d_data.txt
-sample633				assay1194		Data transformation	tdf.txt	d_data.txt
-sample634				assay645		Data transformation	tdf.txt	d_data.txt
-sample635				assay464		Data transformation	tdf.txt	d_data.txt
-sample636				assay816		Data transformation	tdf.txt	d_data.txt
-sample637				assay1086		Data transformation	tdf.txt	d_data.txt
-sample638				assay77		Data transformation	tdf.txt	d_data.txt
-sample639				assay360		Data transformation	tdf.txt	d_data.txt
-sample640				assay920		Data transformation	tdf.txt	d_data.txt
-sample641				assay265		Data transformation	tdf.txt	d_data.txt
-sample642				assay1195		Data transformation	tdf.txt	d_data.txt
-sample643				assay361		Data transformation	tdf.txt	d_data.txt
-sample644				assay817		Data transformation	tdf.txt	d_data.txt
-sample645				assay465		Data transformation	tdf.txt	d_data.txt
-sample646				assay921		Data transformation	tdf.txt	d_data.txt
-sample647				assay646		Data transformation	tdf.txt	d_data.txt
-sample648				assay1087		Data transformation	tdf.txt	d_data.txt
-sample649				assay1196		Data transformation	tdf.txt	d_data.txt
-sample650				assay78		Data transformation	tdf.txt	d_data.txt
-sample651				assay266		Data transformation	tdf.txt	d_data.txt
-sample652				assay267		Data transformation	tdf.txt	d_data.txt
-sample653				assay362		Data transformation	tdf.txt	d_data.txt
-sample654				assay466		Data transformation	tdf.txt	d_data.txt
-sample655				assay1088		Data transformation	tdf.txt	d_data.txt
-sample656				assay922		Data transformation	tdf.txt	d_data.txt
-sample657				assay647		Data transformation	tdf.txt	d_data.txt
-sample658				assay1197		Data transformation	tdf.txt	d_data.txt
-sample659				assay79		Data transformation	tdf.txt	d_data.txt
-sample660				assay818		Data transformation	tdf.txt	d_data.txt
-sample661				assay648		Data transformation	tdf.txt	d_data.txt
-sample662				assay819		Data transformation	tdf.txt	d_data.txt
-sample663				assay80		Data transformation	tdf.txt	d_data.txt
-sample664				assay363		Data transformation	tdf.txt	d_data.txt
-sample665				assay467		Data transformation	tdf.txt	d_data.txt
-sample666				assay1089		Data transformation	tdf.txt	d_data.txt
-sample667				assay923		Data transformation	tdf.txt	d_data.txt
-sample668				assay1198		Data transformation	tdf.txt	d_data.txt
-sample669				assay268		Data transformation	tdf.txt	d_data.txt
-sample670				assay269		Data transformation	tdf.txt	d_data.txt
-sample671				assay1090		Data transformation	tdf.txt	d_data.txt
-sample672				assay468		Data transformation	tdf.txt	d_data.txt
-sample673				assay81		Data transformation	tdf.txt	d_data.txt
-sample674				assay820		Data transformation	tdf.txt	d_data.txt
-sample675				assay649		Data transformation	tdf.txt	d_data.txt
-sample676				assay364		Data transformation	tdf.txt	d_data.txt
-sample677				assay924		Data transformation	tdf.txt	d_data.txt
-sample678				assay1199		Data transformation	tdf.txt	d_data.txt
-sample679				assay821		Data transformation	tdf.txt	d_data.txt
-sample680				assay270		Data transformation	tdf.txt	d_data.txt
-sample681				assay1091		Data transformation	tdf.txt	d_data.txt
-sample682				assay469		Data transformation	tdf.txt	d_data.txt
-sample683				assay82		Data transformation	tdf.txt	d_data.txt
-sample684				assay365		Data transformation	tdf.txt	d_data.txt
-sample685				assay925		Data transformation	tdf.txt	d_data.txt
-sample686				assay650		Data transformation	tdf.txt	d_data.txt
-sample687				assay1200		Data transformation	tdf.txt	d_data.txt
-sample688				assay470		Data transformation	tdf.txt	d_data.txt
-sample689				assay651		Data transformation	tdf.txt	d_data.txt
-sample690				assay926		Data transformation	tdf.txt	d_data.txt
-sample691				assay271		Data transformation	tdf.txt	d_data.txt
-sample692				assay83		Data transformation	tdf.txt	d_data.txt
-sample693				assay1092		Data transformation	tdf.txt	d_data.txt
-sample694				assay366		Data transformation	tdf.txt	d_data.txt
-sample695				assay822		Data transformation	tdf.txt	d_data.txt
-sample696				assay927		Data transformation	tdf.txt	d_data.txt
-sample697				assay652		Data transformation	tdf.txt	d_data.txt
-sample698				assay1093		Data transformation	tdf.txt	d_data.txt
-sample699				assay823		Data transformation	tdf.txt	d_data.txt
-sample700				assay471		Data transformation	tdf.txt	d_data.txt
-sample701				assay367		Data transformation	tdf.txt	d_data.txt
-sample702				assay272		Data transformation	tdf.txt	d_data.txt
-sample703				assay84		Data transformation	tdf.txt	d_data.txt
-sample704				assay1094		Data transformation	tdf.txt	d_data.txt
-sample705				assay928		Data transformation	tdf.txt	d_data.txt
-sample706				assay368		Data transformation	tdf.txt	d_data.txt
-sample707				assay653		Data transformation	tdf.txt	d_data.txt
-sample708				assay85		Data transformation	tdf.txt	d_data.txt
-sample709				assay273		Data transformation	tdf.txt	d_data.txt
-sample710				assay1201		Data transformation	tdf.txt	d_data.txt
-sample711				assay472		Data transformation	tdf.txt	d_data.txt
-sample712				assay824		Data transformation	tdf.txt	d_data.txt
-sample713				assay274		Data transformation	tdf.txt	d_data.txt
-sample714				assay1095		Data transformation	tdf.txt	d_data.txt
-sample715				assay825		Data transformation	tdf.txt	d_data.txt
-sample716				assay929		Data transformation	tdf.txt	d_data.txt
-sample717				assay86		Data transformation	tdf.txt	d_data.txt
-sample718				assay473		Data transformation	tdf.txt	d_data.txt
-sample719				assay1202		Data transformation	tdf.txt	d_data.txt
-sample720				assay369		Data transformation	tdf.txt	d_data.txt
-sample721				assay654		Data transformation	tdf.txt	d_data.txt
-sample722				assay930		Data transformation	tdf.txt	d_data.txt
-sample723				assay1096		Data transformation	tdf.txt	d_data.txt
-sample724				assay474		Data transformation	tdf.txt	d_data.txt
-sample725				assay87		Data transformation	tdf.txt	d_data.txt
-sample726				assay655		Data transformation	tdf.txt	d_data.txt
-sample727				assay1097		Data transformation	tdf.txt	d_data.txt
-sample728				assay88		Data transformation	tdf.txt	d_data.txt
-sample729				assay89		Data transformation	tdf.txt	d_data.txt
-sample730				assay931		Data transformation	tdf.txt	d_data.txt
-sample731				assay656		Data transformation	tdf.txt	d_data.txt
-sample732				assay90		Data transformation	tdf.txt	d_data.txt
-sample733				assay475		Data transformation	tdf.txt	d_data.txt
-sample734				assay91		Data transformation	tdf.txt	d_data.txt
-sample735				assay92		Data transformation	tdf.txt	d_data.txt
-sample736				assay932		Data transformation	tdf.txt	d_data.txt
-sample737				assay476		Data transformation	tdf.txt	d_data.txt
-sample738				assay93		Data transformation	tdf.txt	d_data.txt
-sample739				assay657		Data transformation	tdf.txt	d_data.txt
-sample740				assay94		Data transformation	tdf.txt	d_data.txt
-sample741				assay95		Data transformation	tdf.txt	d_data.txt
-sample742				assay96		Data transformation	tdf.txt	d_data.txt
-sample743				assay97		Data transformation	tdf.txt	d_data.txt
-sample744				assay98		Data transformation	tdf.txt	d_data.txt
-sample745				assay99		Data transformation	tdf.txt	d_data.txt
-sample746				assay100		Data transformation	tdf.txt	d_data.txt
-sample747				assay1098		Data transformation	tdf.txt	d_data.txt
-sample748				assay101		Data transformation	tdf.txt	d_data.txt
-sample749				assay658		Data transformation	tdf.txt	d_data.txt
-sample750				assay477		Data transformation	tdf.txt	d_data.txt
-sample751				assay933		Data transformation	tdf.txt	d_data.txt
-sample752				assay102		Data transformation	tdf.txt	d_data.txt
-sample753				assay103		Data transformation	tdf.txt	d_data.txt
-sample754				assay934		Data transformation	tdf.txt	d_data.txt
-sample755				assay659		Data transformation	tdf.txt	d_data.txt
-sample756				assay104		Data transformation	tdf.txt	d_data.txt
-sample757				assay478		Data transformation	tdf.txt	d_data.txt
-sample758				assay105		Data transformation	tdf.txt	d_data.txt
-sample759				assay1099		Data transformation	tdf.txt	d_data.txt
-sample760				assay106		Data transformation	tdf.txt	d_data.txt
-sample761				assay107		Data transformation	tdf.txt	d_data.txt
-sample762				assay275		Data transformation	tdf.txt	d_data.txt
-sample763				assay370		Data transformation	tdf.txt	d_data.txt
-sample764				assay935		Data transformation	tdf.txt	d_data.txt
-sample765				assay660		Data transformation	tdf.txt	d_data.txt
-sample766				assay108		Data transformation	tdf.txt	d_data.txt
-sample767				assay1100		Data transformation	tdf.txt	d_data.txt
-sample768				assay479		Data transformation	tdf.txt	d_data.txt
-sample769				assay826		Data transformation	tdf.txt	d_data.txt
-sample770				assay1203		Data transformation	tdf.txt	d_data.txt
-sample771				assay109		Data transformation	tdf.txt	d_data.txt
-sample772				assay110		Data transformation	tdf.txt	d_data.txt
-sample773				assay936		Data transformation	tdf.txt	d_data.txt
-sample774				assay480		Data transformation	tdf.txt	d_data.txt
-sample775				assay661		Data transformation	tdf.txt	d_data.txt
-sample776				assay111		Data transformation	tdf.txt	d_data.txt
-sample777				assay371		Data transformation	tdf.txt	d_data.txt
-sample778				assay1101		Data transformation	tdf.txt	d_data.txt
-sample779				assay662		Data transformation	tdf.txt	d_data.txt
-sample780				assay1204		Data transformation	tdf.txt	d_data.txt
-sample781				assay481		Data transformation	tdf.txt	d_data.txt
-sample782				assay937		Data transformation	tdf.txt	d_data.txt
-sample783				assay276		Data transformation	tdf.txt	d_data.txt
-sample784				assay827		Data transformation	tdf.txt	d_data.txt
-sample785				assay112		Data transformation	tdf.txt	d_data.txt
-sample786				assay938		Data transformation	tdf.txt	d_data.txt
-sample787				assay1102		Data transformation	tdf.txt	d_data.txt
-sample788				assay1205		Data transformation	tdf.txt	d_data.txt
-sample789				assay663		Data transformation	tdf.txt	d_data.txt
-sample790				assay113		Data transformation	tdf.txt	d_data.txt
-sample791				assay828		Data transformation	tdf.txt	d_data.txt
-sample792				assay372		Data transformation	tdf.txt	d_data.txt
-sample793				assay482		Data transformation	tdf.txt	d_data.txt
-sample794				assay277		Data transformation	tdf.txt	d_data.txt
-sample795				assay829		Data transformation	tdf.txt	d_data.txt
-sample796				assay1103		Data transformation	tdf.txt	d_data.txt
-sample797				assay664		Data transformation	tdf.txt	d_data.txt
-sample798				assay373		Data transformation	tdf.txt	d_data.txt
-sample799				assay939		Data transformation	tdf.txt	d_data.txt
-sample800				assay278		Data transformation	tdf.txt	d_data.txt
-sample801				assay483		Data transformation	tdf.txt	d_data.txt
-sample802				assay1206		Data transformation	tdf.txt	d_data.txt
-sample803				assay114		Data transformation	tdf.txt	d_data.txt
-sample804				assay279		Data transformation	tdf.txt	d_data.txt
-sample805				assay1104		Data transformation	tdf.txt	d_data.txt
-sample806				assay830		Data transformation	tdf.txt	d_data.txt
-sample807				assay115		Data transformation	tdf.txt	d_data.txt
-sample808				assay940		Data transformation	tdf.txt	d_data.txt
-sample809				assay484		Data transformation	tdf.txt	d_data.txt
-sample810				assay665		Data transformation	tdf.txt	d_data.txt
-sample811				assay374		Data transformation	tdf.txt	d_data.txt
-sample812				assay1207		Data transformation	tdf.txt	d_data.txt
-sample813				assay485		Data transformation	tdf.txt	d_data.txt
-sample814				assay116		Data transformation	tdf.txt	d_data.txt
-sample815				assay375		Data transformation	tdf.txt	d_data.txt
-sample816				assay831		Data transformation	tdf.txt	d_data.txt
-sample817				assay941		Data transformation	tdf.txt	d_data.txt
-sample818				assay1105		Data transformation	tdf.txt	d_data.txt
-sample819				assay666		Data transformation	tdf.txt	d_data.txt
-sample820				assay280		Data transformation	tdf.txt	d_data.txt
-sample821				assay281		Data transformation	tdf.txt	d_data.txt
-sample822				assay667		Data transformation	tdf.txt	d_data.txt
-sample823				assay1208		Data transformation	tdf.txt	d_data.txt
-sample824				assay1106		Data transformation	tdf.txt	d_data.txt
-sample825				assay832		Data transformation	tdf.txt	d_data.txt
-sample826				assay486		Data transformation	tdf.txt	d_data.txt
-sample827				assay117		Data transformation	tdf.txt	d_data.txt
-sample828				assay376		Data transformation	tdf.txt	d_data.txt
-sample829				assay942		Data transformation	tdf.txt	d_data.txt
-sample830				assay282		Data transformation	tdf.txt	d_data.txt
-sample831				assay377		Data transformation	tdf.txt	d_data.txt
-sample832				assay1209		Data transformation	tdf.txt	d_data.txt
-sample833				assay118		Data transformation	tdf.txt	d_data.txt
-sample834				assay943		Data transformation	tdf.txt	d_data.txt
-sample835				assay487		Data transformation	tdf.txt	d_data.txt
-sample836				assay833		Data transformation	tdf.txt	d_data.txt
-sample837				assay1107		Data transformation	tdf.txt	d_data.txt
-sample838				assay668		Data transformation	tdf.txt	d_data.txt
-sample839				assay488		Data transformation	tdf.txt	d_data.txt
-sample840				assay834		Data transformation	tdf.txt	d_data.txt
-sample841				assay1210		Data transformation	tdf.txt	d_data.txt
-sample842				assay944		Data transformation	tdf.txt	d_data.txt
-sample843				assay378		Data transformation	tdf.txt	d_data.txt
-sample844				assay283		Data transformation	tdf.txt	d_data.txt
-sample845				assay119		Data transformation	tdf.txt	d_data.txt
-sample846				assay669		Data transformation	tdf.txt	d_data.txt
-sample847				assay1108		Data transformation	tdf.txt	d_data.txt
-sample848				assay1109		Data transformation	tdf.txt	d_data.txt
-sample849				assay284		Data transformation	tdf.txt	d_data.txt
-sample850				assay835		Data transformation	tdf.txt	d_data.txt
-sample851				assay379		Data transformation	tdf.txt	d_data.txt
-sample852				assay945		Data transformation	tdf.txt	d_data.txt
-sample853				assay670		Data transformation	tdf.txt	d_data.txt
-sample854				assay120		Data transformation	tdf.txt	d_data.txt
-sample855				assay1211		Data transformation	tdf.txt	d_data.txt
-sample856				assay489		Data transformation	tdf.txt	d_data.txt
-sample857				assay946		Data transformation	tdf.txt	d_data.txt
-sample858				assay121		Data transformation	tdf.txt	d_data.txt
-sample859				assay671		Data transformation	tdf.txt	d_data.txt
-sample860				assay1212		Data transformation	tdf.txt	d_data.txt
-sample861				assay380		Data transformation	tdf.txt	d_data.txt
-sample862				assay490		Data transformation	tdf.txt	d_data.txt
-sample863				assay836		Data transformation	tdf.txt	d_data.txt
-sample864				assay285		Data transformation	tdf.txt	d_data.txt
-sample865				assay1110		Data transformation	tdf.txt	d_data.txt
-sample866				assay286		Data transformation	tdf.txt	d_data.txt
-sample867				assay947		Data transformation	tdf.txt	d_data.txt
-sample868				assay1213		Data transformation	tdf.txt	d_data.txt
-sample869				assay672		Data transformation	tdf.txt	d_data.txt
-sample870				assay122		Data transformation	tdf.txt	d_data.txt
-sample871				assay491		Data transformation	tdf.txt	d_data.txt
-sample872				assay1111		Data transformation	tdf.txt	d_data.txt
-sample873				assay837		Data transformation	tdf.txt	d_data.txt
-sample874				assay948		Data transformation	tdf.txt	d_data.txt
-sample875				assay1112		Data transformation	tdf.txt	d_data.txt
-sample876				assay287		Data transformation	tdf.txt	d_data.txt
-sample877				assay673		Data transformation	tdf.txt	d_data.txt
-sample878				assay382		Data transformation	tdf.txt	d_data.txt
-sample879				assay123		Data transformation	tdf.txt	d_data.txt
-sample880				assay1214		Data transformation	tdf.txt	d_data.txt
-sample881				assay492		Data transformation	tdf.txt	d_data.txt
-sample882				assay124		Data transformation	tdf.txt	d_data.txt
-sample883				assay1215		Data transformation	tdf.txt	d_data.txt
-sample884				assay949		Data transformation	tdf.txt	d_data.txt
-sample885				assay493		Data transformation	tdf.txt	d_data.txt
-sample886				assay674		Data transformation	tdf.txt	d_data.txt
-sample887				assay288		Data transformation	tdf.txt	d_data.txt
-sample888				assay839		Data transformation	tdf.txt	d_data.txt
-sample889				assay1113		Data transformation	tdf.txt	d_data.txt
-sample890				assay383		Data transformation	tdf.txt	d_data.txt
-sample891				assay675		Data transformation	tdf.txt	d_data.txt
-sample892				assay1216		Data transformation	tdf.txt	d_data.txt
-sample893				assay840		Data transformation	tdf.txt	d_data.txt
-sample894				assay950		Data transformation	tdf.txt	d_data.txt
-sample895				assay125		Data transformation	tdf.txt	d_data.txt
-sample896				assay289		Data transformation	tdf.txt	d_data.txt
-sample897				assay494		Data transformation	tdf.txt	d_data.txt
-sample898				assay1114		Data transformation	tdf.txt	d_data.txt
-sample899				assay384		Data transformation	tdf.txt	d_data.txt
-sample900				assay126		Data transformation	tdf.txt	d_data.txt
-sample901				assay495		Data transformation	tdf.txt	d_data.txt
-sample902				assay1217		Data transformation	tdf.txt	d_data.txt
-sample903				assay841		Data transformation	tdf.txt	d_data.txt
-sample904				assay676		Data transformation	tdf.txt	d_data.txt
-sample905				assay290		Data transformation	tdf.txt	d_data.txt
-sample906				assay951		Data transformation	tdf.txt	d_data.txt
-sample907				assay1115		Data transformation	tdf.txt	d_data.txt
-sample908				assay385		Data transformation	tdf.txt	d_data.txt
-sample909				assay677		Data transformation	tdf.txt	d_data.txt
-sample910				assay496		Data transformation	tdf.txt	d_data.txt
-sample911				assay842		Data transformation	tdf.txt	d_data.txt
-sample912				assay952		Data transformation	tdf.txt	d_data.txt
-sample913				assay1218		Data transformation	tdf.txt	d_data.txt
-sample914				assay127		Data transformation	tdf.txt	d_data.txt
-sample915				assay386		Data transformation	tdf.txt	d_data.txt
-sample916				assay291		Data transformation	tdf.txt	d_data.txt
-sample917				assay1116		Data transformation	tdf.txt	d_data.txt
-sample918				assay678		Data transformation	tdf.txt	d_data.txt
-sample919				assay128		Data transformation	tdf.txt	d_data.txt
-sample920				assay953		Data transformation	tdf.txt	d_data.txt
-sample921				assay497		Data transformation	tdf.txt	d_data.txt
-sample922				assay498		Data transformation	tdf.txt	d_data.txt
-sample923				assay954		Data transformation	tdf.txt	d_data.txt
-sample924				assay679		Data transformation	tdf.txt	d_data.txt
-sample925				assay129		Data transformation	tdf.txt	d_data.txt
-sample926				assay955		Data transformation	tdf.txt	d_data.txt
-sample927				assay680		Data transformation	tdf.txt	d_data.txt
-sample928				assay130		Data transformation	tdf.txt	d_data.txt
-sample929				assay499		Data transformation	tdf.txt	d_data.txt
-sample930				assay956		Data transformation	tdf.txt	d_data.txt
-sample931				assay681		Data transformation	tdf.txt	d_data.txt
-sample932				assay131		Data transformation	tdf.txt	d_data.txt
-sample933				assay500		Data transformation	tdf.txt	d_data.txt
-sample934				assay132		Data transformation	tdf.txt	d_data.txt
-sample935				assay682		Data transformation	tdf.txt	d_data.txt
-sample936				assay957		Data transformation	tdf.txt	d_data.txt
-sample937				assay501		Data transformation	tdf.txt	d_data.txt
-sample938				assay133		Data transformation	tdf.txt	d_data.txt
-sample939				assay502		Data transformation	tdf.txt	d_data.txt
-sample940				assay683		Data transformation	tdf.txt	d_data.txt
-sample941				assay958		Data transformation	tdf.txt	d_data.txt
-sample942				assay134		Data transformation	tdf.txt	d_data.txt
-sample943				assay959		Data transformation	tdf.txt	d_data.txt
-sample944				assay503		Data transformation	tdf.txt	d_data.txt
-sample945				assay960		Data transformation	tdf.txt	d_data.txt
-sample946				assay504		Data transformation	tdf.txt	d_data.txt
-sample947				assay684		Data transformation	tdf.txt	d_data.txt
-sample948				assay135		Data transformation	tdf.txt	d_data.txt
-sample949				assay961		Data transformation	tdf.txt	d_data.txt
-sample950				assay505		Data transformation	tdf.txt	d_data.txt
-sample951				assay136		Data transformation	tdf.txt	d_data.txt
-sample952				assay685		Data transformation	tdf.txt	d_data.txt
-sample953				assay506		Data transformation	tdf.txt	d_data.txt
-sample954				assay137		Data transformation	tdf.txt	d_data.txt
-sample955				assay962		Data transformation	tdf.txt	d_data.txt
-sample956				assay686		Data transformation	tdf.txt	d_data.txt
-sample957				assay138		Data transformation	tdf.txt	d_data.txt
-sample958				assay507		Data transformation	tdf.txt	d_data.txt
-sample959				assay687		Data transformation	tdf.txt	d_data.txt
-sample960				assay963		Data transformation	tdf.txt	d_data.txt
-sample961				assay964		Data transformation	tdf.txt	d_data.txt
-sample962				assay688		Data transformation	tdf.txt	d_data.txt
-sample963				assay139		Data transformation	tdf.txt	d_data.txt
-sample964				assay508		Data transformation	tdf.txt	d_data.txt
-sample965				assay965		Data transformation	tdf.txt	d_data.txt
-sample966				assay140		Data transformation	tdf.txt	d_data.txt
-sample967				assay509		Data transformation	tdf.txt	d_data.txt
-sample968				assay689		Data transformation	tdf.txt	d_data.txt
-sample969				assay690		Data transformation	tdf.txt	d_data.txt
-sample970				assay966		Data transformation	tdf.txt	d_data.txt
-sample971				assay510		Data transformation	tdf.txt	d_data.txt
-sample972				assay141		Data transformation	tdf.txt	d_data.txt
-sample973				assay967		Data transformation	tdf.txt	d_data.txt
-sample974				assay691		Data transformation	tdf.txt	d_data.txt
-sample975				assay511		Data transformation	tdf.txt	d_data.txt
-sample976				assay142		Data transformation	tdf.txt	d_data.txt
-sample977				assay512		Data transformation	tdf.txt	d_data.txt
-sample978				assay692		Data transformation	tdf.txt	d_data.txt
-sample979				assay143		Data transformation	tdf.txt	d_data.txt
-sample980				assay968		Data transformation	tdf.txt	d_data.txt
-sample981				assay1117		Data transformation	tdf.txt	d_data.txt
-sample982				assay144		Data transformation	tdf.txt	d_data.txt
-sample983				assay969		Data transformation	tdf.txt	d_data.txt
-sample984				assay513		Data transformation	tdf.txt	d_data.txt
-sample985				assay693		Data transformation	tdf.txt	d_data.txt
-sample986				assay694		Data transformation	tdf.txt	d_data.txt
-sample987				assay145		Data transformation	tdf.txt	d_data.txt
-sample988				assay970		Data transformation	tdf.txt	d_data.txt
-sample989				assay514		Data transformation	tdf.txt	d_data.txt
-sample990				assay515		Data transformation	tdf.txt	d_data.txt
-sample991				assay695		Data transformation	tdf.txt	d_data.txt
-sample992				assay146		Data transformation	tdf.txt	d_data.txt
-sample993				assay971		Data transformation	tdf.txt	d_data.txt
-sample994				assay147		Data transformation	tdf.txt	d_data.txt
-sample995				assay1118		Data transformation	tdf.txt	d_data.txt
-sample996				assay696		Data transformation	tdf.txt	d_data.txt
-sample997				assay516		Data transformation	tdf.txt	d_data.txt
-sample998				assay972		Data transformation	tdf.txt	d_data.txt
-sample999				assay1119		Data transformation	tdf.txt	d_data.txt
-sample1000				assay148		Data transformation	tdf.txt	d_data.txt
-sample1001				assay973		Data transformation	tdf.txt	d_data.txt
-sample1002				assay517		Data transformation	tdf.txt	d_data.txt
-sample1003				assay697		Data transformation	tdf.txt	d_data.txt
-sample1004				assay149		Data transformation	tdf.txt	d_data.txt
-sample1005				assay518		Data transformation	tdf.txt	d_data.txt
-sample1006				assay698		Data transformation	tdf.txt	d_data.txt
-sample1007				assay519		Data transformation	tdf.txt	d_data.txt
-sample1008				assay1120		Data transformation	tdf.txt	d_data.txt
-sample1009				assay974		Data transformation	tdf.txt	d_data.txt
-sample1010				assay150		Data transformation	tdf.txt	d_data.txt
-sample1011				assay699		Data transformation	tdf.txt	d_data.txt
-sample1012				assay151		Data transformation	tdf.txt	d_data.txt
-sample1013				assay700		Data transformation	tdf.txt	d_data.txt
-sample1014				assay520		Data transformation	tdf.txt	d_data.txt
-sample1015				assay975		Data transformation	tdf.txt	d_data.txt
-sample1016				assay152		Data transformation	tdf.txt	d_data.txt
-sample1017				assay976		Data transformation	tdf.txt	d_data.txt
-sample1018				assay521		Data transformation	tdf.txt	d_data.txt
-sample1019				assay701		Data transformation	tdf.txt	d_data.txt
-sample1020				assay1121		Data transformation	tdf.txt	d_data.txt
-sample1021				assay702		Data transformation	tdf.txt	d_data.txt
-sample1022				assay153		Data transformation	tdf.txt	d_data.txt
-sample1023				assay522		Data transformation	tdf.txt	d_data.txt
-sample1024				assay977		Data transformation	tdf.txt	d_data.txt
-sample1025				assay154		Data transformation	tdf.txt	d_data.txt
-sample1026				assay523		Data transformation	tdf.txt	d_data.txt
-sample1027				assay978		Data transformation	tdf.txt	d_data.txt
-sample1028				assay703		Data transformation	tdf.txt	d_data.txt
-sample1029				assay155		Data transformation	tdf.txt	d_data.txt
-sample1030				assay704		Data transformation	tdf.txt	d_data.txt
-sample1031				assay524		Data transformation	tdf.txt	d_data.txt
-sample1032				assay705		Data transformation	tdf.txt	d_data.txt
-sample1033				assay525		Data transformation	tdf.txt	d_data.txt
-sample1034				assay156		Data transformation	tdf.txt	d_data.txt
-sample1035				assay979		Data transformation	tdf.txt	d_data.txt
-sample1036				assay706		Data transformation	tdf.txt	d_data.txt
-sample1037				assay526		Data transformation	tdf.txt	d_data.txt
-sample1038				assay157		Data transformation	tdf.txt	d_data.txt
-sample1039				assay980		Data transformation	tdf.txt	d_data.txt
-sample1040				assay1122		Data transformation	tdf.txt	d_data.txt
-sample1041				assay981		Data transformation	tdf.txt	d_data.txt
-sample1042				assay707		Data transformation	tdf.txt	d_data.txt
-sample1043				assay158		Data transformation	tdf.txt	d_data.txt
-sample1044				assay527		Data transformation	tdf.txt	d_data.txt
-sample1045				assay1123		Data transformation	tdf.txt	d_data.txt
-sample1046				assay708		Data transformation	tdf.txt	d_data.txt
-sample1047				assay159		Data transformation	tdf.txt	d_data.txt
-sample1048				assay982		Data transformation	tdf.txt	d_data.txt
-sample1049				assay528		Data transformation	tdf.txt	d_data.txt
-sample1050				assay983		Data transformation	tdf.txt	d_data.txt
-sample1051				assay529		Data transformation	tdf.txt	d_data.txt
-sample1052				assay160		Data transformation	tdf.txt	d_data.txt
-sample1053				assay709		Data transformation	tdf.txt	d_data.txt
-sample1054				assay161		Data transformation	tdf.txt	d_data.txt
-sample1055				assay984		Data transformation	tdf.txt	d_data.txt
-sample1056				assay710		Data transformation	tdf.txt	d_data.txt
-sample1057				assay530		Data transformation	tdf.txt	d_data.txt
-sample1058				assay162		Data transformation	tdf.txt	d_data.txt
-sample1059				assay711		Data transformation	tdf.txt	d_data.txt
-sample1060				assay985		Data transformation	tdf.txt	d_data.txt
-sample1061				assay531		Data transformation	tdf.txt	d_data.txt
-sample1062				assay163		Data transformation	tdf.txt	d_data.txt
-sample1063				assay532		Data transformation	tdf.txt	d_data.txt
-sample1064				assay712		Data transformation	tdf.txt	d_data.txt
-sample1065				assay986		Data transformation	tdf.txt	d_data.txt
-sample1066				assay533		Data transformation	tdf.txt	d_data.txt
-sample1067				assay713		Data transformation	tdf.txt	d_data.txt
-sample1068				assay987		Data transformation	tdf.txt	d_data.txt
-sample1069				assay164		Data transformation	tdf.txt	d_data.txt
-sample1070				assay988		Data transformation	tdf.txt	d_data.txt
-sample1071				assay534		Data transformation	tdf.txt	d_data.txt
-sample1072				assay165		Data transformation	tdf.txt	d_data.txt
-sample1073				assay714		Data transformation	tdf.txt	d_data.txt
-sample1074				assay715		Data transformation	tdf.txt	d_data.txt
-sample1075				assay535		Data transformation	tdf.txt	d_data.txt
-sample1076				assay166		Data transformation	tdf.txt	d_data.txt
-sample1077				assay989		Data transformation	tdf.txt	d_data.txt
-sample1078				assay1124		Data transformation	tdf.txt	d_data.txt
-sample1079				assay716		Data transformation	tdf.txt	d_data.txt
-sample1080				assay167		Data transformation	tdf.txt	d_data.txt
-sample1081				assay990		Data transformation	tdf.txt	d_data.txt
-sample1082				assay536		Data transformation	tdf.txt	d_data.txt
-sample1083				assay991		Data transformation	tdf.txt	d_data.txt
-sample1084				assay168		Data transformation	tdf.txt	d_data.txt
-sample1085				assay717		Data transformation	tdf.txt	d_data.txt
-sample1086				assay537		Data transformation	tdf.txt	d_data.txt
-sample1087				assay718		Data transformation	tdf.txt	d_data.txt
-sample1088				assay538		Data transformation	tdf.txt	d_data.txt
-sample1089				assay169		Data transformation	tdf.txt	d_data.txt
-sample1090				assay992		Data transformation	tdf.txt	d_data.txt
-sample1091				assay539		Data transformation	tdf.txt	d_data.txt
-sample1092				assay1125		Data transformation	tdf.txt	d_data.txt
-sample1093				assay719		Data transformation	tdf.txt	d_data.txt
-sample1094				assay170		Data transformation	tdf.txt	d_data.txt
-sample1095				assay993		Data transformation	tdf.txt	d_data.txt
-sample1096				assay994		Data transformation	tdf.txt	d_data.txt
-sample1097				assay540		Data transformation	tdf.txt	d_data.txt
-sample1098				assay720		Data transformation	tdf.txt	d_data.txt
-sample1099				assay171		Data transformation	tdf.txt	d_data.txt
-sample1100				assay172		Data transformation	tdf.txt	d_data.txt
-sample1101				assay541		Data transformation	tdf.txt	d_data.txt
-sample1102				assay721		Data transformation	tdf.txt	d_data.txt
-sample1103				assay995		Data transformation	tdf.txt	d_data.txt
-sample1104				assay173		Data transformation	tdf.txt	d_data.txt
-sample1105				assay542		Data transformation	tdf.txt	d_data.txt
-sample1106				assay996		Data transformation	tdf.txt	d_data.txt
-sample1107				assay722		Data transformation	tdf.txt	d_data.txt
-sample1108				assay174		Data transformation	tdf.txt	d_data.txt
-sample1109				assay997		Data transformation	tdf.txt	d_data.txt
-sample1110				assay723		Data transformation	tdf.txt	d_data.txt
-sample1111				assay543		Data transformation	tdf.txt	d_data.txt
-sample1112				assay544		Data transformation	tdf.txt	d_data.txt
-sample1113				assay175		Data transformation	tdf.txt	d_data.txt
-sample1114				assay998		Data transformation	tdf.txt	d_data.txt
-sample1115				assay724		Data transformation	tdf.txt	d_data.txt
-sample1116				assay999		Data transformation	tdf.txt	d_data.txt
-sample1117				assay545		Data transformation	tdf.txt	d_data.txt
-sample1118				assay176		Data transformation	tdf.txt	d_data.txt
-sample1119				assay725		Data transformation	tdf.txt	d_data.txt
-sample1120				assay1000		Data transformation	tdf.txt	d_data.txt
-sample1121				assay546		Data transformation	tdf.txt	d_data.txt
-sample1122				assay177		Data transformation	tdf.txt	d_data.txt
-sample1123				assay1126		Data transformation	tdf.txt	d_data.txt
-sample1124				assay726		Data transformation	tdf.txt	d_data.txt
-sample1125				assay547		Data transformation	tdf.txt	d_data.txt
-sample1126				assay1001		Data transformation	tdf.txt	d_data.txt
-sample1127				assay727		Data transformation	tdf.txt	d_data.txt
-sample1128				assay178		Data transformation	tdf.txt	d_data.txt
-sample1129				assay1002		Data transformation	tdf.txt	d_data.txt
-sample1130				assay548		Data transformation	tdf.txt	d_data.txt
-sample1131				assay728		Data transformation	tdf.txt	d_data.txt
-sample1132				assay179		Data transformation	tdf.txt	d_data.txt
-sample1133				assay729		Data transformation	tdf.txt	d_data.txt
-sample1134				assay550		Data transformation	tdf.txt	d_data.txt
-sample1135				assay1003		Data transformation	tdf.txt	d_data.txt
-sample1136				assay180		Data transformation	tdf.txt	d_data.txt
-sample1137				assay730		Data transformation	tdf.txt	d_data.txt
-sample1138				assay731		Data transformation	tdf.txt	d_data.txt
-sample1139				assay551		Data transformation	tdf.txt	d_data.txt
-sample1140				assay181		Data transformation	tdf.txt	d_data.txt
-sample1141				assay1004		Data transformation	tdf.txt	d_data.txt
-sample1142				assay1005		Data transformation	tdf.txt	d_data.txt
-sample1143				assay732		Data transformation	tdf.txt	d_data.txt
-sample1144				assay552		Data transformation	tdf.txt	d_data.txt
-sample1145				assay182		Data transformation	tdf.txt	d_data.txt
-sample1146				assay733		Data transformation	tdf.txt	d_data.txt
-sample1147				assay1006		Data transformation	tdf.txt	d_data.txt
-sample1148				assay183		Data transformation	tdf.txt	d_data.txt
-sample1149				assay553		Data transformation	tdf.txt	d_data.txt
-sample1150				assay554		Data transformation	tdf.txt	d_data.txt
-sample1151				assay734		Data transformation	tdf.txt	d_data.txt
-sample1152				assay184		Data transformation	tdf.txt	d_data.txt
-sample1153				assay1007		Data transformation	tdf.txt	d_data.txt
-sample1154				assay1127		Data transformation	tdf.txt	d_data.txt
-sample1155				assay1128		Data transformation	tdf.txt	d_data.txt
-sample1156				assay1008		Data transformation	tdf.txt	d_data.txt
-sample1157				assay555		Data transformation	tdf.txt	d_data.txt
-sample1158				assay185		Data transformation	tdf.txt	d_data.txt
-sample1159				assay735		Data transformation	tdf.txt	d_data.txt
-sample1160				assay736		Data transformation	tdf.txt	d_data.txt
-sample1161				assay556		Data transformation	tdf.txt	d_data.txt
-sample1162				assay186		Data transformation	tdf.txt	d_data.txt
-sample1163				assay1009		Data transformation	tdf.txt	d_data.txt
-sample1164				assay557		Data transformation	tdf.txt	d_data.txt
-sample1165				assay187		Data transformation	tdf.txt	d_data.txt
-sample1166				assay1010		Data transformation	tdf.txt	d_data.txt
-sample1167				assay737		Data transformation	tdf.txt	d_data.txt
-sample1168				assay188		Data transformation	tdf.txt	d_data.txt
-sample1169				assay738		Data transformation	tdf.txt	d_data.txt
-sample1170				assay558		Data transformation	tdf.txt	d_data.txt
-sample1171				assay1011		Data transformation	tdf.txt	d_data.txt
-sample1172				assay1129		Data transformation	tdf.txt	d_data.txt
-sample1173				assay189		Data transformation	tdf.txt	d_data.txt
-sample1174				assay739		Data transformation	tdf.txt	d_data.txt
-sample1175				assay559		Data transformation	tdf.txt	d_data.txt
-sample1176				assay740		Data transformation	tdf.txt	d_data.txt
-sample1177				assay190		Data transformation	tdf.txt	d_data.txt
-sample1178				assay1012		Data transformation	tdf.txt	d_data.txt
-sample1179				assay560		Data transformation	tdf.txt	d_data.txt
-sample1180				assay191		Data transformation	tdf.txt	d_data.txt
-sample1181				assay741		Data transformation	tdf.txt	d_data.txt
-sample1182				assay1013		Data transformation	tdf.txt	d_data.txt
-sample1183				assay1014		Data transformation	tdf.txt	d_data.txt
-sample1184				assay192		Data transformation	tdf.txt	d_data.txt
-sample1185				assay742		Data transformation	tdf.txt	d_data.txt
-sample1186				assay562		Data transformation	tdf.txt	d_data.txt
-sample1187				assay563		Data transformation	tdf.txt	d_data.txt
-sample1188				assay387		Data transformation	tdf.txt	d_data.txt
-sample1189				assay843		Data transformation	tdf.txt	d_data.txt
-sample1190				assay743		Data transformation	tdf.txt	d_data.txt
-sample1191				assay1219		Data transformation	tdf.txt	d_data.txt
-sample1192				assay292		Data transformation	tdf.txt	d_data.txt
-sample1193				assay193		Data transformation	tdf.txt	d_data.txt
-sample1194				assay1130		Data transformation	tdf.txt	d_data.txt
-sample1195				assay1015		Data transformation	tdf.txt	d_data.txt
-sample1196				assay564		Data transformation	tdf.txt	d_data.txt
-sample1197				assay194		Data transformation	tdf.txt	d_data.txt
-sample1198				assay1016		Data transformation	tdf.txt	d_data.txt
-sample1199				assay744		Data transformation	tdf.txt	d_data.txt
-sample1200				assay745		Data transformation	tdf.txt	d_data.txt
-sample1201				assay565		Data transformation	tdf.txt	d_data.txt
-sample1202				assay1017		Data transformation	tdf.txt	d_data.txt
-sample1203				assay1018		Data transformation	tdf.txt	d_data.txt
-sample1204				assay746		Data transformation	tdf.txt	d_data.txt
-sample1205				assay566		Data transformation	tdf.txt	d_data.txt
-sample1206				assay195		Data transformation	tdf.txt	d_data.txt
-sample1207				assay567		Data transformation	tdf.txt	d_data.txt
-sample1208				assay1019		Data transformation	tdf.txt	d_data.txt
-sample1209				assay196		Data transformation	tdf.txt	d_data.txt
-sample1210				assay747		Data transformation	tdf.txt	d_data.txt
-sample1211				assay748		Data transformation	tdf.txt	d_data.txt
-sample1212				assay197		Data transformation	tdf.txt	d_data.txt
+Sample Name	Protocol REF	Parameter Value[Organism part]	Term Source REF	Term Accession Number	Parameter Value[Trait Definition File]	Assay Name	Raw Data File	Protocol REF	Derived Data File
+sample1	Phenotyping				tdf.txt	assay1020		Data transformation	d_data.txt
+sample2	Phenotyping				tdf.txt	assay1		Data transformation	d_data.txt
+sample3	Phenotyping				tdf.txt	assay1131		Data transformation	d_data.txt
+sample4	Phenotyping				tdf.txt	assay569		Data transformation	d_data.txt
+sample5	Phenotyping				tdf.txt	assay293		Data transformation	d_data.txt
+sample6	Phenotyping				tdf.txt	assay388		Data transformation	d_data.txt
+sample7	Phenotyping				tdf.txt	assay198		Data transformation	d_data.txt
+sample8	Phenotyping				tdf.txt	assay844		Data transformation	d_data.txt
+sample9	Phenotyping				tdf.txt	assay749		Data transformation	d_data.txt
+sample10	Phenotyping				tdf.txt	assay389		Data transformation	d_data.txt
+sample11	Phenotyping				tdf.txt	assay2		Data transformation	d_data.txt
+sample12	Phenotyping				tdf.txt	assay845		Data transformation	d_data.txt
+sample13	Phenotyping				tdf.txt	assay570		Data transformation	d_data.txt
+sample14	Phenotyping				tdf.txt	assay846		Data transformation	d_data.txt
+sample15	Phenotyping				tdf.txt	assay3		Data transformation	d_data.txt
+sample16	Phenotyping				tdf.txt	assay750		Data transformation	d_data.txt
+sample17	Phenotyping				tdf.txt	assay294		Data transformation	d_data.txt
+sample18	Phenotyping				tdf.txt	assay199		Data transformation	d_data.txt
+sample19	Phenotyping				tdf.txt	assay390		Data transformation	d_data.txt
+sample20	Phenotyping				tdf.txt	assay1132		Data transformation	d_data.txt
+sample21	Phenotyping				tdf.txt	assay571		Data transformation	d_data.txt
+sample22	Phenotyping				tdf.txt	assay1021		Data transformation	d_data.txt
+sample23	Phenotyping				tdf.txt	assay572		Data transformation	d_data.txt
+sample24	Phenotyping				tdf.txt	assay391		Data transformation	d_data.txt
+sample25	Phenotyping				tdf.txt	assay4		Data transformation	d_data.txt
+sample26	Phenotyping				tdf.txt	assay847		Data transformation	d_data.txt
+sample27	Phenotyping				tdf.txt	assay848		Data transformation	d_data.txt
+sample28	Phenotyping				tdf.txt	assay392		Data transformation	d_data.txt
+sample29	Phenotyping				tdf.txt	assay573		Data transformation	d_data.txt
+sample30	Phenotyping				tdf.txt	assay5		Data transformation	d_data.txt
+sample31	Phenotyping				tdf.txt	assay574		Data transformation	d_data.txt
+sample32	Phenotyping				tdf.txt	assay393		Data transformation	d_data.txt
+sample33	Phenotyping				tdf.txt	assay849		Data transformation	d_data.txt
+sample34	Phenotyping				tdf.txt	assay6		Data transformation	d_data.txt
+sample35	Phenotyping				tdf.txt	assay200		Data transformation	d_data.txt
+sample36	Phenotyping				tdf.txt	assay575		Data transformation	d_data.txt
+sample37	Phenotyping				tdf.txt	assay850		Data transformation	d_data.txt
+sample38	Phenotyping				tdf.txt	assay394		Data transformation	d_data.txt
+sample39	Phenotyping				tdf.txt	assay751		Data transformation	d_data.txt
+sample40	Phenotyping				tdf.txt	assay295		Data transformation	d_data.txt
+sample41	Phenotyping				tdf.txt	assay1022		Data transformation	d_data.txt
+sample42	Phenotyping				tdf.txt	assay7		Data transformation	d_data.txt
+sample43	Phenotyping				tdf.txt	assay1133		Data transformation	d_data.txt
+sample44	Phenotyping				tdf.txt	assay851		Data transformation	d_data.txt
+sample45	Phenotyping				tdf.txt	assay8		Data transformation	d_data.txt
+sample46	Phenotyping				tdf.txt	assay201		Data transformation	d_data.txt
+sample47	Phenotyping				tdf.txt	assay296		Data transformation	d_data.txt
+sample48	Phenotyping				tdf.txt	assay1134		Data transformation	d_data.txt
+sample49	Phenotyping				tdf.txt	assay395		Data transformation	d_data.txt
+sample50	Phenotyping				tdf.txt	assay1023		Data transformation	d_data.txt
+sample51	Phenotyping				tdf.txt	assay752		Data transformation	d_data.txt
+sample52	Phenotyping				tdf.txt	assay576		Data transformation	d_data.txt
+sample53	Phenotyping				tdf.txt	assay396		Data transformation	d_data.txt
+sample54	Phenotyping				tdf.txt	assay9		Data transformation	d_data.txt
+sample55	Phenotyping				tdf.txt	assay577		Data transformation	d_data.txt
+sample56	Phenotyping				tdf.txt	assay852		Data transformation	d_data.txt
+sample57	Phenotyping				tdf.txt	assay578		Data transformation	d_data.txt
+sample58	Phenotyping				tdf.txt	assay853		Data transformation	d_data.txt
+sample59	Phenotyping				tdf.txt	assay397		Data transformation	d_data.txt
+sample60	Phenotyping				tdf.txt	assay10		Data transformation	d_data.txt
+sample61	Phenotyping				tdf.txt	assay11		Data transformation	d_data.txt
+sample62	Phenotyping				tdf.txt	assay854		Data transformation	d_data.txt
+sample63	Phenotyping				tdf.txt	assay579		Data transformation	d_data.txt
+sample64	Phenotyping				tdf.txt	assay398		Data transformation	d_data.txt
+sample65	Phenotyping				tdf.txt	assay580		Data transformation	d_data.txt
+sample66	Phenotyping				tdf.txt	assay399		Data transformation	d_data.txt
+sample67	Phenotyping				tdf.txt	assay855		Data transformation	d_data.txt
+sample68	Phenotyping				tdf.txt	assay12		Data transformation	d_data.txt
+sample69	Phenotyping				tdf.txt	assay581		Data transformation	d_data.txt
+sample70	Phenotyping				tdf.txt	assay400		Data transformation	d_data.txt
+sample71	Phenotyping				tdf.txt	assay297		Data transformation	d_data.txt
+sample72	Phenotyping				tdf.txt	assay856		Data transformation	d_data.txt
+sample73	Phenotyping				tdf.txt	assay202		Data transformation	d_data.txt
+sample74	Phenotyping				tdf.txt	assay1135		Data transformation	d_data.txt
+sample75	Phenotyping				tdf.txt	assay13		Data transformation	d_data.txt
+sample76	Phenotyping				tdf.txt	assay1024		Data transformation	d_data.txt
+sample77	Phenotyping				tdf.txt	assay14		Data transformation	d_data.txt
+sample78	Phenotyping				tdf.txt	assay1025		Data transformation	d_data.txt
+sample79	Phenotyping				tdf.txt	assay401		Data transformation	d_data.txt
+sample80	Phenotyping				tdf.txt	assay754		Data transformation	d_data.txt
+sample81	Phenotyping				tdf.txt	assay857		Data transformation	d_data.txt
+sample82	Phenotyping				tdf.txt	assay203		Data transformation	d_data.txt
+sample83	Phenotyping				tdf.txt	assay582		Data transformation	d_data.txt
+sample84	Phenotyping				tdf.txt	assay298		Data transformation	d_data.txt
+sample85	Phenotyping				tdf.txt	assay1136		Data transformation	d_data.txt
+sample86	Phenotyping				tdf.txt	assay204		Data transformation	d_data.txt
+sample87	Phenotyping				tdf.txt	assay583		Data transformation	d_data.txt
+sample88	Phenotyping				tdf.txt	assay1026		Data transformation	d_data.txt
+sample89	Phenotyping				tdf.txt	assay1137		Data transformation	d_data.txt
+sample90	Phenotyping				tdf.txt	assay15		Data transformation	d_data.txt
+sample91	Phenotyping				tdf.txt	assay299		Data transformation	d_data.txt
+sample92	Phenotyping				tdf.txt	assay755		Data transformation	d_data.txt
+sample93	Phenotyping				tdf.txt	assay402		Data transformation	d_data.txt
+sample94	Phenotyping				tdf.txt	assay858		Data transformation	d_data.txt
+sample95	Phenotyping				tdf.txt	assay1138		Data transformation	d_data.txt
+sample96	Phenotyping				tdf.txt	assay584		Data transformation	d_data.txt
+sample97	Phenotyping				tdf.txt	assay403		Data transformation	d_data.txt
+sample98	Phenotyping				tdf.txt	assay756		Data transformation	d_data.txt
+sample99	Phenotyping				tdf.txt	assay300		Data transformation	d_data.txt
+sample100	Phenotyping				tdf.txt	assay859		Data transformation	d_data.txt
+sample101	Phenotyping				tdf.txt	assay16		Data transformation	d_data.txt
+sample102	Phenotyping				tdf.txt	assay205		Data transformation	d_data.txt
+sample103	Phenotyping				tdf.txt	assay757		Data transformation	d_data.txt
+sample104	Phenotyping				tdf.txt	assay206		Data transformation	d_data.txt
+sample105	Phenotyping				tdf.txt	assay1027		Data transformation	d_data.txt
+sample106	Phenotyping				tdf.txt	assay585		Data transformation	d_data.txt
+sample107	Phenotyping				tdf.txt	assay17		Data transformation	d_data.txt
+sample108	Phenotyping				tdf.txt	assay404		Data transformation	d_data.txt
+sample109	Phenotyping				tdf.txt	assay860		Data transformation	d_data.txt
+sample110	Phenotyping				tdf.txt	assay301		Data transformation	d_data.txt
+sample111	Phenotyping				tdf.txt	assay1028		Data transformation	d_data.txt
+sample112	Phenotyping				tdf.txt	assay302		Data transformation	d_data.txt
+sample113	Phenotyping				tdf.txt	assay405		Data transformation	d_data.txt
+sample114	Phenotyping				tdf.txt	assay207		Data transformation	d_data.txt
+sample115	Phenotyping				tdf.txt	assay861		Data transformation	d_data.txt
+sample116	Phenotyping				tdf.txt	assay758		Data transformation	d_data.txt
+sample117	Phenotyping				tdf.txt	assay1139		Data transformation	d_data.txt
+sample118	Phenotyping				tdf.txt	assay586		Data transformation	d_data.txt
+sample119	Phenotyping				tdf.txt	assay18		Data transformation	d_data.txt
+sample120	Phenotyping				tdf.txt	assay208		Data transformation	d_data.txt
+sample121	Phenotyping				tdf.txt	assay303		Data transformation	d_data.txt
+sample122	Phenotyping				tdf.txt	assay862		Data transformation	d_data.txt
+sample123	Phenotyping				tdf.txt	assay759		Data transformation	d_data.txt
+sample124	Phenotyping				tdf.txt	assay587		Data transformation	d_data.txt
+sample125	Phenotyping				tdf.txt	assay1140		Data transformation	d_data.txt
+sample126	Phenotyping				tdf.txt	assay19		Data transformation	d_data.txt
+sample127	Phenotyping				tdf.txt	assay1029		Data transformation	d_data.txt
+sample128	Phenotyping				tdf.txt	assay406		Data transformation	d_data.txt
+sample129	Phenotyping				tdf.txt	assay1030		Data transformation	d_data.txt
+sample130	Phenotyping				tdf.txt	assay863		Data transformation	d_data.txt
+sample131	Phenotyping				tdf.txt	assay407		Data transformation	d_data.txt
+sample132	Phenotyping				tdf.txt	assay20		Data transformation	d_data.txt
+sample133	Phenotyping				tdf.txt	assay588		Data transformation	d_data.txt
+sample134	Phenotyping				tdf.txt	assay304		Data transformation	d_data.txt
+sample135	Phenotyping				tdf.txt	assay1141		Data transformation	d_data.txt
+sample136	Phenotyping				tdf.txt	assay760		Data transformation	d_data.txt
+sample137	Phenotyping				tdf.txt	assay209		Data transformation	d_data.txt
+sample138	Phenotyping				tdf.txt	assay408		Data transformation	d_data.txt
+sample139	Phenotyping				tdf.txt	assay210		Data transformation	d_data.txt
+sample140	Phenotyping				tdf.txt	assay305		Data transformation	d_data.txt
+sample141	Phenotyping				tdf.txt	assay864		Data transformation	d_data.txt
+sample142	Phenotyping				tdf.txt	assay21		Data transformation	d_data.txt
+sample143	Phenotyping				tdf.txt	assay589		Data transformation	d_data.txt
+sample144	Phenotyping				tdf.txt	assay1031		Data transformation	d_data.txt
+sample145	Phenotyping				tdf.txt	assay1142		Data transformation	d_data.txt
+sample146	Phenotyping				tdf.txt	assay761		Data transformation	d_data.txt
+sample147	Phenotyping				tdf.txt	assay211		Data transformation	d_data.txt
+sample148	Phenotyping				tdf.txt	assay306		Data transformation	d_data.txt
+sample149	Phenotyping				tdf.txt	assay22		Data transformation	d_data.txt
+sample150	Phenotyping				tdf.txt	assay1032		Data transformation	d_data.txt
+sample151	Phenotyping				tdf.txt	assay762		Data transformation	d_data.txt
+sample152	Phenotyping				tdf.txt	assay865		Data transformation	d_data.txt
+sample153	Phenotyping				tdf.txt	assay590		Data transformation	d_data.txt
+sample154	Phenotyping				tdf.txt	assay409		Data transformation	d_data.txt
+sample155	Phenotyping				tdf.txt	assay1143		Data transformation	d_data.txt
+sample156	Phenotyping				tdf.txt	assay591		Data transformation	d_data.txt
+sample157	Phenotyping				tdf.txt	assay763		Data transformation	d_data.txt
+sample158	Phenotyping				tdf.txt	assay410		Data transformation	d_data.txt
+sample159	Phenotyping				tdf.txt	assay307		Data transformation	d_data.txt
+sample160	Phenotyping				tdf.txt	assay1144		Data transformation	d_data.txt
+sample161	Phenotyping				tdf.txt	assay1033		Data transformation	d_data.txt
+sample162	Phenotyping				tdf.txt	assay212		Data transformation	d_data.txt
+sample163	Phenotyping				tdf.txt	assay23		Data transformation	d_data.txt
+sample164	Phenotyping				tdf.txt	assay866		Data transformation	d_data.txt
+sample165	Phenotyping				tdf.txt	assay1034		Data transformation	d_data.txt
+sample166	Phenotyping				tdf.txt	assay1145		Data transformation	d_data.txt
+sample167	Phenotyping				tdf.txt	assay213		Data transformation	d_data.txt
+sample168	Phenotyping				tdf.txt	assay411		Data transformation	d_data.txt
+sample169	Phenotyping				tdf.txt	assay764		Data transformation	d_data.txt
+sample170	Phenotyping				tdf.txt	assay24		Data transformation	d_data.txt
+sample171	Phenotyping				tdf.txt	assay592		Data transformation	d_data.txt
+sample172	Phenotyping				tdf.txt	assay308		Data transformation	d_data.txt
+sample173	Phenotyping				tdf.txt	assay867		Data transformation	d_data.txt
+sample174	Phenotyping				tdf.txt	assay593		Data transformation	d_data.txt
+sample175	Phenotyping				tdf.txt	assay868		Data transformation	d_data.txt
+sample176	Phenotyping				tdf.txt	assay309		Data transformation	d_data.txt
+sample177	Phenotyping				tdf.txt	assay214		Data transformation	d_data.txt
+sample178	Phenotyping				tdf.txt	assay1146		Data transformation	d_data.txt
+sample179	Phenotyping				tdf.txt	assay765		Data transformation	d_data.txt
+sample180	Phenotyping				tdf.txt	assay1035		Data transformation	d_data.txt
+sample181	Phenotyping				tdf.txt	assay412		Data transformation	d_data.txt
+sample182	Phenotyping				tdf.txt	assay25		Data transformation	d_data.txt
+sample183	Phenotyping				tdf.txt	assay413		Data transformation	d_data.txt
+sample184	Phenotyping				tdf.txt	assay1036		Data transformation	d_data.txt
+sample185	Phenotyping				tdf.txt	assay869		Data transformation	d_data.txt
+sample186	Phenotyping				tdf.txt	assay26		Data transformation	d_data.txt
+sample187	Phenotyping				tdf.txt	assay594		Data transformation	d_data.txt
+sample188	Phenotyping				tdf.txt	assay215		Data transformation	d_data.txt
+sample189	Phenotyping				tdf.txt	assay1147		Data transformation	d_data.txt
+sample190	Phenotyping				tdf.txt	assay310		Data transformation	d_data.txt
+sample191	Phenotyping				tdf.txt	assay766		Data transformation	d_data.txt
+sample192	Phenotyping				tdf.txt	assay1037		Data transformation	d_data.txt
+sample193	Phenotyping				tdf.txt	assay414		Data transformation	d_data.txt
+sample194	Phenotyping				tdf.txt	assay595		Data transformation	d_data.txt
+sample195	Phenotyping				tdf.txt	assay870		Data transformation	d_data.txt
+sample196	Phenotyping				tdf.txt	assay27		Data transformation	d_data.txt
+sample197	Phenotyping				tdf.txt	assay1148		Data transformation	d_data.txt
+sample198	Phenotyping				tdf.txt	assay216		Data transformation	d_data.txt
+sample199	Phenotyping				tdf.txt	assay767		Data transformation	d_data.txt
+sample200	Phenotyping				tdf.txt	assay311		Data transformation	d_data.txt
+sample201	Phenotyping				tdf.txt	assay217		Data transformation	d_data.txt
+sample202	Phenotyping				tdf.txt	assay415		Data transformation	d_data.txt
+sample203	Phenotyping				tdf.txt	assay871		Data transformation	d_data.txt
+sample204	Phenotyping				tdf.txt	assay28		Data transformation	d_data.txt
+sample205	Phenotyping				tdf.txt	assay1038		Data transformation	d_data.txt
+sample206	Phenotyping				tdf.txt	assay596		Data transformation	d_data.txt
+sample207	Phenotyping				tdf.txt	assay312		Data transformation	d_data.txt
+sample208	Phenotyping				tdf.txt	assay768		Data transformation	d_data.txt
+sample209	Phenotyping				tdf.txt	assay1149		Data transformation	d_data.txt
+sample210	Phenotyping				tdf.txt	assay313		Data transformation	d_data.txt
+sample211	Phenotyping				tdf.txt	assay1150		Data transformation	d_data.txt
+sample212	Phenotyping				tdf.txt	assay29		Data transformation	d_data.txt
+sample213	Phenotyping				tdf.txt	assay218		Data transformation	d_data.txt
+sample214	Phenotyping				tdf.txt	assay872		Data transformation	d_data.txt
+sample215	Phenotyping				tdf.txt	assay597		Data transformation	d_data.txt
+sample216	Phenotyping				tdf.txt	assay416		Data transformation	d_data.txt
+sample217	Phenotyping				tdf.txt	assay1039		Data transformation	d_data.txt
+sample218	Phenotyping				tdf.txt	assay769		Data transformation	d_data.txt
+sample219	Phenotyping				tdf.txt	assay770		Data transformation	d_data.txt
+sample220	Phenotyping				tdf.txt	assay598		Data transformation	d_data.txt
+sample221	Phenotyping				tdf.txt	assay1151		Data transformation	d_data.txt
+sample222	Phenotyping				tdf.txt	assay417		Data transformation	d_data.txt
+sample223	Phenotyping				tdf.txt	assay30		Data transformation	d_data.txt
+sample224	Phenotyping				tdf.txt	assay219		Data transformation	d_data.txt
+sample225	Phenotyping				tdf.txt	assay314		Data transformation	d_data.txt
+sample226	Phenotyping				tdf.txt	assay873		Data transformation	d_data.txt
+sample227	Phenotyping				tdf.txt	assay1040		Data transformation	d_data.txt
+sample228	Phenotyping				tdf.txt	assay599		Data transformation	d_data.txt
+sample229	Phenotyping				tdf.txt	assay418		Data transformation	d_data.txt
+sample230	Phenotyping				tdf.txt	assay315		Data transformation	d_data.txt
+sample231	Phenotyping				tdf.txt	assay1152		Data transformation	d_data.txt
+sample232	Phenotyping				tdf.txt	assay220		Data transformation	d_data.txt
+sample233	Phenotyping				tdf.txt	assay771		Data transformation	d_data.txt
+sample234	Phenotyping				tdf.txt	assay31		Data transformation	d_data.txt
+sample235	Phenotyping				tdf.txt	assay1041		Data transformation	d_data.txt
+sample236	Phenotyping				tdf.txt	assay874		Data transformation	d_data.txt
+sample237	Phenotyping				tdf.txt	assay1042		Data transformation	d_data.txt
+sample238	Phenotyping				tdf.txt	assay419		Data transformation	d_data.txt
+sample239	Phenotyping				tdf.txt	assay221		Data transformation	d_data.txt
+sample240	Phenotyping				tdf.txt	assay875		Data transformation	d_data.txt
+sample241	Phenotyping				tdf.txt	assay316		Data transformation	d_data.txt
+sample242	Phenotyping				tdf.txt	assay772		Data transformation	d_data.txt
+sample243	Phenotyping				tdf.txt	assay600		Data transformation	d_data.txt
+sample244	Phenotyping				tdf.txt	assay1153		Data transformation	d_data.txt
+sample245	Phenotyping				tdf.txt	assay32		Data transformation	d_data.txt
+sample246	Phenotyping				tdf.txt	assay420		Data transformation	d_data.txt
+sample247	Phenotyping				tdf.txt	assay601		Data transformation	d_data.txt
+sample248	Phenotyping				tdf.txt	assay317		Data transformation	d_data.txt
+sample249	Phenotyping				tdf.txt	assay33		Data transformation	d_data.txt
+sample250	Phenotyping				tdf.txt	assay876		Data transformation	d_data.txt
+sample251	Phenotyping				tdf.txt	assay1043		Data transformation	d_data.txt
+sample252	Phenotyping				tdf.txt	assay1154		Data transformation	d_data.txt
+sample253	Phenotyping				tdf.txt	assay773		Data transformation	d_data.txt
+sample254	Phenotyping				tdf.txt	assay222		Data transformation	d_data.txt
+sample255	Phenotyping				tdf.txt	assay318		Data transformation	d_data.txt
+sample256	Phenotyping				tdf.txt	assay1044		Data transformation	d_data.txt
+sample257	Phenotyping				tdf.txt	assay34		Data transformation	d_data.txt
+sample258	Phenotyping				tdf.txt	assay223		Data transformation	d_data.txt
+sample259	Phenotyping				tdf.txt	assay1155		Data transformation	d_data.txt
+sample260	Phenotyping				tdf.txt	assay421		Data transformation	d_data.txt
+sample261	Phenotyping				tdf.txt	assay602		Data transformation	d_data.txt
+sample262	Phenotyping				tdf.txt	assay774		Data transformation	d_data.txt
+sample263	Phenotyping				tdf.txt	assay877		Data transformation	d_data.txt
+sample264	Phenotyping				tdf.txt	assay422		Data transformation	d_data.txt
+sample265	Phenotyping				tdf.txt	assay775		Data transformation	d_data.txt
+sample266	Phenotyping				tdf.txt	assay603		Data transformation	d_data.txt
+sample267	Phenotyping				tdf.txt	assay224		Data transformation	d_data.txt
+sample268	Phenotyping				tdf.txt	assay878		Data transformation	d_data.txt
+sample269	Phenotyping				tdf.txt	assay35		Data transformation	d_data.txt
+sample270	Phenotyping				tdf.txt	assay1045		Data transformation	d_data.txt
+sample271	Phenotyping				tdf.txt	assay1156		Data transformation	d_data.txt
+sample272	Phenotyping				tdf.txt	assay319		Data transformation	d_data.txt
+sample273	Phenotyping				tdf.txt	assay604		Data transformation	d_data.txt
+sample274	Phenotyping				tdf.txt	assay1157		Data transformation	d_data.txt
+sample275	Phenotyping				tdf.txt	assay879		Data transformation	d_data.txt
+sample276	Phenotyping				tdf.txt	assay423		Data transformation	d_data.txt
+sample277	Phenotyping				tdf.txt	assay225		Data transformation	d_data.txt
+sample278	Phenotyping				tdf.txt	assay1046		Data transformation	d_data.txt
+sample279	Phenotyping				tdf.txt	assay776		Data transformation	d_data.txt
+sample280	Phenotyping				tdf.txt	assay36		Data transformation	d_data.txt
+sample281	Phenotyping				tdf.txt	assay320		Data transformation	d_data.txt
+sample282	Phenotyping				tdf.txt	assay1158		Data transformation	d_data.txt
+sample283	Phenotyping				tdf.txt	assay321		Data transformation	d_data.txt
+sample284	Phenotyping				tdf.txt	assay777		Data transformation	d_data.txt
+sample285	Phenotyping				tdf.txt	assay880		Data transformation	d_data.txt
+sample286	Phenotyping				tdf.txt	assay37		Data transformation	d_data.txt
+sample287	Phenotyping				tdf.txt	assay424		Data transformation	d_data.txt
+sample288	Phenotyping				tdf.txt	assay605		Data transformation	d_data.txt
+sample289	Phenotyping				tdf.txt	assay226		Data transformation	d_data.txt
+sample290	Phenotyping				tdf.txt	assay1047		Data transformation	d_data.txt
+sample291	Phenotyping				tdf.txt	assay322		Data transformation	d_data.txt
+sample292	Phenotyping				tdf.txt	assay425		Data transformation	d_data.txt
+sample293	Phenotyping				tdf.txt	assay38		Data transformation	d_data.txt
+sample294	Phenotyping				tdf.txt	assay227		Data transformation	d_data.txt
+sample295	Phenotyping				tdf.txt	assay1048		Data transformation	d_data.txt
+sample296	Phenotyping				tdf.txt	assay606		Data transformation	d_data.txt
+sample297	Phenotyping				tdf.txt	assay778		Data transformation	d_data.txt
+sample298	Phenotyping				tdf.txt	assay881		Data transformation	d_data.txt
+sample299	Phenotyping				tdf.txt	assay1159		Data transformation	d_data.txt
+sample300	Phenotyping				tdf.txt	assay228		Data transformation	d_data.txt
+sample301	Phenotyping				tdf.txt	assay1160		Data transformation	d_data.txt
+sample302	Phenotyping				tdf.txt	assay882		Data transformation	d_data.txt
+sample303	Phenotyping				tdf.txt	assay39		Data transformation	d_data.txt
+sample304	Phenotyping				tdf.txt	assay779		Data transformation	d_data.txt
+sample305	Phenotyping				tdf.txt	assay607		Data transformation	d_data.txt
+sample306	Phenotyping				tdf.txt	assay323		Data transformation	d_data.txt
+sample307	Phenotyping				tdf.txt	assay426		Data transformation	d_data.txt
+sample308	Phenotyping				tdf.txt	assay1049		Data transformation	d_data.txt
+sample309	Phenotyping				tdf.txt	assay40		Data transformation	d_data.txt
+sample310	Phenotyping				tdf.txt	assay883		Data transformation	d_data.txt
+sample311	Phenotyping				tdf.txt	assay229		Data transformation	d_data.txt
+sample312	Phenotyping				tdf.txt	assay427		Data transformation	d_data.txt
+sample313	Phenotyping				tdf.txt	assay608		Data transformation	d_data.txt
+sample314	Phenotyping				tdf.txt	assay324		Data transformation	d_data.txt
+sample315	Phenotyping				tdf.txt	assay1161		Data transformation	d_data.txt
+sample316	Phenotyping				tdf.txt	assay780		Data transformation	d_data.txt
+sample317	Phenotyping				tdf.txt	assay1050		Data transformation	d_data.txt
+sample318	Phenotyping				tdf.txt	assay609		Data transformation	d_data.txt
+sample319	Phenotyping				tdf.txt	assay1162		Data transformation	d_data.txt
+sample320	Phenotyping				tdf.txt	assay41		Data transformation	d_data.txt
+sample321	Phenotyping				tdf.txt	assay781		Data transformation	d_data.txt
+sample322	Phenotyping				tdf.txt	assay1051		Data transformation	d_data.txt
+sample323	Phenotyping				tdf.txt	assay230		Data transformation	d_data.txt
+sample324	Phenotyping				tdf.txt	assay884		Data transformation	d_data.txt
+sample325	Phenotyping				tdf.txt	assay428		Data transformation	d_data.txt
+sample326	Phenotyping				tdf.txt	assay325		Data transformation	d_data.txt
+sample327	Phenotyping				tdf.txt	assay429		Data transformation	d_data.txt
+sample328	Phenotyping				tdf.txt	assay610		Data transformation	d_data.txt
+sample329	Phenotyping				tdf.txt	assay42		Data transformation	d_data.txt
+sample330	Phenotyping				tdf.txt	assay885		Data transformation	d_data.txt
+sample331	Phenotyping				tdf.txt	assay1052		Data transformation	d_data.txt
+sample332	Phenotyping				tdf.txt	assay1163		Data transformation	d_data.txt
+sample333	Phenotyping				tdf.txt	assay231		Data transformation	d_data.txt
+sample334	Phenotyping				tdf.txt	assay782		Data transformation	d_data.txt
+sample335	Phenotyping				tdf.txt	assay326		Data transformation	d_data.txt
+sample336	Phenotyping				tdf.txt	assay43		Data transformation	d_data.txt
+sample337	Phenotyping				tdf.txt	assay1053		Data transformation	d_data.txt
+sample338	Phenotyping				tdf.txt	assay611		Data transformation	d_data.txt
+sample339	Phenotyping				tdf.txt	assay430		Data transformation	d_data.txt
+sample340	Phenotyping				tdf.txt	assay327		Data transformation	d_data.txt
+sample341	Phenotyping				tdf.txt	assay232		Data transformation	d_data.txt
+sample342	Phenotyping				tdf.txt	assay886		Data transformation	d_data.txt
+sample343	Phenotyping				tdf.txt	assay1164		Data transformation	d_data.txt
+sample344	Phenotyping				tdf.txt	assay783		Data transformation	d_data.txt
+sample345	Phenotyping				tdf.txt	assay233		Data transformation	d_data.txt
+sample346	Phenotyping				tdf.txt	assay431		Data transformation	d_data.txt
+sample347	Phenotyping				tdf.txt	assay1165		Data transformation	d_data.txt
+sample348	Phenotyping				tdf.txt	assay328		Data transformation	d_data.txt
+sample349	Phenotyping				tdf.txt	assay887		Data transformation	d_data.txt
+sample350	Phenotyping				tdf.txt	assay44		Data transformation	d_data.txt
+sample351	Phenotyping				tdf.txt	assay784		Data transformation	d_data.txt
+sample352	Phenotyping				tdf.txt	assay612		Data transformation	d_data.txt
+sample353	Phenotyping				tdf.txt	assay1054		Data transformation	d_data.txt
+sample354	Phenotyping				tdf.txt	assay432		Data transformation	d_data.txt
+sample355	Phenotyping				tdf.txt	assay1055		Data transformation	d_data.txt
+sample356	Phenotyping				tdf.txt	assay45		Data transformation	d_data.txt
+sample357	Phenotyping				tdf.txt	assay888		Data transformation	d_data.txt
+sample358	Phenotyping				tdf.txt	assay785		Data transformation	d_data.txt
+sample359	Phenotyping				tdf.txt	assay329		Data transformation	d_data.txt
+sample360	Phenotyping				tdf.txt	assay234		Data transformation	d_data.txt
+sample361	Phenotyping				tdf.txt	assay613		Data transformation	d_data.txt
+sample362	Phenotyping				tdf.txt	assay1166		Data transformation	d_data.txt
+sample363	Phenotyping				tdf.txt	assay786		Data transformation	d_data.txt
+sample364	Phenotyping				tdf.txt	assay1167		Data transformation	d_data.txt
+sample365	Phenotyping				tdf.txt	assay330		Data transformation	d_data.txt
+sample366	Phenotyping				tdf.txt	assay46		Data transformation	d_data.txt
+sample367	Phenotyping				tdf.txt	assay614		Data transformation	d_data.txt
+sample368	Phenotyping				tdf.txt	assay889		Data transformation	d_data.txt
+sample369	Phenotyping				tdf.txt	assay433		Data transformation	d_data.txt
+sample370	Phenotyping				tdf.txt	assay235		Data transformation	d_data.txt
+sample371	Phenotyping				tdf.txt	assay1056		Data transformation	d_data.txt
+sample372	Phenotyping				tdf.txt	assay434		Data transformation	d_data.txt
+sample373	Phenotyping				tdf.txt	assay47		Data transformation	d_data.txt
+sample374	Phenotyping				tdf.txt	assay1057		Data transformation	d_data.txt
+sample375	Phenotyping				tdf.txt	assay236		Data transformation	d_data.txt
+sample376	Phenotyping				tdf.txt	assay787		Data transformation	d_data.txt
+sample377	Phenotyping				tdf.txt	assay615		Data transformation	d_data.txt
+sample378	Phenotyping				tdf.txt	assay890		Data transformation	d_data.txt
+sample379	Phenotyping				tdf.txt	assay331		Data transformation	d_data.txt
+sample380	Phenotyping				tdf.txt	assay891		Data transformation	d_data.txt
+sample381	Phenotyping				tdf.txt	assay435		Data transformation	d_data.txt
+sample382	Phenotyping				tdf.txt	assay616		Data transformation	d_data.txt
+sample383	Phenotyping				tdf.txt	assay48		Data transformation	d_data.txt
+sample384	Phenotyping				tdf.txt	assay237		Data transformation	d_data.txt
+sample385	Phenotyping				tdf.txt	assay788		Data transformation	d_data.txt
+sample386	Phenotyping				tdf.txt	assay1058		Data transformation	d_data.txt
+sample387	Phenotyping				tdf.txt	assay1168		Data transformation	d_data.txt
+sample388	Phenotyping				tdf.txt	assay332		Data transformation	d_data.txt
+sample389	Phenotyping				tdf.txt	assay436		Data transformation	d_data.txt
+sample390	Phenotyping				tdf.txt	assay789		Data transformation	d_data.txt
+sample391	Phenotyping				tdf.txt	assay49		Data transformation	d_data.txt
+sample392	Phenotyping				tdf.txt	assay238		Data transformation	d_data.txt
+sample393	Phenotyping				tdf.txt	assay892		Data transformation	d_data.txt
+sample394	Phenotyping				tdf.txt	assay617		Data transformation	d_data.txt
+sample395	Phenotyping				tdf.txt	assay333		Data transformation	d_data.txt
+sample396	Phenotyping				tdf.txt	assay1059		Data transformation	d_data.txt
+sample397	Phenotyping				tdf.txt	assay1169		Data transformation	d_data.txt
+sample398	Phenotyping				tdf.txt	assay334		Data transformation	d_data.txt
+sample399	Phenotyping				tdf.txt	assay50		Data transformation	d_data.txt
+sample400	Phenotyping				tdf.txt	assay239		Data transformation	d_data.txt
+sample401	Phenotyping				tdf.txt	assay618		Data transformation	d_data.txt
+sample402	Phenotyping				tdf.txt	assay1060		Data transformation	d_data.txt
+sample403	Phenotyping				tdf.txt	assay893		Data transformation	d_data.txt
+sample404	Phenotyping				tdf.txt	assay790		Data transformation	d_data.txt
+sample405	Phenotyping				tdf.txt	assay437		Data transformation	d_data.txt
+sample406	Phenotyping				tdf.txt	assay1170		Data transformation	d_data.txt
+sample407	Phenotyping				tdf.txt	assay619		Data transformation	d_data.txt
+sample408	Phenotyping				tdf.txt	assay791		Data transformation	d_data.txt
+sample409	Phenotyping				tdf.txt	assay335		Data transformation	d_data.txt
+sample410	Phenotyping				tdf.txt	assay240		Data transformation	d_data.txt
+sample411	Phenotyping				tdf.txt	assay51		Data transformation	d_data.txt
+sample412	Phenotyping				tdf.txt	assay1171		Data transformation	d_data.txt
+sample413	Phenotyping				tdf.txt	assay438		Data transformation	d_data.txt
+sample414	Phenotyping				tdf.txt	assay894		Data transformation	d_data.txt
+sample415	Phenotyping				tdf.txt	assay1061		Data transformation	d_data.txt
+sample416	Phenotyping				tdf.txt	assay439		Data transformation	d_data.txt
+sample417	Phenotyping				tdf.txt	assay895		Data transformation	d_data.txt
+sample418	Phenotyping				tdf.txt	assay620		Data transformation	d_data.txt
+sample419	Phenotyping				tdf.txt	assay336		Data transformation	d_data.txt
+sample420	Phenotyping				tdf.txt	assay52		Data transformation	d_data.txt
+sample421	Phenotyping				tdf.txt	assay1062		Data transformation	d_data.txt
+sample422	Phenotyping				tdf.txt	assay241		Data transformation	d_data.txt
+sample423	Phenotyping				tdf.txt	assay792		Data transformation	d_data.txt
+sample424	Phenotyping				tdf.txt	assay1172		Data transformation	d_data.txt
+sample425	Phenotyping				tdf.txt	assay896		Data transformation	d_data.txt
+sample426	Phenotyping				tdf.txt	assay440		Data transformation	d_data.txt
+sample427	Phenotyping				tdf.txt	assay1173		Data transformation	d_data.txt
+sample428	Phenotyping				tdf.txt	assay242		Data transformation	d_data.txt
+sample429	Phenotyping				tdf.txt	assay53		Data transformation	d_data.txt
+sample430	Phenotyping				tdf.txt	assay337		Data transformation	d_data.txt
+sample431	Phenotyping				tdf.txt	assay1063		Data transformation	d_data.txt
+sample432	Phenotyping				tdf.txt	assay793		Data transformation	d_data.txt
+sample433	Phenotyping				tdf.txt	assay621		Data transformation	d_data.txt
+sample434	Phenotyping				tdf.txt	assay1174		Data transformation	d_data.txt
+sample435	Phenotyping				tdf.txt	assay243		Data transformation	d_data.txt
+sample436	Phenotyping				tdf.txt	assay1064		Data transformation	d_data.txt
+sample437	Phenotyping				tdf.txt	assay441		Data transformation	d_data.txt
+sample438	Phenotyping				tdf.txt	assay897		Data transformation	d_data.txt
+sample439	Phenotyping				tdf.txt	assay622		Data transformation	d_data.txt
+sample440	Phenotyping				tdf.txt	assay338		Data transformation	d_data.txt
+sample441	Phenotyping				tdf.txt	assay794		Data transformation	d_data.txt
+sample442	Phenotyping				tdf.txt	assay54		Data transformation	d_data.txt
+sample443	Phenotyping				tdf.txt	assay1065		Data transformation	d_data.txt
+sample444	Phenotyping				tdf.txt	assay1175		Data transformation	d_data.txt
+sample445	Phenotyping				tdf.txt	assay442		Data transformation	d_data.txt
+sample446	Phenotyping				tdf.txt	assay795		Data transformation	d_data.txt
+sample447	Phenotyping				tdf.txt	assay339		Data transformation	d_data.txt
+sample448	Phenotyping				tdf.txt	assay898		Data transformation	d_data.txt
+sample449	Phenotyping				tdf.txt	assay244		Data transformation	d_data.txt
+sample450	Phenotyping				tdf.txt	assay55		Data transformation	d_data.txt
+sample451	Phenotyping				tdf.txt	assay623		Data transformation	d_data.txt
+sample452	Phenotyping				tdf.txt	assay1066		Data transformation	d_data.txt
+sample453	Phenotyping				tdf.txt	assay1176		Data transformation	d_data.txt
+sample454	Phenotyping				tdf.txt	assay340		Data transformation	d_data.txt
+sample455	Phenotyping				tdf.txt	assay245		Data transformation	d_data.txt
+sample456	Phenotyping				tdf.txt	assay899		Data transformation	d_data.txt
+sample457	Phenotyping				tdf.txt	assay624		Data transformation	d_data.txt
+sample458	Phenotyping				tdf.txt	assay796		Data transformation	d_data.txt
+sample459	Phenotyping				tdf.txt	assay56		Data transformation	d_data.txt
+sample460	Phenotyping				tdf.txt	assay443		Data transformation	d_data.txt
+sample461	Phenotyping				tdf.txt	assay625		Data transformation	d_data.txt
+sample462	Phenotyping				tdf.txt	assay1177		Data transformation	d_data.txt
+sample463	Phenotyping				tdf.txt	assay797		Data transformation	d_data.txt
+sample464	Phenotyping				tdf.txt	assay900		Data transformation	d_data.txt
+sample465	Phenotyping				tdf.txt	assay246		Data transformation	d_data.txt
+sample466	Phenotyping				tdf.txt	assay341		Data transformation	d_data.txt
+sample467	Phenotyping				tdf.txt	assay1067		Data transformation	d_data.txt
+sample468	Phenotyping				tdf.txt	assay57		Data transformation	d_data.txt
+sample469	Phenotyping				tdf.txt	assay444		Data transformation	d_data.txt
+sample470	Phenotyping				tdf.txt	assay445		Data transformation	d_data.txt
+sample471	Phenotyping				tdf.txt	assay901		Data transformation	d_data.txt
+sample472	Phenotyping				tdf.txt	assay58		Data transformation	d_data.txt
+sample473	Phenotyping				tdf.txt	assay626		Data transformation	d_data.txt
+sample474	Phenotyping				tdf.txt	assay446		Data transformation	d_data.txt
+sample475	Phenotyping				tdf.txt	assay798		Data transformation	d_data.txt
+sample476	Phenotyping				tdf.txt	assay342		Data transformation	d_data.txt
+sample477	Phenotyping				tdf.txt	assay1068		Data transformation	d_data.txt
+sample478	Phenotyping				tdf.txt	assay902		Data transformation	d_data.txt
+sample479	Phenotyping				tdf.txt	assay1178		Data transformation	d_data.txt
+sample480	Phenotyping				tdf.txt	assay59		Data transformation	d_data.txt
+sample481	Phenotyping				tdf.txt	assay627		Data transformation	d_data.txt
+sample482	Phenotyping				tdf.txt	assay247		Data transformation	d_data.txt
+sample483	Phenotyping				tdf.txt	assay447		Data transformation	d_data.txt
+sample484	Phenotyping				tdf.txt	assay628		Data transformation	d_data.txt
+sample485	Phenotyping				tdf.txt	assay343		Data transformation	d_data.txt
+sample486	Phenotyping				tdf.txt	assay248		Data transformation	d_data.txt
+sample487	Phenotyping				tdf.txt	assay60		Data transformation	d_data.txt
+sample488	Phenotyping				tdf.txt	assay1069		Data transformation	d_data.txt
+sample489	Phenotyping				tdf.txt	assay1179		Data transformation	d_data.txt
+sample490	Phenotyping				tdf.txt	assay903		Data transformation	d_data.txt
+sample491	Phenotyping				tdf.txt	assay799		Data transformation	d_data.txt
+sample492	Phenotyping				tdf.txt	assay904		Data transformation	d_data.txt
+sample493	Phenotyping				tdf.txt	assay629		Data transformation	d_data.txt
+sample494	Phenotyping				tdf.txt	assay249		Data transformation	d_data.txt
+sample495	Phenotyping				tdf.txt	assay61		Data transformation	d_data.txt
+sample496	Phenotyping				tdf.txt	assay1070		Data transformation	d_data.txt
+sample497	Phenotyping				tdf.txt	assay1180		Data transformation	d_data.txt
+sample498	Phenotyping				tdf.txt	assay344		Data transformation	d_data.txt
+sample499	Phenotyping				tdf.txt	assay448		Data transformation	d_data.txt
+sample500	Phenotyping				tdf.txt	assay800		Data transformation	d_data.txt
+sample501	Phenotyping				tdf.txt	assay801		Data transformation	d_data.txt
+sample502	Phenotyping				tdf.txt	assay1181		Data transformation	d_data.txt
+sample503	Phenotyping				tdf.txt	assay250		Data transformation	d_data.txt
+sample504	Phenotyping				tdf.txt	assay449		Data transformation	d_data.txt
+sample505	Phenotyping				tdf.txt	assay630		Data transformation	d_data.txt
+sample506	Phenotyping				tdf.txt	assay905		Data transformation	d_data.txt
+sample507	Phenotyping				tdf.txt	assay345		Data transformation	d_data.txt
+sample508	Phenotyping				tdf.txt	assay62		Data transformation	d_data.txt
+sample509	Phenotyping				tdf.txt	assay1071		Data transformation	d_data.txt
+sample510	Phenotyping				tdf.txt	assay1072		Data transformation	d_data.txt
+sample511	Phenotyping				tdf.txt	assay906		Data transformation	d_data.txt
+sample512	Phenotyping				tdf.txt	assay631		Data transformation	d_data.txt
+sample513	Phenotyping				tdf.txt	assay1182		Data transformation	d_data.txt
+sample514	Phenotyping				tdf.txt	assay450		Data transformation	d_data.txt
+sample515	Phenotyping				tdf.txt	assay346		Data transformation	d_data.txt
+sample516	Phenotyping				tdf.txt	assay63		Data transformation	d_data.txt
+sample517	Phenotyping				tdf.txt	assay802		Data transformation	d_data.txt
+sample518	Phenotyping				tdf.txt	assay251		Data transformation	d_data.txt
+sample519	Phenotyping				tdf.txt	assay907		Data transformation	d_data.txt
+sample520	Phenotyping				tdf.txt	assay1073		Data transformation	d_data.txt
+sample521	Phenotyping				tdf.txt	assay347		Data transformation	d_data.txt
+sample522	Phenotyping				tdf.txt	assay252		Data transformation	d_data.txt
+sample523	Phenotyping				tdf.txt	assay64		Data transformation	d_data.txt
+sample524	Phenotyping				tdf.txt	assay1183		Data transformation	d_data.txt
+sample525	Phenotyping				tdf.txt	assay451		Data transformation	d_data.txt
+sample526	Phenotyping				tdf.txt	assay632		Data transformation	d_data.txt
+sample527	Phenotyping				tdf.txt	assay803		Data transformation	d_data.txt
+sample528	Phenotyping				tdf.txt	assay1184		Data transformation	d_data.txt
+sample529	Phenotyping				tdf.txt	assay804		Data transformation	d_data.txt
+sample530	Phenotyping				tdf.txt	assay253		Data transformation	d_data.txt
+sample531	Phenotyping				tdf.txt	assay1074		Data transformation	d_data.txt
+sample532	Phenotyping				tdf.txt	assay908		Data transformation	d_data.txt
+sample533	Phenotyping				tdf.txt	assay348		Data transformation	d_data.txt
+sample534	Phenotyping				tdf.txt	assay633		Data transformation	d_data.txt
+sample535	Phenotyping				tdf.txt	assay65		Data transformation	d_data.txt
+sample536	Phenotyping				tdf.txt	assay452		Data transformation	d_data.txt
+sample537	Phenotyping				tdf.txt	assay634		Data transformation	d_data.txt
+sample538	Phenotyping				tdf.txt	assay453		Data transformation	d_data.txt
+sample539	Phenotyping				tdf.txt	assay1185		Data transformation	d_data.txt
+sample540	Phenotyping				tdf.txt	assay805		Data transformation	d_data.txt
+sample541	Phenotyping				tdf.txt	assay254		Data transformation	d_data.txt
+sample542	Phenotyping				tdf.txt	assay909		Data transformation	d_data.txt
+sample543	Phenotyping				tdf.txt	assay349		Data transformation	d_data.txt
+sample544	Phenotyping				tdf.txt	assay1075		Data transformation	d_data.txt
+sample545	Phenotyping				tdf.txt	assay66		Data transformation	d_data.txt
+sample546	Phenotyping				tdf.txt	assay910		Data transformation	d_data.txt
+sample547	Phenotyping				tdf.txt	assay350		Data transformation	d_data.txt
+sample548	Phenotyping				tdf.txt	assay67		Data transformation	d_data.txt
+sample549	Phenotyping				tdf.txt	assay1076		Data transformation	d_data.txt
+sample550	Phenotyping				tdf.txt	assay806		Data transformation	d_data.txt
+sample551	Phenotyping				tdf.txt	assay635		Data transformation	d_data.txt
+sample552	Phenotyping				tdf.txt	assay1186		Data transformation	d_data.txt
+sample553	Phenotyping				tdf.txt	assay255		Data transformation	d_data.txt
+sample554	Phenotyping				tdf.txt	assay454		Data transformation	d_data.txt
+sample555	Phenotyping				tdf.txt	assay256		Data transformation	d_data.txt
+sample556	Phenotyping				tdf.txt	assay1187		Data transformation	d_data.txt
+sample557	Phenotyping				tdf.txt	assay636		Data transformation	d_data.txt
+sample558	Phenotyping				tdf.txt	assay807		Data transformation	d_data.txt
+sample559	Phenotyping				tdf.txt	assay911		Data transformation	d_data.txt
+sample560	Phenotyping				tdf.txt	assay455		Data transformation	d_data.txt
+sample561	Phenotyping				tdf.txt	assay351		Data transformation	d_data.txt
+sample562	Phenotyping				tdf.txt	assay68		Data transformation	d_data.txt
+sample563	Phenotyping				tdf.txt	assay1077		Data transformation	d_data.txt
+sample564	Phenotyping				tdf.txt	assay257		Data transformation	d_data.txt
+sample565	Phenotyping				tdf.txt	assay352		Data transformation	d_data.txt
+sample566	Phenotyping				tdf.txt	assay808		Data transformation	d_data.txt
+sample567	Phenotyping				tdf.txt	assay637		Data transformation	d_data.txt
+sample568	Phenotyping				tdf.txt	assay69		Data transformation	d_data.txt
+sample569	Phenotyping				tdf.txt	assay912		Data transformation	d_data.txt
+sample570	Phenotyping				tdf.txt	assay456		Data transformation	d_data.txt
+sample571	Phenotyping				tdf.txt	assay1078		Data transformation	d_data.txt
+sample572	Phenotyping				tdf.txt	assay1188		Data transformation	d_data.txt
+sample573	Phenotyping				tdf.txt	assay638		Data transformation	d_data.txt
+sample574	Phenotyping				tdf.txt	assay1189		Data transformation	d_data.txt
+sample575	Phenotyping				tdf.txt	assay809		Data transformation	d_data.txt
+sample576	Phenotyping				tdf.txt	assay913		Data transformation	d_data.txt
+sample577	Phenotyping				tdf.txt	assay70		Data transformation	d_data.txt
+sample578	Phenotyping				tdf.txt	assay457		Data transformation	d_data.txt
+sample579	Phenotyping				tdf.txt	assay258		Data transformation	d_data.txt
+sample580	Phenotyping				tdf.txt	assay1079		Data transformation	d_data.txt
+sample581	Phenotyping				tdf.txt	assay353		Data transformation	d_data.txt
+sample582	Phenotyping				tdf.txt	assay458		Data transformation	d_data.txt
+sample583	Phenotyping				tdf.txt	assay914		Data transformation	d_data.txt
+sample584	Phenotyping				tdf.txt	assay259		Data transformation	d_data.txt
+sample585	Phenotyping				tdf.txt	assay1080		Data transformation	d_data.txt
+sample586	Phenotyping				tdf.txt	assay810		Data transformation	d_data.txt
+sample587	Phenotyping				tdf.txt	assay639		Data transformation	d_data.txt
+sample588	Phenotyping				tdf.txt	assay71		Data transformation	d_data.txt
+sample589	Phenotyping				tdf.txt	assay354		Data transformation	d_data.txt
+sample590	Phenotyping				tdf.txt	assay1190		Data transformation	d_data.txt
+sample591	Phenotyping				tdf.txt	assay260		Data transformation	d_data.txt
+sample592	Phenotyping				tdf.txt	assay811		Data transformation	d_data.txt
+sample593	Phenotyping				tdf.txt	assay1191		Data transformation	d_data.txt
+sample594	Phenotyping				tdf.txt	assay1081		Data transformation	d_data.txt
+sample595	Phenotyping				tdf.txt	assay459		Data transformation	d_data.txt
+sample596	Phenotyping				tdf.txt	assay915		Data transformation	d_data.txt
+sample597	Phenotyping				tdf.txt	assay640		Data transformation	d_data.txt
+sample598	Phenotyping				tdf.txt	assay355		Data transformation	d_data.txt
+sample599	Phenotyping				tdf.txt	assay72		Data transformation	d_data.txt
+sample600	Phenotyping				tdf.txt	assay356		Data transformation	d_data.txt
+sample601	Phenotyping				tdf.txt	assay916		Data transformation	d_data.txt
+sample602	Phenotyping				tdf.txt	assay1192		Data transformation	d_data.txt
+sample603	Phenotyping				tdf.txt	assay812		Data transformation	d_data.txt
+sample604	Phenotyping				tdf.txt	assay261		Data transformation	d_data.txt
+sample605	Phenotyping				tdf.txt	assay641		Data transformation	d_data.txt
+sample606	Phenotyping				tdf.txt	assay73		Data transformation	d_data.txt
+sample607	Phenotyping				tdf.txt	assay460		Data transformation	d_data.txt
+sample608	Phenotyping				tdf.txt	assay1193		Data transformation	d_data.txt
+sample609	Phenotyping				tdf.txt	assay74		Data transformation	d_data.txt
+sample610	Phenotyping				tdf.txt	assay813		Data transformation	d_data.txt
+sample611	Phenotyping				tdf.txt	assay357		Data transformation	d_data.txt
+sample612	Phenotyping				tdf.txt	assay461		Data transformation	d_data.txt
+sample613	Phenotyping				tdf.txt	assay642		Data transformation	d_data.txt
+sample614	Phenotyping				tdf.txt	assay917		Data transformation	d_data.txt
+sample615	Phenotyping				tdf.txt	assay262		Data transformation	d_data.txt
+sample616	Phenotyping				tdf.txt	assay1083		Data transformation	d_data.txt
+sample617	Phenotyping				tdf.txt	assay814		Data transformation	d_data.txt
+sample618	Phenotyping				tdf.txt	assay643		Data transformation	d_data.txt
+sample619	Phenotyping				tdf.txt	assay918		Data transformation	d_data.txt
+sample620	Phenotyping				tdf.txt	assay75		Data transformation	d_data.txt
+sample621	Phenotyping				tdf.txt	assay462		Data transformation	d_data.txt
+sample622	Phenotyping				tdf.txt	assay1084		Data transformation	d_data.txt
+sample623	Phenotyping				tdf.txt	assay358		Data transformation	d_data.txt
+sample624	Phenotyping				tdf.txt	assay263		Data transformation	d_data.txt
+sample625	Phenotyping				tdf.txt	assay463		Data transformation	d_data.txt
+sample626	Phenotyping				tdf.txt	assay815		Data transformation	d_data.txt
+sample627	Phenotyping				tdf.txt	assay76		Data transformation	d_data.txt
+sample628	Phenotyping				tdf.txt	assay359		Data transformation	d_data.txt
+sample629	Phenotyping				tdf.txt	assay644		Data transformation	d_data.txt
+sample630	Phenotyping				tdf.txt	assay919		Data transformation	d_data.txt
+sample631	Phenotyping				tdf.txt	assay1085		Data transformation	d_data.txt
+sample632	Phenotyping				tdf.txt	assay264		Data transformation	d_data.txt
+sample633	Phenotyping				tdf.txt	assay1194		Data transformation	d_data.txt
+sample634	Phenotyping				tdf.txt	assay645		Data transformation	d_data.txt
+sample635	Phenotyping				tdf.txt	assay464		Data transformation	d_data.txt
+sample636	Phenotyping				tdf.txt	assay816		Data transformation	d_data.txt
+sample637	Phenotyping				tdf.txt	assay1086		Data transformation	d_data.txt
+sample638	Phenotyping				tdf.txt	assay77		Data transformation	d_data.txt
+sample639	Phenotyping				tdf.txt	assay360		Data transformation	d_data.txt
+sample640	Phenotyping				tdf.txt	assay920		Data transformation	d_data.txt
+sample641	Phenotyping				tdf.txt	assay265		Data transformation	d_data.txt
+sample642	Phenotyping				tdf.txt	assay1195		Data transformation	d_data.txt
+sample643	Phenotyping				tdf.txt	assay361		Data transformation	d_data.txt
+sample644	Phenotyping				tdf.txt	assay817		Data transformation	d_data.txt
+sample645	Phenotyping				tdf.txt	assay465		Data transformation	d_data.txt
+sample646	Phenotyping				tdf.txt	assay921		Data transformation	d_data.txt
+sample647	Phenotyping				tdf.txt	assay646		Data transformation	d_data.txt
+sample648	Phenotyping				tdf.txt	assay1087		Data transformation	d_data.txt
+sample649	Phenotyping				tdf.txt	assay1196		Data transformation	d_data.txt
+sample650	Phenotyping				tdf.txt	assay78		Data transformation	d_data.txt
+sample651	Phenotyping				tdf.txt	assay266		Data transformation	d_data.txt
+sample652	Phenotyping				tdf.txt	assay267		Data transformation	d_data.txt
+sample653	Phenotyping				tdf.txt	assay362		Data transformation	d_data.txt
+sample654	Phenotyping				tdf.txt	assay466		Data transformation	d_data.txt
+sample655	Phenotyping				tdf.txt	assay1088		Data transformation	d_data.txt
+sample656	Phenotyping				tdf.txt	assay922		Data transformation	d_data.txt
+sample657	Phenotyping				tdf.txt	assay647		Data transformation	d_data.txt
+sample658	Phenotyping				tdf.txt	assay1197		Data transformation	d_data.txt
+sample659	Phenotyping				tdf.txt	assay79		Data transformation	d_data.txt
+sample660	Phenotyping				tdf.txt	assay818		Data transformation	d_data.txt
+sample661	Phenotyping				tdf.txt	assay648		Data transformation	d_data.txt
+sample662	Phenotyping				tdf.txt	assay819		Data transformation	d_data.txt
+sample663	Phenotyping				tdf.txt	assay80		Data transformation	d_data.txt
+sample664	Phenotyping				tdf.txt	assay363		Data transformation	d_data.txt
+sample665	Phenotyping				tdf.txt	assay467		Data transformation	d_data.txt
+sample666	Phenotyping				tdf.txt	assay1089		Data transformation	d_data.txt
+sample667	Phenotyping				tdf.txt	assay923		Data transformation	d_data.txt
+sample668	Phenotyping				tdf.txt	assay1198		Data transformation	d_data.txt
+sample669	Phenotyping				tdf.txt	assay268		Data transformation	d_data.txt
+sample670	Phenotyping				tdf.txt	assay269		Data transformation	d_data.txt
+sample671	Phenotyping				tdf.txt	assay1090		Data transformation	d_data.txt
+sample672	Phenotyping				tdf.txt	assay468		Data transformation	d_data.txt
+sample673	Phenotyping				tdf.txt	assay81		Data transformation	d_data.txt
+sample674	Phenotyping				tdf.txt	assay820		Data transformation	d_data.txt
+sample675	Phenotyping				tdf.txt	assay649		Data transformation	d_data.txt
+sample676	Phenotyping				tdf.txt	assay364		Data transformation	d_data.txt
+sample677	Phenotyping				tdf.txt	assay924		Data transformation	d_data.txt
+sample678	Phenotyping				tdf.txt	assay1199		Data transformation	d_data.txt
+sample679	Phenotyping				tdf.txt	assay821		Data transformation	d_data.txt
+sample680	Phenotyping				tdf.txt	assay270		Data transformation	d_data.txt
+sample681	Phenotyping				tdf.txt	assay1091		Data transformation	d_data.txt
+sample682	Phenotyping				tdf.txt	assay469		Data transformation	d_data.txt
+sample683	Phenotyping				tdf.txt	assay82		Data transformation	d_data.txt
+sample684	Phenotyping				tdf.txt	assay365		Data transformation	d_data.txt
+sample685	Phenotyping				tdf.txt	assay925		Data transformation	d_data.txt
+sample686	Phenotyping				tdf.txt	assay650		Data transformation	d_data.txt
+sample687	Phenotyping				tdf.txt	assay1200		Data transformation	d_data.txt
+sample688	Phenotyping				tdf.txt	assay470		Data transformation	d_data.txt
+sample689	Phenotyping				tdf.txt	assay651		Data transformation	d_data.txt
+sample690	Phenotyping				tdf.txt	assay926		Data transformation	d_data.txt
+sample691	Phenotyping				tdf.txt	assay271		Data transformation	d_data.txt
+sample692	Phenotyping				tdf.txt	assay83		Data transformation	d_data.txt
+sample693	Phenotyping				tdf.txt	assay1092		Data transformation	d_data.txt
+sample694	Phenotyping				tdf.txt	assay366		Data transformation	d_data.txt
+sample695	Phenotyping				tdf.txt	assay822		Data transformation	d_data.txt
+sample696	Phenotyping				tdf.txt	assay927		Data transformation	d_data.txt
+sample697	Phenotyping				tdf.txt	assay652		Data transformation	d_data.txt
+sample698	Phenotyping				tdf.txt	assay1093		Data transformation	d_data.txt
+sample699	Phenotyping				tdf.txt	assay823		Data transformation	d_data.txt
+sample700	Phenotyping				tdf.txt	assay471		Data transformation	d_data.txt
+sample701	Phenotyping				tdf.txt	assay367		Data transformation	d_data.txt
+sample702	Phenotyping				tdf.txt	assay272		Data transformation	d_data.txt
+sample703	Phenotyping				tdf.txt	assay84		Data transformation	d_data.txt
+sample704	Phenotyping				tdf.txt	assay1094		Data transformation	d_data.txt
+sample705	Phenotyping				tdf.txt	assay928		Data transformation	d_data.txt
+sample706	Phenotyping				tdf.txt	assay368		Data transformation	d_data.txt
+sample707	Phenotyping				tdf.txt	assay653		Data transformation	d_data.txt
+sample708	Phenotyping				tdf.txt	assay85		Data transformation	d_data.txt
+sample709	Phenotyping				tdf.txt	assay273		Data transformation	d_data.txt
+sample710	Phenotyping				tdf.txt	assay1201		Data transformation	d_data.txt
+sample711	Phenotyping				tdf.txt	assay472		Data transformation	d_data.txt
+sample712	Phenotyping				tdf.txt	assay824		Data transformation	d_data.txt
+sample713	Phenotyping				tdf.txt	assay274		Data transformation	d_data.txt
+sample714	Phenotyping				tdf.txt	assay1095		Data transformation	d_data.txt
+sample715	Phenotyping				tdf.txt	assay825		Data transformation	d_data.txt
+sample716	Phenotyping				tdf.txt	assay929		Data transformation	d_data.txt
+sample717	Phenotyping				tdf.txt	assay86		Data transformation	d_data.txt
+sample718	Phenotyping				tdf.txt	assay473		Data transformation	d_data.txt
+sample719	Phenotyping				tdf.txt	assay1202		Data transformation	d_data.txt
+sample720	Phenotyping				tdf.txt	assay369		Data transformation	d_data.txt
+sample721	Phenotyping				tdf.txt	assay654		Data transformation	d_data.txt
+sample722	Phenotyping				tdf.txt	assay930		Data transformation	d_data.txt
+sample723	Phenotyping				tdf.txt	assay1096		Data transformation	d_data.txt
+sample724	Phenotyping				tdf.txt	assay474		Data transformation	d_data.txt
+sample725	Phenotyping				tdf.txt	assay87		Data transformation	d_data.txt
+sample726	Phenotyping				tdf.txt	assay655		Data transformation	d_data.txt
+sample727	Phenotyping				tdf.txt	assay1097		Data transformation	d_data.txt
+sample728	Phenotyping				tdf.txt	assay88		Data transformation	d_data.txt
+sample729	Phenotyping				tdf.txt	assay89		Data transformation	d_data.txt
+sample730	Phenotyping				tdf.txt	assay931		Data transformation	d_data.txt
+sample731	Phenotyping				tdf.txt	assay656		Data transformation	d_data.txt
+sample732	Phenotyping				tdf.txt	assay90		Data transformation	d_data.txt
+sample733	Phenotyping				tdf.txt	assay475		Data transformation	d_data.txt
+sample734	Phenotyping				tdf.txt	assay91		Data transformation	d_data.txt
+sample735	Phenotyping				tdf.txt	assay92		Data transformation	d_data.txt
+sample736	Phenotyping				tdf.txt	assay932		Data transformation	d_data.txt
+sample737	Phenotyping				tdf.txt	assay476		Data transformation	d_data.txt
+sample738	Phenotyping				tdf.txt	assay93		Data transformation	d_data.txt
+sample739	Phenotyping				tdf.txt	assay657		Data transformation	d_data.txt
+sample740	Phenotyping				tdf.txt	assay94		Data transformation	d_data.txt
+sample741	Phenotyping				tdf.txt	assay95		Data transformation	d_data.txt
+sample742	Phenotyping				tdf.txt	assay96		Data transformation	d_data.txt
+sample743	Phenotyping				tdf.txt	assay97		Data transformation	d_data.txt
+sample744	Phenotyping				tdf.txt	assay98		Data transformation	d_data.txt
+sample745	Phenotyping				tdf.txt	assay99		Data transformation	d_data.txt
+sample746	Phenotyping				tdf.txt	assay100		Data transformation	d_data.txt
+sample747	Phenotyping				tdf.txt	assay1098		Data transformation	d_data.txt
+sample748	Phenotyping				tdf.txt	assay101		Data transformation	d_data.txt
+sample749	Phenotyping				tdf.txt	assay658		Data transformation	d_data.txt
+sample750	Phenotyping				tdf.txt	assay477		Data transformation	d_data.txt
+sample751	Phenotyping				tdf.txt	assay933		Data transformation	d_data.txt
+sample752	Phenotyping				tdf.txt	assay102		Data transformation	d_data.txt
+sample753	Phenotyping				tdf.txt	assay103		Data transformation	d_data.txt
+sample754	Phenotyping				tdf.txt	assay934		Data transformation	d_data.txt
+sample755	Phenotyping				tdf.txt	assay659		Data transformation	d_data.txt
+sample756	Phenotyping				tdf.txt	assay104		Data transformation	d_data.txt
+sample757	Phenotyping				tdf.txt	assay478		Data transformation	d_data.txt
+sample758	Phenotyping				tdf.txt	assay105		Data transformation	d_data.txt
+sample759	Phenotyping				tdf.txt	assay1099		Data transformation	d_data.txt
+sample760	Phenotyping				tdf.txt	assay106		Data transformation	d_data.txt
+sample761	Phenotyping				tdf.txt	assay107		Data transformation	d_data.txt
+sample762	Phenotyping				tdf.txt	assay275		Data transformation	d_data.txt
+sample763	Phenotyping				tdf.txt	assay370		Data transformation	d_data.txt
+sample764	Phenotyping				tdf.txt	assay935		Data transformation	d_data.txt
+sample765	Phenotyping				tdf.txt	assay660		Data transformation	d_data.txt
+sample766	Phenotyping				tdf.txt	assay108		Data transformation	d_data.txt
+sample767	Phenotyping				tdf.txt	assay1100		Data transformation	d_data.txt
+sample768	Phenotyping				tdf.txt	assay479		Data transformation	d_data.txt
+sample769	Phenotyping				tdf.txt	assay826		Data transformation	d_data.txt
+sample770	Phenotyping				tdf.txt	assay1203		Data transformation	d_data.txt
+sample771	Phenotyping				tdf.txt	assay109		Data transformation	d_data.txt
+sample772	Phenotyping				tdf.txt	assay110		Data transformation	d_data.txt
+sample773	Phenotyping				tdf.txt	assay936		Data transformation	d_data.txt
+sample774	Phenotyping				tdf.txt	assay480		Data transformation	d_data.txt
+sample775	Phenotyping				tdf.txt	assay661		Data transformation	d_data.txt
+sample776	Phenotyping				tdf.txt	assay111		Data transformation	d_data.txt
+sample777	Phenotyping				tdf.txt	assay371		Data transformation	d_data.txt
+sample778	Phenotyping				tdf.txt	assay1101		Data transformation	d_data.txt
+sample779	Phenotyping				tdf.txt	assay662		Data transformation	d_data.txt
+sample780	Phenotyping				tdf.txt	assay1204		Data transformation	d_data.txt
+sample781	Phenotyping				tdf.txt	assay481		Data transformation	d_data.txt
+sample782	Phenotyping				tdf.txt	assay937		Data transformation	d_data.txt
+sample783	Phenotyping				tdf.txt	assay276		Data transformation	d_data.txt
+sample784	Phenotyping				tdf.txt	assay827		Data transformation	d_data.txt
+sample785	Phenotyping				tdf.txt	assay112		Data transformation	d_data.txt
+sample786	Phenotyping				tdf.txt	assay938		Data transformation	d_data.txt
+sample787	Phenotyping				tdf.txt	assay1102		Data transformation	d_data.txt
+sample788	Phenotyping				tdf.txt	assay1205		Data transformation	d_data.txt
+sample789	Phenotyping				tdf.txt	assay663		Data transformation	d_data.txt
+sample790	Phenotyping				tdf.txt	assay113		Data transformation	d_data.txt
+sample791	Phenotyping				tdf.txt	assay828		Data transformation	d_data.txt
+sample792	Phenotyping				tdf.txt	assay372		Data transformation	d_data.txt
+sample793	Phenotyping				tdf.txt	assay482		Data transformation	d_data.txt
+sample794	Phenotyping				tdf.txt	assay277		Data transformation	d_data.txt
+sample795	Phenotyping				tdf.txt	assay829		Data transformation	d_data.txt
+sample796	Phenotyping				tdf.txt	assay1103		Data transformation	d_data.txt
+sample797	Phenotyping				tdf.txt	assay664		Data transformation	d_data.txt
+sample798	Phenotyping				tdf.txt	assay373		Data transformation	d_data.txt
+sample799	Phenotyping				tdf.txt	assay939		Data transformation	d_data.txt
+sample800	Phenotyping				tdf.txt	assay278		Data transformation	d_data.txt
+sample801	Phenotyping				tdf.txt	assay483		Data transformation	d_data.txt
+sample802	Phenotyping				tdf.txt	assay1206		Data transformation	d_data.txt
+sample803	Phenotyping				tdf.txt	assay114		Data transformation	d_data.txt
+sample804	Phenotyping				tdf.txt	assay279		Data transformation	d_data.txt
+sample805	Phenotyping				tdf.txt	assay1104		Data transformation	d_data.txt
+sample806	Phenotyping				tdf.txt	assay830		Data transformation	d_data.txt
+sample807	Phenotyping				tdf.txt	assay115		Data transformation	d_data.txt
+sample808	Phenotyping				tdf.txt	assay940		Data transformation	d_data.txt
+sample809	Phenotyping				tdf.txt	assay484		Data transformation	d_data.txt
+sample810	Phenotyping				tdf.txt	assay665		Data transformation	d_data.txt
+sample811	Phenotyping				tdf.txt	assay374		Data transformation	d_data.txt
+sample812	Phenotyping				tdf.txt	assay1207		Data transformation	d_data.txt
+sample813	Phenotyping				tdf.txt	assay485		Data transformation	d_data.txt
+sample814	Phenotyping				tdf.txt	assay116		Data transformation	d_data.txt
+sample815	Phenotyping				tdf.txt	assay375		Data transformation	d_data.txt
+sample816	Phenotyping				tdf.txt	assay831		Data transformation	d_data.txt
+sample817	Phenotyping				tdf.txt	assay941		Data transformation	d_data.txt
+sample818	Phenotyping				tdf.txt	assay1105		Data transformation	d_data.txt
+sample819	Phenotyping				tdf.txt	assay666		Data transformation	d_data.txt
+sample820	Phenotyping				tdf.txt	assay280		Data transformation	d_data.txt
+sample821	Phenotyping				tdf.txt	assay281		Data transformation	d_data.txt
+sample822	Phenotyping				tdf.txt	assay667		Data transformation	d_data.txt
+sample823	Phenotyping				tdf.txt	assay1208		Data transformation	d_data.txt
+sample824	Phenotyping				tdf.txt	assay1106		Data transformation	d_data.txt
+sample825	Phenotyping				tdf.txt	assay832		Data transformation	d_data.txt
+sample826	Phenotyping				tdf.txt	assay486		Data transformation	d_data.txt
+sample827	Phenotyping				tdf.txt	assay117		Data transformation	d_data.txt
+sample828	Phenotyping				tdf.txt	assay376		Data transformation	d_data.txt
+sample829	Phenotyping				tdf.txt	assay942		Data transformation	d_data.txt
+sample830	Phenotyping				tdf.txt	assay282		Data transformation	d_data.txt
+sample831	Phenotyping				tdf.txt	assay377		Data transformation	d_data.txt
+sample832	Phenotyping				tdf.txt	assay1209		Data transformation	d_data.txt
+sample833	Phenotyping				tdf.txt	assay118		Data transformation	d_data.txt
+sample834	Phenotyping				tdf.txt	assay943		Data transformation	d_data.txt
+sample835	Phenotyping				tdf.txt	assay487		Data transformation	d_data.txt
+sample836	Phenotyping				tdf.txt	assay833		Data transformation	d_data.txt
+sample837	Phenotyping				tdf.txt	assay1107		Data transformation	d_data.txt
+sample838	Phenotyping				tdf.txt	assay668		Data transformation	d_data.txt
+sample839	Phenotyping				tdf.txt	assay488		Data transformation	d_data.txt
+sample840	Phenotyping				tdf.txt	assay834		Data transformation	d_data.txt
+sample841	Phenotyping				tdf.txt	assay1210		Data transformation	d_data.txt
+sample842	Phenotyping				tdf.txt	assay944		Data transformation	d_data.txt
+sample843	Phenotyping				tdf.txt	assay378		Data transformation	d_data.txt
+sample844	Phenotyping				tdf.txt	assay283		Data transformation	d_data.txt
+sample845	Phenotyping				tdf.txt	assay119		Data transformation	d_data.txt
+sample846	Phenotyping				tdf.txt	assay669		Data transformation	d_data.txt
+sample847	Phenotyping				tdf.txt	assay1108		Data transformation	d_data.txt
+sample848	Phenotyping				tdf.txt	assay1109		Data transformation	d_data.txt
+sample849	Phenotyping				tdf.txt	assay284		Data transformation	d_data.txt
+sample850	Phenotyping				tdf.txt	assay835		Data transformation	d_data.txt
+sample851	Phenotyping				tdf.txt	assay379		Data transformation	d_data.txt
+sample852	Phenotyping				tdf.txt	assay945		Data transformation	d_data.txt
+sample853	Phenotyping				tdf.txt	assay670		Data transformation	d_data.txt
+sample854	Phenotyping				tdf.txt	assay120		Data transformation	d_data.txt
+sample855	Phenotyping				tdf.txt	assay1211		Data transformation	d_data.txt
+sample856	Phenotyping				tdf.txt	assay489		Data transformation	d_data.txt
+sample857	Phenotyping				tdf.txt	assay946		Data transformation	d_data.txt
+sample858	Phenotyping				tdf.txt	assay121		Data transformation	d_data.txt
+sample859	Phenotyping				tdf.txt	assay671		Data transformation	d_data.txt
+sample860	Phenotyping				tdf.txt	assay1212		Data transformation	d_data.txt
+sample861	Phenotyping				tdf.txt	assay380		Data transformation	d_data.txt
+sample862	Phenotyping				tdf.txt	assay490		Data transformation	d_data.txt
+sample863	Phenotyping				tdf.txt	assay836		Data transformation	d_data.txt
+sample864	Phenotyping				tdf.txt	assay285		Data transformation	d_data.txt
+sample865	Phenotyping				tdf.txt	assay1110		Data transformation	d_data.txt
+sample866	Phenotyping				tdf.txt	assay286		Data transformation	d_data.txt
+sample867	Phenotyping				tdf.txt	assay947		Data transformation	d_data.txt
+sample868	Phenotyping				tdf.txt	assay1213		Data transformation	d_data.txt
+sample869	Phenotyping				tdf.txt	assay672		Data transformation	d_data.txt
+sample870	Phenotyping				tdf.txt	assay122		Data transformation	d_data.txt
+sample871	Phenotyping				tdf.txt	assay491		Data transformation	d_data.txt
+sample872	Phenotyping				tdf.txt	assay1111		Data transformation	d_data.txt
+sample873	Phenotyping				tdf.txt	assay837		Data transformation	d_data.txt
+sample874	Phenotyping				tdf.txt	assay948		Data transformation	d_data.txt
+sample875	Phenotyping				tdf.txt	assay1112		Data transformation	d_data.txt
+sample876	Phenotyping				tdf.txt	assay287		Data transformation	d_data.txt
+sample877	Phenotyping				tdf.txt	assay673		Data transformation	d_data.txt
+sample878	Phenotyping				tdf.txt	assay382		Data transformation	d_data.txt
+sample879	Phenotyping				tdf.txt	assay123		Data transformation	d_data.txt
+sample880	Phenotyping				tdf.txt	assay1214		Data transformation	d_data.txt
+sample881	Phenotyping				tdf.txt	assay492		Data transformation	d_data.txt
+sample882	Phenotyping				tdf.txt	assay124		Data transformation	d_data.txt
+sample883	Phenotyping				tdf.txt	assay1215		Data transformation	d_data.txt
+sample884	Phenotyping				tdf.txt	assay949		Data transformation	d_data.txt
+sample885	Phenotyping				tdf.txt	assay493		Data transformation	d_data.txt
+sample886	Phenotyping				tdf.txt	assay674		Data transformation	d_data.txt
+sample887	Phenotyping				tdf.txt	assay288		Data transformation	d_data.txt
+sample888	Phenotyping				tdf.txt	assay839		Data transformation	d_data.txt
+sample889	Phenotyping				tdf.txt	assay1113		Data transformation	d_data.txt
+sample890	Phenotyping				tdf.txt	assay383		Data transformation	d_data.txt
+sample891	Phenotyping				tdf.txt	assay675		Data transformation	d_data.txt
+sample892	Phenotyping				tdf.txt	assay1216		Data transformation	d_data.txt
+sample893	Phenotyping				tdf.txt	assay840		Data transformation	d_data.txt
+sample894	Phenotyping				tdf.txt	assay950		Data transformation	d_data.txt
+sample895	Phenotyping				tdf.txt	assay125		Data transformation	d_data.txt
+sample896	Phenotyping				tdf.txt	assay289		Data transformation	d_data.txt
+sample897	Phenotyping				tdf.txt	assay494		Data transformation	d_data.txt
+sample898	Phenotyping				tdf.txt	assay1114		Data transformation	d_data.txt
+sample899	Phenotyping				tdf.txt	assay384		Data transformation	d_data.txt
+sample900	Phenotyping				tdf.txt	assay126		Data transformation	d_data.txt
+sample901	Phenotyping				tdf.txt	assay495		Data transformation	d_data.txt
+sample902	Phenotyping				tdf.txt	assay1217		Data transformation	d_data.txt
+sample903	Phenotyping				tdf.txt	assay841		Data transformation	d_data.txt
+sample904	Phenotyping				tdf.txt	assay676		Data transformation	d_data.txt
+sample905	Phenotyping				tdf.txt	assay290		Data transformation	d_data.txt
+sample906	Phenotyping				tdf.txt	assay951		Data transformation	d_data.txt
+sample907	Phenotyping				tdf.txt	assay1115		Data transformation	d_data.txt
+sample908	Phenotyping				tdf.txt	assay385		Data transformation	d_data.txt
+sample909	Phenotyping				tdf.txt	assay677		Data transformation	d_data.txt
+sample910	Phenotyping				tdf.txt	assay496		Data transformation	d_data.txt
+sample911	Phenotyping				tdf.txt	assay842		Data transformation	d_data.txt
+sample912	Phenotyping				tdf.txt	assay952		Data transformation	d_data.txt
+sample913	Phenotyping				tdf.txt	assay1218		Data transformation	d_data.txt
+sample914	Phenotyping				tdf.txt	assay127		Data transformation	d_data.txt
+sample915	Phenotyping				tdf.txt	assay386		Data transformation	d_data.txt
+sample916	Phenotyping				tdf.txt	assay291		Data transformation	d_data.txt
+sample917	Phenotyping				tdf.txt	assay1116		Data transformation	d_data.txt
+sample918	Phenotyping				tdf.txt	assay678		Data transformation	d_data.txt
+sample919	Phenotyping				tdf.txt	assay128		Data transformation	d_data.txt
+sample920	Phenotyping				tdf.txt	assay953		Data transformation	d_data.txt
+sample921	Phenotyping				tdf.txt	assay497		Data transformation	d_data.txt
+sample922	Phenotyping				tdf.txt	assay498		Data transformation	d_data.txt
+sample923	Phenotyping				tdf.txt	assay954		Data transformation	d_data.txt
+sample924	Phenotyping				tdf.txt	assay679		Data transformation	d_data.txt
+sample925	Phenotyping				tdf.txt	assay129		Data transformation	d_data.txt
+sample926	Phenotyping				tdf.txt	assay955		Data transformation	d_data.txt
+sample927	Phenotyping				tdf.txt	assay680		Data transformation	d_data.txt
+sample928	Phenotyping				tdf.txt	assay130		Data transformation	d_data.txt
+sample929	Phenotyping				tdf.txt	assay499		Data transformation	d_data.txt
+sample930	Phenotyping				tdf.txt	assay956		Data transformation	d_data.txt
+sample931	Phenotyping				tdf.txt	assay681		Data transformation	d_data.txt
+sample932	Phenotyping				tdf.txt	assay131		Data transformation	d_data.txt
+sample933	Phenotyping				tdf.txt	assay500		Data transformation	d_data.txt
+sample934	Phenotyping				tdf.txt	assay132		Data transformation	d_data.txt
+sample935	Phenotyping				tdf.txt	assay682		Data transformation	d_data.txt
+sample936	Phenotyping				tdf.txt	assay957		Data transformation	d_data.txt
+sample937	Phenotyping				tdf.txt	assay501		Data transformation	d_data.txt
+sample938	Phenotyping				tdf.txt	assay133		Data transformation	d_data.txt
+sample939	Phenotyping				tdf.txt	assay502		Data transformation	d_data.txt
+sample940	Phenotyping				tdf.txt	assay683		Data transformation	d_data.txt
+sample941	Phenotyping				tdf.txt	assay958		Data transformation	d_data.txt
+sample942	Phenotyping				tdf.txt	assay134		Data transformation	d_data.txt
+sample943	Phenotyping				tdf.txt	assay959		Data transformation	d_data.txt
+sample944	Phenotyping				tdf.txt	assay503		Data transformation	d_data.txt
+sample945	Phenotyping				tdf.txt	assay960		Data transformation	d_data.txt
+sample946	Phenotyping				tdf.txt	assay504		Data transformation	d_data.txt
+sample947	Phenotyping				tdf.txt	assay684		Data transformation	d_data.txt
+sample948	Phenotyping				tdf.txt	assay135		Data transformation	d_data.txt
+sample949	Phenotyping				tdf.txt	assay961		Data transformation	d_data.txt
+sample950	Phenotyping				tdf.txt	assay505		Data transformation	d_data.txt
+sample951	Phenotyping				tdf.txt	assay136		Data transformation	d_data.txt
+sample952	Phenotyping				tdf.txt	assay685		Data transformation	d_data.txt
+sample953	Phenotyping				tdf.txt	assay506		Data transformation	d_data.txt
+sample954	Phenotyping				tdf.txt	assay137		Data transformation	d_data.txt
+sample955	Phenotyping				tdf.txt	assay962		Data transformation	d_data.txt
+sample956	Phenotyping				tdf.txt	assay686		Data transformation	d_data.txt
+sample957	Phenotyping				tdf.txt	assay138		Data transformation	d_data.txt
+sample958	Phenotyping				tdf.txt	assay507		Data transformation	d_data.txt
+sample959	Phenotyping				tdf.txt	assay687		Data transformation	d_data.txt
+sample960	Phenotyping				tdf.txt	assay963		Data transformation	d_data.txt
+sample961	Phenotyping				tdf.txt	assay964		Data transformation	d_data.txt
+sample962	Phenotyping				tdf.txt	assay688		Data transformation	d_data.txt
+sample963	Phenotyping				tdf.txt	assay139		Data transformation	d_data.txt
+sample964	Phenotyping				tdf.txt	assay508		Data transformation	d_data.txt
+sample965	Phenotyping				tdf.txt	assay965		Data transformation	d_data.txt
+sample966	Phenotyping				tdf.txt	assay140		Data transformation	d_data.txt
+sample967	Phenotyping				tdf.txt	assay509		Data transformation	d_data.txt
+sample968	Phenotyping				tdf.txt	assay689		Data transformation	d_data.txt
+sample969	Phenotyping				tdf.txt	assay690		Data transformation	d_data.txt
+sample970	Phenotyping				tdf.txt	assay966		Data transformation	d_data.txt
+sample971	Phenotyping				tdf.txt	assay510		Data transformation	d_data.txt
+sample972	Phenotyping				tdf.txt	assay141		Data transformation	d_data.txt
+sample973	Phenotyping				tdf.txt	assay967		Data transformation	d_data.txt
+sample974	Phenotyping				tdf.txt	assay691		Data transformation	d_data.txt
+sample975	Phenotyping				tdf.txt	assay511		Data transformation	d_data.txt
+sample976	Phenotyping				tdf.txt	assay142		Data transformation	d_data.txt
+sample977	Phenotyping				tdf.txt	assay512		Data transformation	d_data.txt
+sample978	Phenotyping				tdf.txt	assay692		Data transformation	d_data.txt
+sample979	Phenotyping				tdf.txt	assay143		Data transformation	d_data.txt
+sample980	Phenotyping				tdf.txt	assay968		Data transformation	d_data.txt
+sample981	Phenotyping				tdf.txt	assay1117		Data transformation	d_data.txt
+sample982	Phenotyping				tdf.txt	assay144		Data transformation	d_data.txt
+sample983	Phenotyping				tdf.txt	assay969		Data transformation	d_data.txt
+sample984	Phenotyping				tdf.txt	assay513		Data transformation	d_data.txt
+sample985	Phenotyping				tdf.txt	assay693		Data transformation	d_data.txt
+sample986	Phenotyping				tdf.txt	assay694		Data transformation	d_data.txt
+sample987	Phenotyping				tdf.txt	assay145		Data transformation	d_data.txt
+sample988	Phenotyping				tdf.txt	assay970		Data transformation	d_data.txt
+sample989	Phenotyping				tdf.txt	assay514		Data transformation	d_data.txt
+sample990	Phenotyping				tdf.txt	assay515		Data transformation	d_data.txt
+sample991	Phenotyping				tdf.txt	assay695		Data transformation	d_data.txt
+sample992	Phenotyping				tdf.txt	assay146		Data transformation	d_data.txt
+sample993	Phenotyping				tdf.txt	assay971		Data transformation	d_data.txt
+sample994	Phenotyping				tdf.txt	assay147		Data transformation	d_data.txt
+sample995	Phenotyping				tdf.txt	assay1118		Data transformation	d_data.txt
+sample996	Phenotyping				tdf.txt	assay696		Data transformation	d_data.txt
+sample997	Phenotyping				tdf.txt	assay516		Data transformation	d_data.txt
+sample998	Phenotyping				tdf.txt	assay972		Data transformation	d_data.txt
+sample999	Phenotyping				tdf.txt	assay1119		Data transformation	d_data.txt
+sample1000	Phenotyping				tdf.txt	assay148		Data transformation	d_data.txt
+sample1001	Phenotyping				tdf.txt	assay973		Data transformation	d_data.txt
+sample1002	Phenotyping				tdf.txt	assay517		Data transformation	d_data.txt
+sample1003	Phenotyping				tdf.txt	assay697		Data transformation	d_data.txt
+sample1004	Phenotyping				tdf.txt	assay149		Data transformation	d_data.txt
+sample1005	Phenotyping				tdf.txt	assay518		Data transformation	d_data.txt
+sample1006	Phenotyping				tdf.txt	assay698		Data transformation	d_data.txt
+sample1007	Phenotyping				tdf.txt	assay519		Data transformation	d_data.txt
+sample1008	Phenotyping				tdf.txt	assay1120		Data transformation	d_data.txt
+sample1009	Phenotyping				tdf.txt	assay974		Data transformation	d_data.txt
+sample1010	Phenotyping				tdf.txt	assay150		Data transformation	d_data.txt
+sample1011	Phenotyping				tdf.txt	assay699		Data transformation	d_data.txt
+sample1012	Phenotyping				tdf.txt	assay151		Data transformation	d_data.txt
+sample1013	Phenotyping				tdf.txt	assay700		Data transformation	d_data.txt
+sample1014	Phenotyping				tdf.txt	assay520		Data transformation	d_data.txt
+sample1015	Phenotyping				tdf.txt	assay975		Data transformation	d_data.txt
+sample1016	Phenotyping				tdf.txt	assay152		Data transformation	d_data.txt
+sample1017	Phenotyping				tdf.txt	assay976		Data transformation	d_data.txt
+sample1018	Phenotyping				tdf.txt	assay521		Data transformation	d_data.txt
+sample1019	Phenotyping				tdf.txt	assay701		Data transformation	d_data.txt
+sample1020	Phenotyping				tdf.txt	assay1121		Data transformation	d_data.txt
+sample1021	Phenotyping				tdf.txt	assay702		Data transformation	d_data.txt
+sample1022	Phenotyping				tdf.txt	assay153		Data transformation	d_data.txt
+sample1023	Phenotyping				tdf.txt	assay522		Data transformation	d_data.txt
+sample1024	Phenotyping				tdf.txt	assay977		Data transformation	d_data.txt
+sample1025	Phenotyping				tdf.txt	assay154		Data transformation	d_data.txt
+sample1026	Phenotyping				tdf.txt	assay523		Data transformation	d_data.txt
+sample1027	Phenotyping				tdf.txt	assay978		Data transformation	d_data.txt
+sample1028	Phenotyping				tdf.txt	assay703		Data transformation	d_data.txt
+sample1029	Phenotyping				tdf.txt	assay155		Data transformation	d_data.txt
+sample1030	Phenotyping				tdf.txt	assay704		Data transformation	d_data.txt
+sample1031	Phenotyping				tdf.txt	assay524		Data transformation	d_data.txt
+sample1032	Phenotyping				tdf.txt	assay705		Data transformation	d_data.txt
+sample1033	Phenotyping				tdf.txt	assay525		Data transformation	d_data.txt
+sample1034	Phenotyping				tdf.txt	assay156		Data transformation	d_data.txt
+sample1035	Phenotyping				tdf.txt	assay979		Data transformation	d_data.txt
+sample1036	Phenotyping				tdf.txt	assay706		Data transformation	d_data.txt
+sample1037	Phenotyping				tdf.txt	assay526		Data transformation	d_data.txt
+sample1038	Phenotyping				tdf.txt	assay157		Data transformation	d_data.txt
+sample1039	Phenotyping				tdf.txt	assay980		Data transformation	d_data.txt
+sample1040	Phenotyping				tdf.txt	assay1122		Data transformation	d_data.txt
+sample1041	Phenotyping				tdf.txt	assay981		Data transformation	d_data.txt
+sample1042	Phenotyping				tdf.txt	assay707		Data transformation	d_data.txt
+sample1043	Phenotyping				tdf.txt	assay158		Data transformation	d_data.txt
+sample1044	Phenotyping				tdf.txt	assay527		Data transformation	d_data.txt
+sample1045	Phenotyping				tdf.txt	assay1123		Data transformation	d_data.txt
+sample1046	Phenotyping				tdf.txt	assay708		Data transformation	d_data.txt
+sample1047	Phenotyping				tdf.txt	assay159		Data transformation	d_data.txt
+sample1048	Phenotyping				tdf.txt	assay982		Data transformation	d_data.txt
+sample1049	Phenotyping				tdf.txt	assay528		Data transformation	d_data.txt
+sample1050	Phenotyping				tdf.txt	assay983		Data transformation	d_data.txt
+sample1051	Phenotyping				tdf.txt	assay529		Data transformation	d_data.txt
+sample1052	Phenotyping				tdf.txt	assay160		Data transformation	d_data.txt
+sample1053	Phenotyping				tdf.txt	assay709		Data transformation	d_data.txt
+sample1054	Phenotyping				tdf.txt	assay161		Data transformation	d_data.txt
+sample1055	Phenotyping				tdf.txt	assay984		Data transformation	d_data.txt
+sample1056	Phenotyping				tdf.txt	assay710		Data transformation	d_data.txt
+sample1057	Phenotyping				tdf.txt	assay530		Data transformation	d_data.txt
+sample1058	Phenotyping				tdf.txt	assay162		Data transformation	d_data.txt
+sample1059	Phenotyping				tdf.txt	assay711		Data transformation	d_data.txt
+sample1060	Phenotyping				tdf.txt	assay985		Data transformation	d_data.txt
+sample1061	Phenotyping				tdf.txt	assay531		Data transformation	d_data.txt
+sample1062	Phenotyping				tdf.txt	assay163		Data transformation	d_data.txt
+sample1063	Phenotyping				tdf.txt	assay532		Data transformation	d_data.txt
+sample1064	Phenotyping				tdf.txt	assay712		Data transformation	d_data.txt
+sample1065	Phenotyping				tdf.txt	assay986		Data transformation	d_data.txt
+sample1066	Phenotyping				tdf.txt	assay533		Data transformation	d_data.txt
+sample1067	Phenotyping				tdf.txt	assay713		Data transformation	d_data.txt
+sample1068	Phenotyping				tdf.txt	assay987		Data transformation	d_data.txt
+sample1069	Phenotyping				tdf.txt	assay164		Data transformation	d_data.txt
+sample1070	Phenotyping				tdf.txt	assay988		Data transformation	d_data.txt
+sample1071	Phenotyping				tdf.txt	assay534		Data transformation	d_data.txt
+sample1072	Phenotyping				tdf.txt	assay165		Data transformation	d_data.txt
+sample1073	Phenotyping				tdf.txt	assay714		Data transformation	d_data.txt
+sample1074	Phenotyping				tdf.txt	assay715		Data transformation	d_data.txt
+sample1075	Phenotyping				tdf.txt	assay535		Data transformation	d_data.txt
+sample1076	Phenotyping				tdf.txt	assay166		Data transformation	d_data.txt
+sample1077	Phenotyping				tdf.txt	assay989		Data transformation	d_data.txt
+sample1078	Phenotyping				tdf.txt	assay1124		Data transformation	d_data.txt
+sample1079	Phenotyping				tdf.txt	assay716		Data transformation	d_data.txt
+sample1080	Phenotyping				tdf.txt	assay167		Data transformation	d_data.txt
+sample1081	Phenotyping				tdf.txt	assay990		Data transformation	d_data.txt
+sample1082	Phenotyping				tdf.txt	assay536		Data transformation	d_data.txt
+sample1083	Phenotyping				tdf.txt	assay991		Data transformation	d_data.txt
+sample1084	Phenotyping				tdf.txt	assay168		Data transformation	d_data.txt
+sample1085	Phenotyping				tdf.txt	assay717		Data transformation	d_data.txt
+sample1086	Phenotyping				tdf.txt	assay537		Data transformation	d_data.txt
+sample1087	Phenotyping				tdf.txt	assay718		Data transformation	d_data.txt
+sample1088	Phenotyping				tdf.txt	assay538		Data transformation	d_data.txt
+sample1089	Phenotyping				tdf.txt	assay169		Data transformation	d_data.txt
+sample1090	Phenotyping				tdf.txt	assay992		Data transformation	d_data.txt
+sample1091	Phenotyping				tdf.txt	assay539		Data transformation	d_data.txt
+sample1092	Phenotyping				tdf.txt	assay1125		Data transformation	d_data.txt
+sample1093	Phenotyping				tdf.txt	assay719		Data transformation	d_data.txt
+sample1094	Phenotyping				tdf.txt	assay170		Data transformation	d_data.txt
+sample1095	Phenotyping				tdf.txt	assay993		Data transformation	d_data.txt
+sample1096	Phenotyping				tdf.txt	assay994		Data transformation	d_data.txt
+sample1097	Phenotyping				tdf.txt	assay540		Data transformation	d_data.txt
+sample1098	Phenotyping				tdf.txt	assay720		Data transformation	d_data.txt
+sample1099	Phenotyping				tdf.txt	assay171		Data transformation	d_data.txt
+sample1100	Phenotyping				tdf.txt	assay172		Data transformation	d_data.txt
+sample1101	Phenotyping				tdf.txt	assay541		Data transformation	d_data.txt
+sample1102	Phenotyping				tdf.txt	assay721		Data transformation	d_data.txt
+sample1103	Phenotyping				tdf.txt	assay995		Data transformation	d_data.txt
+sample1104	Phenotyping				tdf.txt	assay173		Data transformation	d_data.txt
+sample1105	Phenotyping				tdf.txt	assay542		Data transformation	d_data.txt
+sample1106	Phenotyping				tdf.txt	assay996		Data transformation	d_data.txt
+sample1107	Phenotyping				tdf.txt	assay722		Data transformation	d_data.txt
+sample1108	Phenotyping				tdf.txt	assay174		Data transformation	d_data.txt
+sample1109	Phenotyping				tdf.txt	assay997		Data transformation	d_data.txt
+sample1110	Phenotyping				tdf.txt	assay723		Data transformation	d_data.txt
+sample1111	Phenotyping				tdf.txt	assay543		Data transformation	d_data.txt
+sample1112	Phenotyping				tdf.txt	assay544		Data transformation	d_data.txt
+sample1113	Phenotyping				tdf.txt	assay175		Data transformation	d_data.txt
+sample1114	Phenotyping				tdf.txt	assay998		Data transformation	d_data.txt
+sample1115	Phenotyping				tdf.txt	assay724		Data transformation	d_data.txt
+sample1116	Phenotyping				tdf.txt	assay999		Data transformation	d_data.txt
+sample1117	Phenotyping				tdf.txt	assay545		Data transformation	d_data.txt
+sample1118	Phenotyping				tdf.txt	assay176		Data transformation	d_data.txt
+sample1119	Phenotyping				tdf.txt	assay725		Data transformation	d_data.txt
+sample1120	Phenotyping				tdf.txt	assay1000		Data transformation	d_data.txt
+sample1121	Phenotyping				tdf.txt	assay546		Data transformation	d_data.txt
+sample1122	Phenotyping				tdf.txt	assay177		Data transformation	d_data.txt
+sample1123	Phenotyping				tdf.txt	assay1126		Data transformation	d_data.txt
+sample1124	Phenotyping				tdf.txt	assay726		Data transformation	d_data.txt
+sample1125	Phenotyping				tdf.txt	assay547		Data transformation	d_data.txt
+sample1126	Phenotyping				tdf.txt	assay1001		Data transformation	d_data.txt
+sample1127	Phenotyping				tdf.txt	assay727		Data transformation	d_data.txt
+sample1128	Phenotyping				tdf.txt	assay178		Data transformation	d_data.txt
+sample1129	Phenotyping				tdf.txt	assay1002		Data transformation	d_data.txt
+sample1130	Phenotyping				tdf.txt	assay548		Data transformation	d_data.txt
+sample1131	Phenotyping				tdf.txt	assay728		Data transformation	d_data.txt
+sample1132	Phenotyping				tdf.txt	assay179		Data transformation	d_data.txt
+sample1133	Phenotyping				tdf.txt	assay729		Data transformation	d_data.txt
+sample1134	Phenotyping				tdf.txt	assay550		Data transformation	d_data.txt
+sample1135	Phenotyping				tdf.txt	assay1003		Data transformation	d_data.txt
+sample1136	Phenotyping				tdf.txt	assay180		Data transformation	d_data.txt
+sample1137	Phenotyping				tdf.txt	assay730		Data transformation	d_data.txt
+sample1138	Phenotyping				tdf.txt	assay731		Data transformation	d_data.txt
+sample1139	Phenotyping				tdf.txt	assay551		Data transformation	d_data.txt
+sample1140	Phenotyping				tdf.txt	assay181		Data transformation	d_data.txt
+sample1141	Phenotyping				tdf.txt	assay1004		Data transformation	d_data.txt
+sample1142	Phenotyping				tdf.txt	assay1005		Data transformation	d_data.txt
+sample1143	Phenotyping				tdf.txt	assay732		Data transformation	d_data.txt
+sample1144	Phenotyping				tdf.txt	assay552		Data transformation	d_data.txt
+sample1145	Phenotyping				tdf.txt	assay182		Data transformation	d_data.txt
+sample1146	Phenotyping				tdf.txt	assay733		Data transformation	d_data.txt
+sample1147	Phenotyping				tdf.txt	assay1006		Data transformation	d_data.txt
+sample1148	Phenotyping				tdf.txt	assay183		Data transformation	d_data.txt
+sample1149	Phenotyping				tdf.txt	assay553		Data transformation	d_data.txt
+sample1150	Phenotyping				tdf.txt	assay554		Data transformation	d_data.txt
+sample1151	Phenotyping				tdf.txt	assay734		Data transformation	d_data.txt
+sample1152	Phenotyping				tdf.txt	assay184		Data transformation	d_data.txt
+sample1153	Phenotyping				tdf.txt	assay1007		Data transformation	d_data.txt
+sample1154	Phenotyping				tdf.txt	assay1127		Data transformation	d_data.txt
+sample1155	Phenotyping				tdf.txt	assay1128		Data transformation	d_data.txt
+sample1156	Phenotyping				tdf.txt	assay1008		Data transformation	d_data.txt
+sample1157	Phenotyping				tdf.txt	assay555		Data transformation	d_data.txt
+sample1158	Phenotyping				tdf.txt	assay185		Data transformation	d_data.txt
+sample1159	Phenotyping				tdf.txt	assay735		Data transformation	d_data.txt
+sample1160	Phenotyping				tdf.txt	assay736		Data transformation	d_data.txt
+sample1161	Phenotyping				tdf.txt	assay556		Data transformation	d_data.txt
+sample1162	Phenotyping				tdf.txt	assay186		Data transformation	d_data.txt
+sample1163	Phenotyping				tdf.txt	assay1009		Data transformation	d_data.txt
+sample1164	Phenotyping				tdf.txt	assay557		Data transformation	d_data.txt
+sample1165	Phenotyping				tdf.txt	assay187		Data transformation	d_data.txt
+sample1166	Phenotyping				tdf.txt	assay1010		Data transformation	d_data.txt
+sample1167	Phenotyping				tdf.txt	assay737		Data transformation	d_data.txt
+sample1168	Phenotyping				tdf.txt	assay188		Data transformation	d_data.txt
+sample1169	Phenotyping				tdf.txt	assay738		Data transformation	d_data.txt
+sample1170	Phenotyping				tdf.txt	assay558		Data transformation	d_data.txt
+sample1171	Phenotyping				tdf.txt	assay1011		Data transformation	d_data.txt
+sample1172	Phenotyping				tdf.txt	assay1129		Data transformation	d_data.txt
+sample1173	Phenotyping				tdf.txt	assay189		Data transformation	d_data.txt
+sample1174	Phenotyping				tdf.txt	assay739		Data transformation	d_data.txt
+sample1175	Phenotyping				tdf.txt	assay559		Data transformation	d_data.txt
+sample1176	Phenotyping				tdf.txt	assay740		Data transformation	d_data.txt
+sample1177	Phenotyping				tdf.txt	assay190		Data transformation	d_data.txt
+sample1178	Phenotyping				tdf.txt	assay1012		Data transformation	d_data.txt
+sample1179	Phenotyping				tdf.txt	assay560		Data transformation	d_data.txt
+sample1180	Phenotyping				tdf.txt	assay191		Data transformation	d_data.txt
+sample1181	Phenotyping				tdf.txt	assay741		Data transformation	d_data.txt
+sample1182	Phenotyping				tdf.txt	assay1013		Data transformation	d_data.txt
+sample1183	Phenotyping				tdf.txt	assay1014		Data transformation	d_data.txt
+sample1184	Phenotyping				tdf.txt	assay192		Data transformation	d_data.txt
+sample1185	Phenotyping				tdf.txt	assay742		Data transformation	d_data.txt
+sample1186	Phenotyping				tdf.txt	assay562		Data transformation	d_data.txt
+sample1187	Phenotyping				tdf.txt	assay563		Data transformation	d_data.txt
+sample1188	Phenotyping				tdf.txt	assay387		Data transformation	d_data.txt
+sample1189	Phenotyping				tdf.txt	assay843		Data transformation	d_data.txt
+sample1190	Phenotyping				tdf.txt	assay743		Data transformation	d_data.txt
+sample1191	Phenotyping				tdf.txt	assay1219		Data transformation	d_data.txt
+sample1192	Phenotyping				tdf.txt	assay292		Data transformation	d_data.txt
+sample1193	Phenotyping				tdf.txt	assay193		Data transformation	d_data.txt
+sample1194	Phenotyping				tdf.txt	assay1130		Data transformation	d_data.txt
+sample1195	Phenotyping				tdf.txt	assay1015		Data transformation	d_data.txt
+sample1196	Phenotyping				tdf.txt	assay564		Data transformation	d_data.txt
+sample1197	Phenotyping				tdf.txt	assay194		Data transformation	d_data.txt
+sample1198	Phenotyping				tdf.txt	assay1016		Data transformation	d_data.txt
+sample1199	Phenotyping				tdf.txt	assay744		Data transformation	d_data.txt
+sample1200	Phenotyping				tdf.txt	assay745		Data transformation	d_data.txt
+sample1201	Phenotyping				tdf.txt	assay565		Data transformation	d_data.txt
+sample1202	Phenotyping				tdf.txt	assay1017		Data transformation	d_data.txt
+sample1203	Phenotyping				tdf.txt	assay1018		Data transformation	d_data.txt
+sample1204	Phenotyping				tdf.txt	assay746		Data transformation	d_data.txt
+sample1205	Phenotyping				tdf.txt	assay566		Data transformation	d_data.txt
+sample1206	Phenotyping				tdf.txt	assay195		Data transformation	d_data.txt
+sample1207	Phenotyping				tdf.txt	assay567		Data transformation	d_data.txt
+sample1208	Phenotyping				tdf.txt	assay1019		Data transformation	d_data.txt
+sample1209	Phenotyping				tdf.txt	assay196		Data transformation	d_data.txt
+sample1210	Phenotyping				tdf.txt	assay747		Data transformation	d_data.txt
+sample1211	Phenotyping				tdf.txt	assay748		Data transformation	d_data.txt
+sample1212	Phenotyping				tdf.txt	assay197		Data transformation	d_data.txt

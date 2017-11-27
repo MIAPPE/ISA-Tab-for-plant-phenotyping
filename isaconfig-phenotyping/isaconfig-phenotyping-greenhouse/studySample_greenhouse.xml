@@ -29,24 +29,30 @@
 			</description>
 			<default-value/>
 		</field>
-		<field header="Characteristics[Study start]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false">
+		<!-- This is an additional protocol to group constant parameters describing the experiment's whereabouts -->
+		<protocol-field protocol-type ="Growth"/>
+		<!-- This characteristic should be defined as a common default value -->
+		<field header="Parameter Value[Study start]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false">
 			<description>
 				<![CDATA[Date of start of the study]]>
 			</description>
 			<default-value/>
 		</field>
+		<!-- This characteristic should be defined as a common default value -->
 		<field header="Characteristics[Study duration]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false">
 			<description>
 				<![CDATA[Study duration: number of days/months/years, finishing date, end condition]]>
 			</description>
 			<default-value/>
 		</field>
+		<!-- This characteristic should be defined as a common default value -->
 		<field header="Characteristics[Growth facility]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false">
 			<description>
 				<![CDATA[Type of growth facility or environment where the plant grow: growth chamber GC / greenhouse GH / open top chamber OTC / experimental garder / field / ...]]>
 			</description>
 			<default-value><![CDATA[greenhouse]]></default-value>
 		</field>
+		<!-- This characteristic should be defined as a common default value -->
 		<field header="Characteristics[Geographic location]" data-type="Ontology term" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false">
 			<description>
 				<![CDATA[Geographic locations of the study, place: named field, town, region, county]]>
@@ -169,18 +175,29 @@
 			</description>
 			<default-value/>
 		</field>
-		<protocol-field protocol-type ="Sampling"/>
-		<field header="Parameter Value[Experimental unit]" data-type="Ontology term" is-file-field="false" is-multiple-value="true" is-required="true" is-hidden="false" is-forced-ontology="false">
+		<field header="Sample Name" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false">
 			<description>
-				<![CDATA[The unit of observation in the experiment, e.g. a pot, a plant, a group of, a bunch of seeds, a cell etc.]]>
+				<![CDATA[Samples represent experimental units (or observation units) used in the experiment. Each unit is a combination of biological object (defined by Source and its Characteristics), treatments (defined through Protocols and its Parameters, as well as Factors) and replications (defined by Sample's own Characteristics).]]>
 			</description>
 			<default-value/>
 		</field>
-		<field header="Sample Name" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false">
+		<field header="Characteristics[Type of experimental unit]" data-type="Ontology term" is-file-field="false" is-multiple-value="true" is-required="true" is-hidden="false" is-forced-ontology="false">
 			<description>
-				<![CDATA[Samples represent major outputs resulting from a protocol application other than the special case outputs of Extract or a Labeled Extract.]]>
+				<![CDATA[Defines what type of experimental unit is defined as Sample. A unit of observation in the experiment can be a plot (in field experiments), a pot (in greenhouse experiments), individual plant or its part or product (e.g. a number of leaves, a bunch of seeds, a cone, a cell etc.). ]]>
 			</description>
-			<default-value/>
+			<default-value>pot</default-value>
+		</field>
+		<field header="Characteristics[Block]" data-type="String" is-file-field="false" is-multiple-value="true" is-required="false" is-hidden="false" is-forced-ontology="false">
+			<description>
+				<![CDATA[Describes the experimental unit (Sample) in the greenhouse]]>
+			</description>
+			<default-value>pot</default-value>
+		</field>
+		<field header="Characteristics[Location]" data-type="String" is-file-field="false" is-multiple-value="true" is-required="false" is-hidden="false" is-forced-ontology="false">
+			<description>
+				<![CDATA[Describes the experimental unit (Sample) in the greenhouse]]>
+			</description>
+			<default-value>pot</default-value>
 		</field>
 		<structured-field name="characteristics"/>
 		<structured-field name="factors"/>
