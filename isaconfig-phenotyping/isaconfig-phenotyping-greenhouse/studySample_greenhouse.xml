@@ -39,21 +39,21 @@
 			<default-value/>
 		</field>
 		<!-- This characteristic should be defined as a common default value -->
-		<field header="Characteristics[Study duration]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false">
+		<field header="Parameter Value[Study duration]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false">
 			<description>
 				<![CDATA[Study duration: number of days/months/years, finishing date, end condition]]>
 			</description>
 			<default-value/>
 		</field>
 		<!-- This characteristic should be defined as a common default value -->
-		<field header="Characteristics[Growth facility]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false">
+		<field header="Parameter Value[Growth facility]" data-type="String" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false">
 			<description>
 				<![CDATA[Type of growth facility or environment where the plant grow: growth chamber GC / greenhouse GH / open top chamber OTC / experimental garder / field / ...]]>
 			</description>
 			<default-value><![CDATA[greenhouse]]></default-value>
 		</field>
 		<!-- This characteristic should be defined as a common default value -->
-		<field header="Characteristics[Geographic location]" data-type="Ontology term" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false">
+		<field header="Parameter Value[Geographic location]" data-type="Ontology term" is-file-field="false" is-multiple-value="false" is-required="true" is-hidden="false" is-forced-ontology="false">
 			<description>
 				<![CDATA[Geographic locations of the study, place: named field, town, region, county]]>
 			</description>
