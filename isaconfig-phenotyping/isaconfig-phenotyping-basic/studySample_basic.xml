@@ -68,7 +68,7 @@
 			</description>
 			<default-value/>
 		</field>
-		<field header="Characteristics[Type of experimental unit]" data-type="Ontology term" is-file-field="false" is-multiple-value="true" is-required="true" is-hidden="false" is-forced-ontology="false">
+		<field header="Characteristics[Experimental unit type]" data-type="Ontology term" is-file-field="false" is-multiple-value="true" is-required="true" is-hidden="false" is-forced-ontology="false">
 			<description>
 				<![CDATA[Defines what type of experimental unit is defined as Sample. A unit of observation in the experiment can be a plot (in field experiments), a pot (in greenhouse experiments), individual plant or its part or product (e.g. a number of leaves, a bunch of seeds, a cone, a cell etc.). ]]>
 			</description>
