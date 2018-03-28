@@ -1,61 +1,61 @@
-Source Name	Characteristics[Organism]	Term Source REF	Term Accession Number	Characteristics[Infraspecific name]	Term Source REF	Term Accession Number	Characteristics[Seed origin]	Characteristics[Study start]	Characteristics[Study duration]	Characteristics[Growth facility]	Characteristics[Geographic location]	Term Source REF	Term Accession Number	Factor Value[Block]	Protocol REF	Parameter Value[Rooting medium]	Term Source REF	Term Accession Number	Parameter Value[plot? size]	Unit	Term Source REF	Term Accession Number	Parameter Value[Sowing density]	Parameter Value[pH]	Protocol REF	Parameter Value[Air humidity]	Parameter Value[Daily photon flux]	Parameter Value[Length of light period]	Parameter Value[Day temperature]	Parameter Value[Night temperature]	Protocol REF	Parameter Value[N before fertilisation]	Parameter Value[Type of fertiliser]	Parameter Value[Amount of fertiliser]	Protocol REF	Parameter Value[Irrigation type]	Parameter Value[Volume]	Parameter Value[Frequency]	Protocol REF	Parameter Value[Experimental unit]	Term Source REF	Term Accession Number	Sample Name
-source1										field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample1
-source2										field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample2
-source3										field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample3
-source4										field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample4
-source5										field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample5
-source6										field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample6
-source7										field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample7
-source8										field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample8
-source9										field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample9
-source10										field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample10
-source11										field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample11
-source12										field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample12
-source13										field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample13
-source14										field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample14
-source15										field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample15
-source16										field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample16
-source17										field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample17
-source18										field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample18
-source19										field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample19
-source20										field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample20
-source21										field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample21
-source22										field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample22
-source23										field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample23
-source24										field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample24
-source25										field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample25
-source26										field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample26
-source27										field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample27
-source28										field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample28
-source29										field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample29
-source30										field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample30
-source31										field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample31
-source32										field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample32
-source33										field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample33
-source34										field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample34
-source35										field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample35
-source36										field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample36
-source37										field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample37
-source38										field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample38
-source39										field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample39
-source40										field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample40
-source41										field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample41
-source42										field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample42
-source43										field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample43
-source44										field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample44
-source45										field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample45
-source46										field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample46
-source47										field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample47
-source48										field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample48
-source49										field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample49
-source50										field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample50
-source51										field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample51
-source52										field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample52
-source53										field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample53
-source54										field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample54
-source55										field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample55
-source56										field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample56
-source57										field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample57
-source58										field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample58
-source59										field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample59
-source60										field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	plot?			sample60
+﻿Source Name	Characteristics[Organism]	Term Source REF	Term Accession Number	Characteristics[Infraspecific name]	Term Source REF	Term Accession Number	Characteristics[Seed origin]	Protocol REF	Parameter Value[Study start]	Parameter Value[Study duration]	Parameter Value[Growth facility]	Parameter Value[Geographic location]	Term Source REF	Term Accession Number	Factor Value[Block]	Protocol REF	Parameter Value[Rooting medium]	Term Source REF	Term Accession Number	Parameter Value[Plot size]	Unit	Term Source REF	Term Accession Number	Parameter Value[Sowing density]	Parameter Value[pH]	Protocol REF	Parameter Value[Air humidity]	Parameter Value[Daily photon flux]	Parameter Value[Length of light period]	Parameter Value[Day temperature]	Parameter Value[Night temperature]	Protocol REF	Parameter Value[N before fertilisation]	Parameter Value[Type of fertiliser]	Parameter Value[Amount of fertiliser]	Protocol REF	Parameter Value[Irrigation type]	Parameter Value[Volume]	Parameter Value[Frequency]	Protocol REF	Sample Name	Characteristics[Experimental unit type]
+source1								Growth			field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample1	plot
+source2								Growth			field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample2	plot
+source3								Growth			field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample3	plot
+source4								Growth			field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample4	plot
+source5								Growth			field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample5	plot
+source6								Growth			field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample6	plot
+source7								Growth			field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample7	plot
+source8								Growth			field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample8	plot
+source9								Growth			field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample9	plot
+source10								Growth			field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample10	plot
+source11								Growth			field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample11	plot
+source12								Growth			field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample12	plot
+source13								Growth			field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample13	plot
+source14								Growth			field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample14	plot
+source15								Growth			field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample15	plot
+source16								Growth			field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample16	plot
+source17								Growth			field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample17	plot
+source18								Growth			field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample18	plot
+source19								Growth			field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample19	plot
+source20								Growth			field				1	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample20	plot
+source1								Growth			field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample21	plot
+source2								Growth			field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample22	plot
+source3								Growth			field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample23	plot
+source4								Growth			field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample24	plot
+source5								Growth			field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample25	plot
+source6								Growth			field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample26	plot
+source7								Growth			field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample27	plot
+source8								Growth			field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample28	plot
+source9								Growth			field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample29	plot
+source10								Growth			field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample30	plot
+source11								Growth			field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample31	plot
+source12								Growth			field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample32	plot
+source13								Growth			field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample33	plot
+source14								Growth			field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample34	plot
+source15								Growth			field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample35	plot
+source16								Growth			field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample36	plot
+source17								Growth			field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample37	plot
+source18								Growth			field				2	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample38	plot
+source19								Growth			field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample39	plot
+source20								Growth			field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample40	plot
+source1								Growth			field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample41	plot
+source2								Growth			field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample42	plot
+source3								Growth			field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample43	plot
+source4								Growth			field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample44	plot
+source5								Growth			field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample45	plot
+source6								Growth			field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample46	plot
+source7								Growth			field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample47	plot
+source8								Growth			field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample48	plot
+source9								Growth			field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample49	plot
+source10								Growth			field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample50	plot
+source11								Growth			field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample51	plot
+source12								Growth			field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample52	plot
+source13								Growth			field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample53	plot
+source14								Growth			field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample54	plot
+source15								Growth			field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample55	plot
+source16								Growth			field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample56	plot
+source17								Growth			field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample57	plot
+source18								Growth			field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample58	plot
+source19								Growth			field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample59	plot
+source20								Growth			field				3	Rooting										Aerial conditions						Nutrition				Watering				Sampling	sample60	plot

@@ -1,5 +1,5 @@
-Assay Name	var1	var2	var3
-assay1	0,00	0,00	0,00
+﻿Assay Name	var1	var2	var3
+assay1	0	0	0
 assay2			
 assay3			
 assay4			

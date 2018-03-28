@@ -1,61 +1,61 @@
-Source Name	Characteristics[Organism]	Term Source REF	Term Accession Number	Characteristics[Infraspecific name]	Term Source REF	Term Accession Number	Characteristics[Seed origin]	Characteristics[Study start]	Characteristics[Study duration]	Characteristics[Growth facility]	Characteristics[Geographic location]	Term Source REF	Term Accession Number	Factor Value[Block]	Protocol REF	Parameter Value[Rooting medium]	Term Source REF	Term Accession Number	Parameter Value[Container type]	Parameter Value[Container volume]	Parameter Value[Container dimension]	Unit	Term Source REF	Term Accession Number	Parameter Value[Number of plants per container]	Parameter Value[pH]	Protocol REF	Parameter Value[Air humidity]	Parameter Value[Daily photon flux]	Parameter Value[Length of light period]	Parameter Value[Day temperature]	Parameter Value[Night temperature]	Protocol REF	Parameter Value[N before fertilisation]	Parameter Value[Type of fertiliser]	Parameter Value[Amount of fertiliser]	Protocol REF	Parameter Value[Irrigation type]	Parameter Value[Volume]	Parameter Value[Frequency]	Protocol REF	Parameter Value[Experimental unit]	Term Source REF	Term Accession Number	Sample Name
-source1										greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample1
-source2										greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample2
-source3										greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample3
-source4										greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample4
-source5										greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample5
-source6										greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample6
-source7										greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample7
-source8										greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample8
-source9										greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample9
-source10										greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample10
-source11										greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample11
-source12										greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample12
-source13										greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample13
-source14										greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample14
-source15										greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample15
-source16										greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample16
-source17										greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample17
-source18										greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample18
-source19										greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample19
-source20										greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample20
-source1										greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample21
-source2										greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample22
-source3										greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample23
-source4										greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample24
-source5										greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample25
-source6										greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample26
-source7										greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample27
-source8										greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample28
-source9										greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample29
-source10										greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample30
-source11										greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample31
-source12										greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample32
-source13										greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample33
-source14										greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample34
-source15										greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample35
-source16										greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample36
-source17										greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample37
-source18										greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample38
-source19										greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample39
-source20										greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample40
-source1										greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample41
-source2										greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample42
-source3										greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample43
-source4										greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample44
-source5										greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample45
-source6										greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample46
-source7										greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample47
-source8										greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample48
-source9										greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample49
-source10										greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample50
-source11										greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample51
-source12										greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample52
-source13										greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample53
-source14										greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample54
-source15										greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample55
-source16										greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample56
-source17										greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample57
-source18										greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample58
-source19										greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample59
-source20										greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	pot?			sample60
+﻿Source Name	Characteristics[Organism]	Term Source REF	Term Accession Number	Characteristics[Infraspecific name]	Term Source REF	Term Accession Number	Characteristics[Seed origin]	Protocol REF	Parameter Value[Study start]	Parameter Value[Study duration]	Parameter Value[Growth facility]	Parameter Value[Geographic location]	Term Source REF	Term Accession Number	Factor Value[Block]	Protocol REF	Parameter Value[Rooting medium]	Term Source REF	Term Accession Number	Parameter Value[Container type]	Parameter Value[Container volume]	Parameter Value[Container dimension]	Unit	Term Source REF	Term Accession Number	Parameter Value[Number of plants per container]	Parameter Value[pH]	Protocol REF	Parameter Value[Air humidity]	Parameter Value[Daily photon flux]	Parameter Value[Length of light period]	Parameter Value[Day temperature]	Parameter Value[Night temperature]	Protocol REF	Parameter Value[N before fertilisation]	Parameter Value[Type of fertiliser]	Parameter Value[Amount of fertiliser]	Protocol REF	Parameter Value[Irrigation type]	Parameter Value[Volume]	Parameter Value[Frequency]	Protocol REF	Sample Name	Parameter Value[Experimental unit type]
+source1								Growth			greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample1	pot
+source2								Growth			greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample2	pot
+source3								Growth			greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample3	pot
+source4								Growth			greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample4	pot
+source5								Growth			greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample5	pot
+source6								Growth			greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample6	pot
+source7								Growth			greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample7	pot
+source8								Growth			greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample8	pot
+source9								Growth			greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample9	pot
+source10								Growth			greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample10	pot
+source11								Growth			greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample11	pot
+source12								Growth			greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample12	pot
+source13								Growth			greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample13	pot
+source14								Growth			greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample14	pot
+source15								Growth			greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample15	pot
+source16								Growth			greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample16	pot
+source17								Growth			greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample17	pot
+source18								Growth			greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample18	pot
+source19								Growth			greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample19	pot
+source20								Growth			greenhouse				1	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample20	pot
+source1								Growth			greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample21	pot
+source2								Growth			greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample22	pot
+source3								Growth			greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample23	pot
+source4								Growth			greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample24	pot
+source5								Growth			greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample25	pot
+source6								Growth			greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample26	pot
+source7								Growth			greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample27	pot
+source8								Growth			greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample28	pot
+source9								Growth			greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample29	pot
+source10								Growth			greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample30	pot
+source11								Growth			greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample31	pot
+source12								Growth			greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample32	pot
+source13								Growth			greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample33	pot
+source14								Growth			greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample34	pot
+source15								Growth			greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample35	pot
+source16								Growth			greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample36	pot
+source17								Growth			greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample37	pot
+source18								Growth			greenhouse				2	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample38	pot
+source19								Growth			greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample39	pot
+source20								Growth			greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample40	pot
+source1								Growth			greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample41	pot
+source2								Growth			greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample42	pot
+source3								Growth			greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample43	pot
+source4								Growth			greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample44	pot
+source5								Growth			greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample45	pot
+source6								Growth			greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample46	pot
+source7								Growth			greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample47	pot
+source8								Growth			greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample48	pot
+source9								Growth			greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample49	pot
+source10								Growth			greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample50	pot
+source11								Growth			greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample51	pot
+source12								Growth			greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample52	pot
+source13								Growth			greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample53	pot
+source14								Growth			greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample54	pot
+source15								Growth			greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample55	pot
+source16								Growth			greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample56	pot
+source17								Growth			greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample57	pot
+source18								Growth			greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample58	pot
+source19								Growth			greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample59	pot
+source20								Growth			greenhouse				3	Rooting												Aerial conditions						Nutrition				Watering				Sampling	sample60	pot

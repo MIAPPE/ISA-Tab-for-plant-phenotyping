@@ -1,0 +1,11 @@
+﻿Source Name	Characteristics[Organism]	Term Source REF	Term Accession Number	Characteristics[Infraspecific name]	Term Source REF	Term Accession Number	Characteristics[Seed origin]	Protocol REF	Parameter Value[Study start]	Parameter Value[Study duration]	Parameter Value[Growth facility]	Parameter Value[Geographic location]	Term Source REF	Term Accession Number	Sample Name
+source1								Growth							sample1
+source2								Growth							sample2
+source3								Growth							sample3
+source4								Growth							sample4
+source5								Growth							sample5
+source6								Growth							sample6
+source7								Growth							sample7
+source8								Growth							sample8
+source9								Growth							sample9
+source10								Growth							sample10

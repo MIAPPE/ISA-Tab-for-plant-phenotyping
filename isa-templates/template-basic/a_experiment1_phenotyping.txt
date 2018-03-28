@@ -1,0 +1,11 @@
+﻿Sample Name	Protocol REF	Paramter Value[Organism part]	Term Source REF	Term Accession Number	Parameter Value[Trait Definition File]	Assay Name	Raw Data File	Protocol REF	Derived Data File
+sample1	Phenotyping				tdf.txt	assay1	NA	Data transformation	d_results.txt
+sample2	Phenotyping				tdf.txt	assay2	NA	Data transformation	d_results.txt
+sample3	Phenotyping				tdf.txt	assay3	NA	Data transformation	d_results.txt
+sample4	Phenotyping				tdf.txt	assay4	NA	Data transformation	d_results.txt
+sample5	Phenotyping				tdf.txt	assay5	NA	Data transformation	d_results.txt
+sample6	Phenotyping				tdf.txt	assay6	NA	Data transformation	d_results.txt
+sample7	Phenotyping				tdf.txt	assay7	NA	Data transformation	d_results.txt
+sample8	Phenotyping				tdf.txt	assay8	NA	Data transformation	d_results.txt
+sample9	Phenotyping				tdf.txt	assay9	NA	Data transformation	d_results.txt
+sample10	Phenotyping				tdf.txt	assay10	NA	Data transformation	d_results.txt

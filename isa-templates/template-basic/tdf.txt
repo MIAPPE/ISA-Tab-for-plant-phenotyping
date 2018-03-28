@@ -1,4 +1,4 @@
-Variable ID	Trait	Term Source REF	Term Accession Number	Method	Term Source REF	Term Accession Number	Scale	Term Source REF	Term Accession Number
+﻿Variable ID	Trait	Term Source REF	Term Accession Number	Method	Term Source REF	Term Accession Number	Scale	Term Source REF	Term Accession Number
 var1									
 var2									
 var3									
