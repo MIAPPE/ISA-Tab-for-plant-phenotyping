@@ -127,7 +127,7 @@
             <description><![CDATA[(MIAPPE: Geographic location (country)) The country where the experiment took place, either as a full name or preferably as a 2-letter code.]]></description>
             <default-value><![CDATA[e.g. FR]]></default-value>
         </field>
-        <field data-type="String" header="Comment[Study Experimental Site]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="true" section="STUDY">
+        <field data-type="String" header="Comment[Study Experimental Site Name]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="true" section="STUDY">
             <description><![CDATA[(MIAPPE: Experimental site name) The name of the natural site, experimental field, greenhouse, phenotyping facility, etc. where the experiment took place.]]></description>
             <default-value><![CDATA[e.g. INRA, UE Diascope - Chemin de Mezouls - Domaine expérimental de Melgueil - 34130 Mauguio - France]]></default-value>
         </field>
