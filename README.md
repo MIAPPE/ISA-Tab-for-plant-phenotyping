@@ -20,6 +20,12 @@ ISA configuration is a selection of MIAPPE attributes mapped to the ISA-Tab form
 Updates
 -------
 
+**v1.1 (under development)**
+
+The work on new version of the ISA-Tab configuration for plant phenotyping experiments, corresponding to the [MIAPPE v1.1](https://github.com/MIAPPE/MIAPPE/tree/master/MIAPPE_Checklist-Data-Model-v1.1) recommendations is in progress.
+
+
+
 **v1.0**
 
 [First version](https://github.com/MIAPPE/ISA-Tab-for-plant-phenotyping/tree/v1.0.0) of MIAPPE-ISA mapping was published in 2016 as a result of TransPLANT project. Later changes to this version result from a set of issues discovered through testing it with a new release of ISA-API tools, i.e. validator and converter to JSON. All corrections to the initial configuration can be found in branch [1.0](https://github.com/MIAPPE/ISA-Tab-for-plant-phenotyping/tree/v1.0). As compared to the description in the paper, the main changes are:
