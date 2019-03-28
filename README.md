@@ -445,6 +445,9 @@ For more details about the specific meaning, contents and format of each field, 
 
 The assay file starts with the Samples column (MIAPPE observation units) as defined in the study file. Then the Protocols should follow: Sampling may be used if there are any MIAPPE Samples (i.e. ISA-Tab Extracts) to speak of. The Phenotyping protocol must always be used in the end. The Sampling Date, a parameter value to the Sampling protocol, column is mandatory for Extracts, to indicate the collection date. The Date is not mandatory for the Phenotyping protocol.
 
+Overall, the Sampling protocol applies on an ISA Sample (MIAPPE observation unit), and transforms a material (from a sample) into an Extract (MIAPPE sample). The sampling parameters describe the process, and the extract characteristics describe the resulting material.
+
+
 ### Samples
 
 For the MIAPPE samples, the mapping is as follows:
