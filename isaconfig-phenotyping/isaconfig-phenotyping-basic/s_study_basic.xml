@@ -7,12 +7,9 @@
             <description><![CDATA[(MIAPPE: Biological Material ID) Code used to identify the biological material in the data file. Should be unique within the Investigation. Can correspond to experimental plant ID, seed lot ID, etc… This material identification is different from a BiosampleID which corresponds to Observation Unit or Samples sections below.]]></description>
             <default-value><![CDATA[biological-material_A]]></default-value>
         </field>
-        <field data-type="Ontology term" header="Characteristics[Organism]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="true">
+        <field data-type="string" header="Characteristics[Organism]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="true">
             <description><![CDATA[(MIAPPE: Organism) An identifier for the organism at the species level. Use of the NCBI taxon ID is recommended.]]></description>
             <default-value><![CDATA[e.g. NCBI:4577]]></default-value>
-            <recommended-ontologies>
-                <ontology id="http://data.bioontology.org/ontologies/NCBITAXON" abbreviation="NCBITAXON" name="National Center for Biotechnology Information (NCBI) Organismal Classification" version="2"/>
-            </recommended-ontologies>
         </field>
         <field data-type="String" header="Characteristics[Genus]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="false">
             <description><![CDATA[(MIAPPE: Genus) Genus name for the organism under study, according to standard scientific nomenclature.]]></description>
@@ -39,15 +36,15 @@
             <default-value><![CDATA[e.g. 10]]></default-value>
         </field>
         <unit-field data-type="String" is-forced-ontology="false" is-multiple-value="false" is-required="false">
-            <default-value><![CDATA[e.g. m]]></default-value>
-            <description>Unit abbreviation for Biological material altitude.&quot;</description>
+            <default-value><![CDATA[meter]]></default-value>
+            <description>Unit abbreviation for Biological material altitude.</description>
         </unit-field>
         <field data-type="String" header="Characteristics[Biological Material Coordinates Uncertainty]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="false">
             <description><![CDATA[(MIAPPE: Biological material coordinates uncertainty) Circular uncertainty of the coordinates, preferably provided in meters (m). [Alternative identifier for in situ material]]]></description>
             <default-value><![CDATA[e.g. 200]]></default-value>
         </field>
         <unit-field data-type="String" is-forced-ontology="false" is-multiple-value="false" is-required="false">
-            <default-value><![CDATA[e.g. m]]></default-value>
+            <default-value><![CDATA[meter]]></default-value>
             <description>Unit abbreviation for Biological material coordinates uncertainty.&quot;</description>
         </unit-field>
         <field data-type="String" header="Characteristics[Biological Material Preprocessing]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="false">
@@ -75,7 +72,7 @@
             <default-value><![CDATA[e.g. 10]]></default-value>
         </field>
         <unit-field data-type="String" is-forced-ontology="false" is-multiple-value="false" is-required="false">
-            <default-value><![CDATA[e.g. m]]></default-value>
+            <default-value><![CDATA[meter]]></default-value>
             <description>Unit abbreviation for Material source altitude</description>
         </unit-field>
         <field data-type="String" header="Characteristics[Material Source Coordinates Uncertainty]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="false">
@@ -83,7 +80,7 @@
             <default-value><![CDATA[e.g. 200]]></default-value>
         </field>
         <unit-field data-type="String" is-forced-ontology="false" is-multiple-value="false" is-required="false">
-            <default-value><![CDATA[e.g. m]]></default-value>
+            <default-value><![CDATA[meter]]></default-value>
             <description>Unit abbreviation for Material source coordinates uncertainty.</description>
         </unit-field>
         <field data-type="String" header="Characteristics[Material Source Description]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="false">
@@ -91,27 +88,14 @@
             <default-value><![CDATA[e.g. Branches were collected from a 10-year-old tree growing in a progeny trial established in a loamy brown earth soil.]]></default-value>
         </field>
         <protocol-field protocol-type="Growth"/>
-        <field data-type="String" header="Parameter Value[e.g. Sowing Density (Env.Param.)]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="false">
-            <description><![CDATA[Value of Environment parameter 1 (defined in the Investigation file), constant within the experiment. Add more parameters as necessary.]]></description>
-                        <default-value><![CDATA[e.g. Clay 50% plus sand]]></default-value>
-        </field>
-        <field data-type="String" header="Parameter Value[e.g. pH (Env.Param.)]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="false">
-            <description><![CDATA[Value of Environment parameter 2, etc. (defined in the Investigation file), constant within the experiment. Add more parameters as necessary.]]></description>
-                        <default-value><![CDATA[e.g. 6.5]]></default-value>
-        </field>
-
-        <protocol-field protocol-type="e.g. Planting"/>
-        <field data-type="String" header="Parameter Value[Event Date]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="false">
-            <description><![CDATA[Date of the event referenced by the protocol in the column to the left.]]></description>
-            <default-value/>
-        </field>
         <field data-type="String" header="Sample Name" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="true">
             <description><![CDATA[(MIAPPE: Observation unit ID) Identifier used to identify the observation unit in data files containing the values observed or measured on that unit. Must be locally unique.]]></description>
             <default-value><![CDATA[e.g. obs_unit_B]]></default-value>
         </field>
-        <field data-type="String" header="Characteristics[Observation Unit Type]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="true">
+        <field data-type="list" header="Characteristics[Observation Unit Type]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="true">
             <description><![CDATA[(MIAPPE: Observation unit type) Type of observation unit in textual form, usually one of the following: block, sub-block, plot, plant, trial, pot, replication or replicate, individual, virtual_trial, unit-parcel]]></description>
-            <default-value><![CDATA[e.g. plot]]></default-value>
+            <default-value><![CDATA[plant]]></default-value>
+            <list-values>block,sub-block,plot,plant,trial,pot,replicate,individual,virtual_trial,unit-parcel</list-values>
         </field>
         <field data-type="String" header="Characteristics[External ID]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="false">
             <description><![CDATA[(MIAPPE: External ID) Identifier for the observation unit in a persistent repository, comprises the name of the repository and the identifier of the observation unit therein. The EBI Biosamples repository can be used. URI are recommended when possible.]]></description>

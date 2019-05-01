@@ -151,9 +151,9 @@
             <description><![CDATA[Study Public Release Date]]></description>
             <default-value/>
         </field>
-        <field data-type="String" header="Study File Name" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="true" section="STUDY">
+        <field data-type="String" header="Study File Name" is-file-field="false" is-forced-ontology="false" is-hidden="true" is-multiple-value="false" is-required="true" section="STUDY">
             <description><![CDATA[No MIAPPE equivalent, but use this field as necessary to indicate your study files.]]></description>
-            <default-value/>
+            <default-value><![CDATA[]]></default-value>
         </field>
         <field data-type="String" header="Comment[Study Data File Link]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="true" is-required="false" section="STUDY">
             <description><![CDATA[(MIAPPE: Data file link) Link to the data file (or digital object) in a public database or in a persistant institutional repository; or identifier of the data file when submitted together with the MIAPPE submission.]]></description>
@@ -161,12 +161,16 @@
         </field>
         <field data-type="String" header="Comment[Study Data File Description]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="true" is-required="false" section="STUDY">
             <description><![CDATA[(MIAPPE: Data file description) Description of the format of the data file. May be a standard file format name, or a description of organization of the data in a tabular file.]]></description>
-            <default-value><![CDATA[e.g. FASTA]]></default-value>
+            <default-value><![CDATA[e.g. FASTA, MAGE-Tab]]></default-value>
         </field>
         <field data-type="String" header="Comment[Study Data File Version]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="true" is-required="false" section="STUDY">
             <description><![CDATA[(MIAPPE: Data file version) The version of the dataset (the actual data).]]></description>
             <default-value><![CDATA[e.g. 1.0]]></default-value>
         </field>
+        <field data-type="String" header="Comment[Trait Definition File]" is-file-field="true" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="true" section="STUDY">
+            <description><![CDATA[(MIAPPE: name and url to Trait definition file.]]></description>
+            <default-value></default-value>
+        </field> 
         <field data-type="String" header="Study PubMed ID" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="false" section="STUDY PUBLICATIONS">
             <description><![CDATA[Study PubMed ID]]></description>
             <default-value/>

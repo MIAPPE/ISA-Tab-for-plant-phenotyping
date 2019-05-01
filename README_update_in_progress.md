@@ -231,7 +231,7 @@ Study Protocols are also used for MIAPPE *Events*. In this case, the mapping is 
 
 For protocols describing Events, the `Study Protocol Type` must always be set to "Event". Note that the accession number for each event type is in the URI field. Once again, the [Crop Research Ontology (CO_715)](http://www.cropontology.org/ontology/CO_715) is used, and a subclass of [CO_715:0000006 (Time factor)](http://www.cropontology.org/terms/CO_715:0000006/Time%20factor) can be given, e.g. `CO_715:0000007` for the ["Sowing date"](http://www.cropontology.org/terms/CO_715:0000007/).
 
-Event-type protocols should also have an `Event Date` parameter, so the respective timestamp(s) may be provided in the Study file. An Event protocol may look as follows:
+An Event protocol may look as follows:
 
 ```
 STUDY PROTOCOLS	
@@ -242,7 +242,7 @@ Study Protocol Type Term Source REF⟶⟶
 Study Protocol Description⟶Sowing using seed drill⟶Fertilizer application: Ammonium nitrate at 3 kg/m2
 Study Protocol URI⟶CO_715:0000007⟶CO_715:0000011
 Study Protocol Version⟶⟶
-Study Protocol Parameters Name⟶Event date⟶Event date
+Study Protocol Parameters Name⟶⟶
 ```
 
 Two additional protocols must be defined. The `Sampling` protocol is only required in cases where MIAPPE samples are present. This protocol is used to indicate that a sampling operation takes place, transforming material from an ISA Sample (MIAPPE equivalent: Observation unit) into an ISA Extract (MIAPPE equivalent: Sample).
@@ -278,7 +278,7 @@ Study Protocol Description⟶
 Study Protocol URI⟶
 Study Protocol Version⟶
 Study Protocol Parameters Name⟶
-```
+```01-May-19 10:43:00 AM 
 
 Finally, the `Data Transformation` protocol is used in Assay files, to indicate that a raw data file (included or not) has been processed to get the final results. Only its name needs to be declared in the Investigation.
 
@@ -309,7 +309,7 @@ Study Protocol Type Term Source REF⟶⟶⟶⟶⟶⟶
 Study Protocol Description⟶Irrigation was applied according needs during summer to prevent water stress.⟶Sowing using seed drill⟶Fertilizer application: Ammonium nitrate at 3 kg/m2⟶⟶⟶
 Study Protocol URI⟶CO_715:0000162⟶CO_715:0000007⟶CO_715:0000011⟶⟶⟶
 Study Protocol Version⟶⟶⟶⟶⟶⟶
-Study Protocol Parameters Name⟶sowing density;pH⟶*Event date*⟶*Event date*⟶*Sampling Date;Sampling Description*⟶⟶
+Study Protocol Parameters Name⟶sowing density;pH⟶⟶⟶*Sampling Date;Sampling Description*⟶⟶
 Study Protocol Parameters Name Term Accession Number⟶⟶⟶⟶⟶⟶
 Study Protocol Parameters Name Term Source REF⟶⟶⟶⟶⟶⟶
 Study Protocol Components Name⟶⟶⟶⟶⟶⟶
@@ -330,7 +330,7 @@ Or, in table form (the words in *italics* are fixed terms for the respective pro
 | Study Protocol Description                           | Irrigation was applied according needs during summer to prevent water stress. | Sowing using seed drill | Fertilizer application: Ammonium nitrate at 3 kg/m2 |                                      |                         |                        |
 | Study Protocol URI                                   | CO_715:0000162                                                                | CO_715:0000007          | CO_715:0000011                                      |                                      |                         |                        |
 | Study Protocol Version                               |                                                                               |                         |                                                     |                                      |                         |                        |
-| Study Protocol Parameters Name                       | sowing density;pH                                                             | *Event Date*            | *Event Date*                                        | *Sampling Date;Sampling Description* |                         |                        |
+| Study Protocol Parameters Name                       | sowing density;pH                                                             |                         |                                                     | *Sampling Date;Sampling Description* |                         |                        |
 | Study Protocol Parameters Name Term Accession Number |                                                                               |                         |                                                     |                                      |                         |                        |
 | Study Protocol Parameters Name Term Source REF       |                                                                               |                         |                                                     |                                      |                         |                        |
 | Study Protocol Components Name                       |                                                                               |                         |                                                     |                                      |                         |                        |
@@ -409,7 +409,7 @@ An observation unit would be necessary in this case too. This would mean that, f
 
 | Source Name | Characteristics[Organism] | Characteristics[...] | Sample Name | Characteristics[...] | Factor Value[...] |
 |-------------|---------------------------|----------------------|-------------|----------------------|-------------------|
-| **study**   | **NCBI:4107**             |                      |             |                      |                   |
+| `study`     | `NCBI:4107`               |                      |             |                      |                   |
 
 The Organism attribute, which is mandatory, should indicate the genus of the biological material in the study. The above example assumes that the study involved materials only from the [Solanum species](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4107).
 
@@ -427,18 +427,6 @@ In the example in the Investigation section we included two environment paramete
 | source 2    | ... | Growth       | 300 seeds per m2                | 6.5                  |
 
 Note that, in the MIAPPE data model, environment parameter values apply, by definition, to all observation units in a study. Therefore these parameters must have the same value across all rows!
-
-
-#### Events
-
-Each Event is presented much in the same way as the environment parameters.
-
-| Source Name | ... | Protocol REF | Parameter Value[Event Date] | Protocol REF  | Parameter Value[Event Date]                         |
-|-------------|-----|--------------|-----------------------------|---------------|-----------------------------------------------------|
-| source 1    | ... | Planting     | 2017-01-27                  | Fertilization | 2017-01-29T10:23:21+00:00;2017-01-29T10:23:21+00:00 |
-| source 2    | ... | Planting     | 2017-01-28                  | Fertilization | 2017-01-29T11:00:00+00:00                           |
-
-However, note some core differences: The Events may each have multiple dates (semicolon-separated). Additionally, different parameter values (dates) may be applied to different observation units.
 
 
 ### Observation units
@@ -491,10 +479,10 @@ The two Parameter Values in the above mapping both refer to the Sampling protoco
 
 The Sampling protocol can be applied as follows. The Plant structure development stage and the plant anatomical entity, according to MIAPPE recommendations, must refer to ontology classes.
 
-| Sample Name | Protocol REF | Parameter Value[Sampling Date]  | Parameter Value[Sampling Description] | Extract Name | Characteristics[Plant Structure Development Stage] | Term Source REF | Term Accession Number | Characteristics[Plant Anatomical Entity] | Term Source REF | Term Accession Number | Characteristics[External ID] |
-|-------------|--------------|---------------------------------|---------------------------------------|--------------|----------------------------------------------------|-----------------|-----------------------|------------------------------------------|-----------------|-----------------------|------------------------------|
-| exp. unit A | Sampling     | 2017-06-22                      |                                       | sample I     |                                                    |                 |                       |                                          |                 |                       |                              |
-| exp. unit B | Sampling     | 2017-06-23                      |                                       | sample II    |                                                    |                 |                       |                                          |                 |                       |                              |
+| Sample Name | Characteristics[Observation Unit Type] | Protocol REF | Parameter Value[Sampling Date]  | Parameter Value[Sampling Description] | Extract Name | Characteristics[Plant Structure Development Stage] | Term Source REF | Term Accession Number | Characteristics[Plant Anatomical Entity] | Term Source REF | Term Accession Number | Characteristics[External ID] |
+|-------------|----------------------------------------|--------------|---------------------------------|---------------------------------------|--------------|----------------------------------------------------|-----------------|-----------------------|------------------------------------------|-----------------|-----------------------|------------------------------|
+| exp. unit A |                                        | Sampling     | 2017-06-22                      |                                       | sample I     |                                                    |                 |                       |                                          |                 |                       |                              |
+| exp. unit B |                                        | Sampling     | 2017-06-23                      |                                       | sample II    |                                                    |                 |                       |                                          |                 |                       |                              |
 
 
 ### Phenotyping
@@ -503,10 +491,10 @@ Including the Phenotyping protocol is mandatory. The Phenotyping protocol points
 Note that each assay should be about **a single observation level**.
 
 
-| Sample Name | (sampling details) | Protocol REF | Date | Parameter Value[Observation Level] | Assay Name | Raw Data File | Protocol REF        | Derived Data File |
-|-------------|--------------------|--------------|------|------------------------------------|------------|---------------|---------------------|-------------------|
-| sample A    |                    | Phenotyping  |      |                                    | assay 1    | file 1        | Data Transformation | file 2            |
-| sample B    |                    | Phenotyping  |      |                                    | assay 2    | NA            | Data Transformation | file 2            |
+| Sample Name | Characteristics[Observation Unit Type] | (sampling details) | Protocol REF | Date | Parameter Value[Observation Level] | Assay Name | Raw Data File | Protocol REF        | Derived Data File |
+|-------------|----------------------------------------|--------------------|--------------|------|------------------------------------|------------|---------------|---------------------|-------------------|
+| sample A    | plant                                  |                    | Phenotyping  |      |                                    | assay 1    | file 1        | Data Transformation | file 2            |
+| sample B    | plant                                  |                    | Phenotyping  |      |                                    | assay 2    | NA            | Data Transformation | file 2            |
 
 The Date column is optional (you will have to add it in the ISA Creator too, if you choose to include it), and in this case it would refer to the timestamp of a measurement done on an observation unit or (MIAPPE) sample. It is up to the user to decide whether the raw or processed files will accompany the metadata. If no raw data file is included, fill the respective fields with "NA". Note that the transition from raw to processed data file is marked using the Data Transformation protocol.
 
@@ -524,6 +512,22 @@ The trait definition file includes the attributes from MIAPPE's Observed Variabl
 There should be one trait definition file per study. Its filename is indicated in the Study section of the Investigation file. 
 
 Climatological variables should also be listed in the same file, the same way.
+
+
+#### Events
+
+An external `.csv` file is used to describe concrete occurrences of events. Although external files are outside the scope of ISA validation, the events listed in this file should be declared in the `Study Protocols` section of the Investigation file.
+
+This means that there will be redundancy for certain fields ().
+
+The csv file should look like this:
+
+| Source Name | ... | Protocol REF | Parameter Value[Event Date] | Protocol REF  | Parameter Value[Event Date]                         |
+|-------------|-----|--------------|-----------------------------|---------------|-----------------------------------------------------|
+| source 1    | ... | Planting     | 2017-01-27                  | Fertilization | 2017-01-29T10:23:21+00:00;2017-01-29T10:23:21+00:00 |
+| source 2    | ... | Planting     | 2017-01-28                  | Fertilization | 2017-01-29T11:00:00+00:00                           |
+
+However, note some core differences: The Events may each have multiple dates (semicolon-separated). Additionally, different parameter values (dates) may be applied to different observation units.
 
 
 ## Data file
