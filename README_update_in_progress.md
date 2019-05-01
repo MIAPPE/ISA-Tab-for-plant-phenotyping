@@ -435,9 +435,56 @@ Each ISA-Tab source node must, after the application of protocols, lead to a Sam
 | Field # | MIAPPE                | ISA-Tab                                 |
 |---------|-----------------------|-----------------------------------------|
 | 63      | Observation unit ID   | Sample Name                             |
-| 64      | Observation unit type | Characteristics[Experimental unit type] |
+| 64      | Observation unit type | Characteristics[Observation Unit Type] |
 | 65      | External ID           | Characteristics[External ID]            |
 | 66      | Spatial distribution  | Characteristics[Spatial distribution]   |
+
+
+The ISA configuration allows, by default, only specific `observation unit type`s, taken from the corresponding MIAPPE definition:
+
+> Type of observation unit in textual form, usually one of the following: `block`, `sub-block`, `plot`, `plant`, `study`, `pot`, `replication or replicate`, `individual`, `virtual_trial`, `unit-parcel`.
+
+<!-- Note that the current definition in MIAPPE has a trial level instead of the study level, but this should be changed in the next revision of the standard. -->
+
+The `observation unit type` is stated in the study file, and repeated in each of the assay files. 
+
+This list of possible values for the observation unit types column is non-exhaustive, but it should cover the majority of cases. It is possible to use a different unit type in the Creator (and in the Validator) by editing the configuration as follows:
+
+#### Adding a new observation unit type
+
+##### Step 1: Edit the study configuration (`s_study_basic.xml`)
+
+The following section (around lines 95-99) looks as follows:
+```
+        <field data-type="list" header="Characteristics[Observation Unit Type]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="true">
+            <description><![CDATA[(MIAPPE: Observation unit type) Type of observation unit in textual form, usually one of the following: block, sub-block, plot, plant, trial, pot, replication or replicate, individual, virtual_trial, unit-parcel]]></description>
+            <default-value><![CDATA[plant]]></default-value>
+            <list-values>block,sub-block,plot,plant,trial,pot,replicate,individual,virtual_trial,unit-parcel</list-values>
+        </field>
+```
+
+Add the name of your unit to the list of allowed values:
+`<list-values>**[new_unit_type]**,block,sub-block,plot,plant,trial,pot,replicate,individual,virtual_trial,unit-parcel</list-values>`
+
+e.g.  
+`<list-values>superblock,block,sub-block,plot,plant,trial,pot,replicate,individual,virtual_trial,unit-parcel</list-values>`
+
+##### Step 2: Create a new assay configuration file
+
+The name of the file should reflect the name of the new observation unit type and adhere to the pattern `phenotyping_[new_unit_type]_level.txt`, e.g. `phenotyping_superblock_level.txt`.
+
+##### Step 3: Edit the new assay configuration file
+
+The following lines have to be changed:
+
+* On line 3, the `table-name` should include the name of the new unit type, e.g.
+		`<isatab-configuration isatab-assay-type="generic_assay" isatab-conversion-target="generic" table-name="superblock_block_level">`
+* On line 5, the `term-label` should also include the name of the new unit type, e.g.
+		`<technology source-abbreviation="" term-accession="" term-label="superblock level analysis"/>`
+* Modify line 12 to include the name of the new observation unit type in the list of values (should be the same as the respective line in the study configuration file), e.g.
+		`<list-values>superblock,block,sub-block,plot,plant,trial,pot,replicate,individual,virtual_trial,unit-parcel</list-values>`
+
+You may then use the new unit type in the ISA Creator.
 
 
 ### Factor values
@@ -490,10 +537,10 @@ Including the Phenotyping protocol is mandatory. The Phenotyping protocol points
 Note that each assay should be about **a single observation level**.
 
 
-| Sample Name | Characteristics[Observation Unit Type] | (sampling details) | Protocol REF | Date | Parameter Value[Observation Level] | Assay Name | Raw Data File | Protocol REF        | Derived Data File |
-|-------------|----------------------------------------|--------------------|--------------|------|------------------------------------|------------|---------------|---------------------|-------------------|
-| sample A    | plant                                  |                    | Phenotyping  |      |                                    | assay 1    | file 1        | Data Transformation | file 2            |
-| sample B    | plant                                  |                    | Phenotyping  |      |                                    | assay 2    | NA            | Data Transformation | file 2            |
+| Sample Name | Characteristics[Observation Unit Type] | (sampling details) | Protocol REF | Date | Assay Name | Raw Data File | Protocol REF        | Derived Data File |
+|-------------|----------------------------------------|--------------------|--------------|------|------------|---------------|---------------------|-------------------|
+| sample A    | plant                                  |                    | Phenotyping  |      | assay 1    | file 1        | Data Transformation | file 2            |
+| sample B    | plant                                  |                    | Phenotyping  |      | assay 2    | NA            | Data Transformation | file 2            |
 
 The Date column is optional (you will have to add it in the ISA Creator too, if you choose to include it), and in this case it would refer to the timestamp of a measurement done on an observation unit or (MIAPPE) sample. It is up to the user to decide whether the raw or processed files will accompany the metadata. If no raw data file is included, fill the respective fields with "NA". Note that the transition from raw to processed data file is marked using the Data Transformation protocol.
 
@@ -521,11 +568,9 @@ This means that there will be redundancy for certain fields ().
 
 The csv file should look like this:
 
-| Source Name | ... | Protocol REF | Parameter Value[Event Date] | Protocol REF  | Parameter Value[Event Date]                         |
-|-------------|-----|--------------|-----------------------------|---------------|-----------------------------------------------------|
-| source 1    | ... | Planting     | 2017-01-27                  | Fertilization | 2017-01-29T10:23:21+00:00;2017-01-29T10:23:21+00:00 |
-| source 2    | ... | Planting     | 2017-01-28                  | Fertilization | 2017-01-29T11:00:00+00:00                           |
 
+
+Each line in this file represents a single occurrence of an Event, and should therefore have exactly one date. The Observation Unit(s) column should list all affected units (multiple units are allowed on each row). If the column is empty, it is understood that this instance of the event affected all units in the study.
 However, note some core differences: The Events may each have multiple dates (semicolon-separated). Additionally, different parameter values (dates) may be applied to different observation units.
 
 
