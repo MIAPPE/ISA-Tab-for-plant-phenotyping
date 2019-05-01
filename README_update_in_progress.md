@@ -278,7 +278,7 @@ Study Protocol Description⟶
 Study Protocol URI⟶
 Study Protocol Version⟶
 Study Protocol Parameters Name⟶
-```01-May-19 10:43:00 AM 
+```
 
 Finally, the `Data Transformation` protocol is used in Assay files, to indicate that a raw data file (included or not) has been processed to get the final results. Only its name needs to be declared in the Investigation.
 
@@ -297,7 +297,7 @@ Study Protocol Parameters Name⟶
 
 An Investigation file may only have one Study Protocols section per STUDY. Therefore, all of the above protocols need to be consolidated into one section. Protocols not in use may be omitted. 
 
-The combined Protocols section could look as follows (fixed fields (per protocol) are marked with \*asterisks\*).
+The combined Protocols section could look as follows. Fixed fields (per protocol) are marked in this readme with \*asterisks\*.
 
 
 ```
@@ -309,7 +309,7 @@ Study Protocol Type Term Source REF⟶⟶⟶⟶⟶⟶
 Study Protocol Description⟶Irrigation was applied according needs during summer to prevent water stress.⟶Sowing using seed drill⟶Fertilizer application: Ammonium nitrate at 3 kg/m2⟶⟶⟶
 Study Protocol URI⟶CO_715:0000162⟶CO_715:0000007⟶CO_715:0000011⟶⟶⟶
 Study Protocol Version⟶⟶⟶⟶⟶⟶
-Study Protocol Parameters Name⟶sowing density;pH⟶⟶⟶*Sampling Date;Sampling Description*⟶⟶
+Study Protocol Parameters Name⟶sowing density;pH⟶⟶⟶*Collection Date;Sample Description*⟶⟶
 Study Protocol Parameters Name Term Accession Number⟶⟶⟶⟶⟶⟶
 Study Protocol Parameters Name Term Source REF⟶⟶⟶⟶⟶⟶
 Study Protocol Components Name⟶⟶⟶⟶⟶⟶
@@ -324,20 +324,19 @@ Or, in table form (the words in *italics* are fixed terms for the respective pro
 | STUDY PROTOCOLS                                      |                                                                               |                         |                                                     |                                      |                         |                        |
 |------------------------------------------------------|-------------------------------------------------------------------------------|-------------------------|-----------------------------------------------------|--------------------------------------|-------------------------|------------------------|
 | Study Protocol Name                                  | *Growth*                                                                      | Planting                | Fertilizing                                         | *Sampling*                           | *Phenotyping*           | *Data transformation*  |
-| Study Protocol Type                                  | Field environment condition                                                   | *Event*                 | *Event*                                             | *Sampling*                           | *Phenotyping*           |  *Data transformation* |
+| Study Protocol Type                                  | Field environment condition                                                   | *Event*                 | *Event*                                             | *Sampling*                           | *Phenotyping*           | *Data transformation*  |
 | Study Protocol Type Term Accession Number            |                                                                               |                         |                                                     |                                      |                         |                        |
 | Study Protocol Type Term Source REF                  |                                                                               |                         |                                                     |                                      |                         |                        |
 | Study Protocol Description                           | Irrigation was applied according needs during summer to prevent water stress. | Sowing using seed drill | Fertilizer application: Ammonium nitrate at 3 kg/m2 |                                      |                         |                        |
 | Study Protocol URI                                   | CO_715:0000162                                                                | CO_715:0000007          | CO_715:0000011                                      |                                      |                         |                        |
 | Study Protocol Version                               |                                                                               |                         |                                                     |                                      |                         |                        |
-| Study Protocol Parameters Name                       | sowing density;pH                                                             |                         |                                                     | *Sampling Date;Sampling Description* |                         |                        |
+| Study Protocol Parameters Name                       | sowing density;pH                                                             |                         |                                                     | *Collection Date;Sample Description* |                         |                        |
 | Study Protocol Parameters Name Term Accession Number |                                                                               |                         |                                                     |                                      |                         |                        |
 | Study Protocol Parameters Name Term Source REF       |                                                                               |                         |                                                     |                                      |                         |                        |
 | Study Protocol Components Name                       |                                                                               |                         |                                                     |                                      |                         |                        |
 | Study Protocol Components Type                       |                                                                               |                         |                                                     |                                      |                         |                        |
 | Study Protocol Components Type Term Accession Number |                                                                               |                         |                                                     |                                      |                         |                        |
 | Study Protocol Components Type Term Source REF       |                                                                               |                         |                                                     |                                      |                         |                        |
-
 
 
 ## Study file
