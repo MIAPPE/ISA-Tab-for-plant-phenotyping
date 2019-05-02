@@ -226,10 +226,13 @@ Study Protocols are also used for MIAPPE *Events*. In this case, the mapping is 
 | Field # | MIAPPE                 | ISA-Tab                    |
 |---------|------------------------|----------------------------|
 | 41      | Event type             | Study Protocol Name        |
-| 42      | Event description      | Study Protocol Description |
 | 43      | Event accession number | Study Protocol URI         |
 
+<!-- | 42      | Event description      | Study Protocol Description | -->
+
 For protocols describing Events, the `Study Protocol Type` must always be set to "Event". Note that the accession number for each event type is in the URI field. Once again, the [Crop Research Ontology (CO_715)](http://www.cropontology.org/ontology/CO_715) is used, and a subclass of [CO_715:0000006 (Time factor)](http://www.cropontology.org/terms/CO_715:0000006/Time%20factor) can be given, e.g. `CO_715:0000007` for the ["Sowing date"](http://www.cropontology.org/terms/CO_715:0000007/).
+
+Further details about events, such as detailed descriptions, time of occurrence and affected subjects, should be defined in an external csv file (see section below).
 
 An Event protocol may look as follows:
 
@@ -239,7 +242,7 @@ Study Protocol Name⟶Planting⟶Fertilizing
 Study Protocol Type⟶Event⟶Event
 Study Protocol Type Term Accession Number⟶⟶
 Study Protocol Type Term Source REF⟶⟶
-Study Protocol Description⟶Sowing using seed drill⟶Fertilizer application: Ammonium nitrate at 3 kg/m2
+Study Protocol Description⟶⟶
 Study Protocol URI⟶CO_715:0000007⟶CO_715:0000011
 Study Protocol Version⟶⟶
 Study Protocol Parameters Name⟶⟶
@@ -560,7 +563,7 @@ There should be one trait definition file per study. Its filename is indicated i
 Climatological variables should also be listed in the same file, the same way.
 
 
-#### Events
+## Event File
 
 An external `.csv` file is used to describe concrete occurrences of events. Although external files are outside the scope of ISA validation, the events listed in this file should be declared in the `Study Protocols` section of the Investigation file.
 
@@ -568,13 +571,20 @@ This means that there will be redundancy for certain fields ().
 
 The csv file should look like this:
 
+| Study ID*  | Observation Unit(s)    | Event Date*                   | Event Type  | Event Accession Number | Event Description                                       |
+|------------|------------------------|-------------------------------|-------------|------------------------|---------------------------------------------------------|
+| s_1        | NA                     | 2006-09-27T10:23:21+00:00     | Planting    | CO_715:0000007         | Sowing using seed drill                                 |
+| s_1        | obs_unit_1, obs_unit_2 | 2006-**09-28**T10:23:21+00:00 | Fertilizing | CO_715:0000011         | Fertilizer application: Ammonium nitrate at 3 kg/m2     |
+| s_1        | obs_unit_1, obs_unit_2 | 2006-**10-28**T10:23:21+00:00 | Fertilizing | CO_715:0000011         | Fertilizer application: Ammonium nitrate at **2** kg/m2 |
+| s_1        | obs_unit_3             | 2006-**10-29**T10:23:21+00:00 | Fertilizing | CO_715:0000011         | Fertilizer application: Ammonium nitrate at 3 kg/m2     |
+| **s_2**    | obs_unit_A             | 2006-**10-29**T10:23:21+00:00 | Fertilizing | CO_715:0000011         | Fertilizer application: Ammonium nitrate at 3 kg/m2     |
+Each line in this file represents a single occurrence of an Event, and should therefore have exactly one date. The Observation Unit(s) column should list all affected units (multiple units are allowed on each row). If the column is empty, it is understood that this instance of the event affected all units in the study. Note that each event type may happen on multiple dates.
 
-
-Each line in this file represents a single occurrence of an Event, and should therefore have exactly one date. The Observation Unit(s) column should list all affected units (multiple units are allowed on each row). If the column is empty, it is understood that this instance of the event affected all units in the study.
-However, note some core differences: The Events may each have multiple dates (semicolon-separated). Additionally, different parameter values (dates) may be applied to different observation units.
 
 
 ## Data file
+
+[to be updated]
 
 There is no official format for the data file. However, we recommend something like the following:
 
