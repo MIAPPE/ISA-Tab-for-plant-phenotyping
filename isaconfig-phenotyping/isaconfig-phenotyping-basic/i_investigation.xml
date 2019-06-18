@@ -290,11 +290,11 @@
             <description><![CDATA[For Growth protocol: (MIAPPE) Description of growth facility. For Events: (fixed) Event. For Sampling, Phenotyping: same.]]></description>
             <default-value/>
         </field>
-        <field data-type="String" header="Study Protocol Description" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="true" is-required="true" section="STUDY PROTOCOLS">
+        <field data-type="String" header="Study Protocol Description" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="true" is-required="false" section="STUDY PROTOCOLS">
             <description><![CDATA[For Growth protocol: (MIAPPE) Cultural practices. For Events: (MIAPPE) Event description.]]></description>
             <default-value/>
         </field>
-        <field data-type="String" header="Study Protocol URI" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="true" is-required="true" section="STUDY PROTOCOLS">
+        <field data-type="String" header="Study Protocol URI" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="true" is-required="false" section="STUDY PROTOCOLS">
             <description><![CDATA[For Growth protocol: (MIAPPE) Type of growth facility. For Events: (MIAPPE) Event accession number.]]></description>
             <default-value/>
         </field>
