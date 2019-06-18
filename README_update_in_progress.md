@@ -226,7 +226,7 @@ Study Protocols are also used for MIAPPE *Events*. In this case, the mapping is 
 | Field # | MIAPPE                 | ISA-Tab                    |
 |---------|------------------------|----------------------------|
 | 41      | Event type             | Study Protocol Name        |
-| 43      | Event accession number | Study Protocol URI         |
+| 42      | Event accession number | Study Protocol URI         |
 
 <!-- | 42      | Event description      | Study Protocol Description | -->
 
@@ -369,23 +369,23 @@ The file, therefore, on MIAPPE terms, follows this structure:
 
 | Field # | MIAPPE                                                         | ISA-Tab                                                      |
 |---------|----------------------------------------------------------------|--------------------------------------------------------------|
-| 44      | Biological material ID                                         | Source Name                                                  |
-| 45      | Organism                                                       | Characteristics[Organism]                                    |
-| 46      | Genus                                                          | Characteristics[Genus]                                       |
-| 47      | Species                                                        | Characteristics[Species]                                     |
-| 48      | Infraspecific name                                             | Characteristics[Infraspecific name]                          |
-| 49      | Biological material latitude                                   | Characteristics[Biological Material latitude]                |
-| 50      | Biological material longitude                                  | Characteristics[Biological Material longitude]               |
-| 51      | Biological material altitude                                   | Characteristics[Biological Material altitude]                |
-| 52      | Biological material coordinates uncertainty                    | Characteristics[Biological Material Coordinates uncertainty] |
-| 53      | Biological material preprocessing                              | Characteristics[Biological Material preprocessing]           |
-| 54      | Material source ID (Holding institute/stock centre, accession) | Characteristics[Material Source ID]                          |
-| 55      | Material source DOI                                            | Characteristics[Material Source DOI]                         |
-| 56      | Material source latitude                                       | Characteristics[Material Source latitude]                    |
-| 57      | Material source longitude                                      | Characteristics[Material Source longitude]                   |
-| 58      | Material source altitude                                       | Characteristics[Material Source altitude]                    |
-| 59      | Material source coordinates uncertainty                        | Characteristics[Material Source coordinates uncertainty]     |
-| 60      | Material source description                                    | Characteristics[Material Source description]                 |
+| 43      | Biological material ID                                         | Source Name                                                  |
+| 44      | Organism                                                       | Characteristics[Organism]                                    |
+| 45      | Genus                                                          | Characteristics[Genus]                                       |
+| 46      | Species                                                        | Characteristics[Species]                                     |
+| 47      | Infraspecific name                                             | Characteristics[Infraspecific name]                          |
+| 48      | Biological material latitude                                   | Characteristics[Biological Material latitude]                |
+| 49      | Biological material longitude                                  | Characteristics[Biological Material longitude]               |
+| 50      | Biological material altitude                                   | Characteristics[Biological Material altitude]                |
+| 51      | Biological material coordinates uncertainty                    | Characteristics[Biological Material Coordinates uncertainty] |
+| 52      | Biological material preprocessing                              | Characteristics[Biological Material preprocessing]           |
+| 53      | Material source ID (Holding institute/stock centre, accession) | Characteristics[Material Source ID]                          |
+| 54      | Material source DOI                                            | Characteristics[Material Source DOI]                         |
+| 55      | Material source latitude                                       | Characteristics[Material Source latitude]                    |
+| 56      | Material source longitude                                      | Characteristics[Material Source longitude]                   |
+| 57      | Material source altitude                                       | Characteristics[Material Source altitude]                    |
+| 58      | Material source coordinates uncertainty                        | Characteristics[Material Source coordinates uncertainty]     |
+| 59      | Material source description                                    | Characteristics[Material Source description]                 |
 
 
 
@@ -415,7 +415,7 @@ An observation unit would be necessary in this case too. This would mean that, f
 
 The Organism attribute, which is mandatory, should indicate the genus of the biological material in the study. The above example assumes that the study involved materials only from the [Solanum species](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4107).
 
-Note that, in this case, there can be **no factor value**.
+Note that, in this case, attributing a factor value to an observation unit is not mandatory (if no factor was applied). 
 
 ### Protocols
 
@@ -437,17 +437,21 @@ Each ISA-Tab source node must, after the application of protocols, lead to a Sam
 
 | Field # | MIAPPE                | ISA-Tab                                 |
 |---------|-----------------------|-----------------------------------------|
-| 63      | Observation unit ID   | Sample Name                             |
-| 64      | Observation unit type | Characteristics[Observation Unit Type] |
-| 65      | External ID           | Characteristics[External ID]            |
-| 66      | Spatial distribution  | Characteristics[Spatial distribution]   |
+| 60      | Observation unit ID   | Sample Name                             |
+| 61      | Observation unit type | Characteristics[Observation Unit Type]  |
+| 62      | External ID           | Characteristics[External ID]            |
+| 63      | Spatial distribution  | Characteristics[Spatial distribution]   |
 
 
 The ISA configuration allows, by default, only specific `observation unit type`s, taken from the corresponding MIAPPE definition:
 
 > Type of observation unit in textual form, usually one of the following: `block`, `sub-block`, `plot`, `plant`, `study`, `pot`, `replication or replicate`, `individual`, `virtual_trial`, `unit-parcel`.
 
-<!-- Note that the current definition in MIAPPE has a trial level instead of the study level, but this should be changed in the next revision of the standard. -->
+Note that the current definition in MIAPPE has a trial level instead of the study level, but this will be changed in the next revision of the standard.
+
+It is not possible to use sub-plant observation levels: The `plant` level is the lowest level in the hierarchy.  
+However, observations can still be made on the sub-plant level, as long as the details are indicated in the associated observed variable (see observed variables).
+Alternatively, it is possible to use samples (i.e. ISA Extracts) for more detailed tracing of sub-plant units, attaching the observations to them instead.
 
 The `observation unit type` is stated in the study file, and repeated in each of the assay files. 
 
@@ -517,12 +521,12 @@ For the MIAPPE samples, the mapping is as follows:
 
 | Field # | MIAPPE                            | ISA-Tab                                            |
 |---------|-----------------------------------|----------------------------------------------------|
-| 67      | Sample ID                         | Extract Name                                       |
-| 68      | Plant structure development stage | Characteristics[Plant Structure Development Stage] |
-| 79      | Plant anatomical entity           | Characteristics[Plant Anatomical Entity]           |
-| 70      | Sample description                | Parameter Value[Sampling Description]              |
-| 71      | Collection date                   | Parameter Value[Sampling Date]                     |
-| 72      | External ID                       | Characteristics[External ID]                       |
+| 64      | Sample ID                         | Extract Name                                       |
+| 65      | Plant structure development stage | Characteristics[Plant Structure Development Stage] |
+| 66      | Plant anatomical entity           | Characteristics[Plant Anatomical Entity]           |
+| 67      | Sample description                | Parameter Value[Sampling Description]              |
+| 68      | Collection date                   | Parameter Value[Sampling Date]                     |
+| 69      | External ID                       | Characteristics[External ID]                       |
 
 The two Parameter Values in the above mapping both refer to the Sampling protocol.
 
@@ -533,6 +537,8 @@ The Sampling protocol can be applied as follows. The Plant structure development
 | exp. unit A |                                        | Sampling     | 2017-06-22                      |                                       | sample I     |                                                    |                 |                       |                                          |                 |                       |                              |
 | exp. unit B |                                        | Sampling     | 2017-06-23                      |                                       | sample II    |                                                    |                 |                       |                                          |                 |                       |                              |
 
+
+Observations made at the sub-plant level should be recorded as plant level observations using the observed variables to characterize the object of the observation (e.g. Berry sugar content, Fruit weight, Grain Protein content, Leaf 1 width, Leaf 2 width, Leaf 2 length).
 
 ### Phenotyping
 
@@ -584,14 +590,17 @@ Each line in this file represents a single occurrence of an Event, and should th
 
 ## Data file
 
-[to be updated]
-
 There is no official format for the data file. However, we recommend something like the following:
 
-| Observation unit/Sample | Assay Name | Date                      | var1 | var2 | var3 | ... |
-|-------------------------|------------|---------------------------|------|------|------|-----|
-| obs. unit 1             | assay1     | 2017-06-10                | 1    | 1.2  | 4    | ... |
-| sample 1                | assay5     | 2006-09-27T10:23:21+00:00 | 40   | 38   | 41   | ... |
+| Observation Unit ID / Extract ID | Observation Timestamp | Obs. Var. 1 ID | Obs. Var. 2 ID | Obs. Var. 3 ID |
+|----------------------------------|-----------------------|----------------|----------------|----------------|
+| obs. unit X                      |                       |                |                |                |
+| obs. unit Y                      |                       |                |                |                |
+| obs. unit Z                      |                       |                |                |                |
+
+The identity of the observation unit or sample, the observation time and the observed variable identifiers *MUST* be included in the data file. Other columns, depending on the data providers' preferences (e.g. about material identification, experimental factors or design) may be included as well but are fully optional.
+
+For time series data it is possible to repeat the columns after the first one.
 
 
 # Final notes
@@ -601,11 +610,4 @@ After filling in all fields, please verify that the names of materials, protocol
 * If you are using the ISA Creator and you have a single study, please make sure to edit the produced Investigation file and fill in all necessary fields.
 * If you are using the plain text files, please remove the leftmost value in each row (listing the MIAPPE equivalents of each field) in order to get valid ISA files.
 * If you are using the spreadsheet template for ISA-Tab, likewise, remove the leftmost column.
-
-
-
-
-
-#### Pending changes
-* The Study Factor Name is what you must later use in the column headings (of the Study file **or Assay file**) to refer to the respective experimental factors. Note that at least 2 factor values must be provided per factor. This can be done in the form of a semicolon-separated list:
 

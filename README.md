@@ -83,6 +83,7 @@ Investigation Person Mid Initials⟶⟶F.
 
 
 
+
 ### `Study` section
 
 MIAPPE introduces new fields, most of which require ISA-Tab comments. Some fields belonging to MIAPPE Studies are divided over other ISA-Tab sections (see below).
@@ -100,6 +101,8 @@ MIAPPE introduces new fields, most of which require ISA-Tab comments. Some field
 | 23      | Geographic location (latitude)          | Comment[Study Latitude]             |
 | 24      | Geographic location (longitude)         | Comment[Study Longitude]            |
 | 25      | Geographic location (altitude)          | Comment[Study Altitude]             |
+
+Additionally, you must use the `Comment[Trait Definition File]` to indicate the name of the file holding the descriptions of all observed variables. MIAPPE has no equivalent field since this information is all incorporated into the `Observed Variables` section.
 
 Do not forget to indicate the name of the study file in the `Study File Name` field for each study. These filenames usually start with the `s_` prefix.
 
@@ -147,7 +150,7 @@ This section is the equivalent of MIAPPE's Experimental Factors.
 | Field # | MIAPPE                          | ISA-Tab                            |
 |---------|---------------------------------|------------------------------------|
 | 34      | Experimental Factor description | Comment[Study Factor Description]  |
-| 35      | Experimental Factor type        | Study Factor Name                  | 
+| 35      | Experimental Factor type        | Study Factor Name                  |
 | 36      | Experimental Factor values      | Comment[Study Factor Values]       |
 
 The `Study Factor Name` is what you must later use in the column headings (of the Study file) to refer to the respective experimental factors.
@@ -223,12 +226,15 @@ Study Protocols are also used for MIAPPE *Events*. In this case, the mapping is 
 | Field # | MIAPPE                 | ISA-Tab                    |
 |---------|------------------------|----------------------------|
 | 41      | Event type             | Study Protocol Name        |
-| 42      | Event description      | Study Protocol Description |
-| 43      | Event accession number | Study Protocol URI         |
+| 42      | Event accession number | Study Protocol URI         |
+
+<!-- | 42      | Event description      | Study Protocol Description | -->
 
 For protocols describing Events, the `Study Protocol Type` must always be set to "Event". Note that the accession number for each event type is in the URI field. Once again, the [Crop Research Ontology (CO_715)](http://www.cropontology.org/ontology/CO_715) is used, and a subclass of [CO_715:0000006 (Time factor)](http://www.cropontology.org/terms/CO_715:0000006/Time%20factor) can be given, e.g. `CO_715:0000007` for the ["Sowing date"](http://www.cropontology.org/terms/CO_715:0000007/).
 
-Event-type protocols should also have an `Event Date` parameter, so the respective timestamp(s) may be provided in the Study file. An Event protocol may look as follows:
+Further details about events, such as detailed descriptions, time of occurrence and affected subjects, should be defined in an external csv file (see section below).
+
+An Event protocol may look as follows:
 
 ```
 STUDY PROTOCOLS	
@@ -236,10 +242,10 @@ Study Protocol Name⟶Planting⟶Fertilizing
 Study Protocol Type⟶Event⟶Event
 Study Protocol Type Term Accession Number⟶⟶
 Study Protocol Type Term Source REF⟶⟶
-Study Protocol Description⟶Sowing using seed drill⟶Fertilizer application: Ammonium nitrate at 3 kg/m2
+Study Protocol Description⟶⟶
 Study Protocol URI⟶CO_715:0000007⟶CO_715:0000011
 Study Protocol Version⟶⟶
-Study Protocol Parameters Name⟶Event date⟶Event date
+Study Protocol Parameters Name⟶⟶
 ```
 
 Two additional protocols must be defined. The `Sampling` protocol is only required in cases where MIAPPE samples are present. This protocol is used to indicate that a sampling operation takes place, transforming material from an ISA Sample (MIAPPE equivalent: Observation unit) into an ISA Extract (MIAPPE equivalent: Sample).
@@ -263,7 +269,7 @@ Two fields from MIAPPE's Sample section are included here: the sampling date and
 ISA-Tab also allows native Date and Description fields for Material nodes (i.e. these did not have to be explicitly declared as protocol parameters). We nevertheless encourage the use of these parameters for the sampling protocol, as the native fields cannot be included in the ISA Creator configuration, making it harder for some users.
 
 
-The `Phenotyping` protocol must be used to indicate that observations have been conducted in a study (i.e. that something has been measured). Its mandatory attributes follow the same pattern as above: the `Study Protocol Name` is set to `Phenotyping`, whereas the `Study Protocol Parameters Name` field holds the "Trait Definition File".
+The `Phenotyping` protocol must be used to indicate that observations have been conducted in a study (i.e. that something has been measured). Its mandatory attribute follow the same pattern as above: the `Study Protocol Name` is set to `Phenotyping`.
 
 ```
 STUDY PROTOCOLS	
@@ -274,7 +280,7 @@ Study Protocol Type Term Source REF⟶
 Study Protocol Description⟶
 Study Protocol URI⟶
 Study Protocol Version⟶
-Study Protocol Parameters Name⟶Trait Definition File
+Study Protocol Parameters Name⟶
 ```
 
 Finally, the `Data Transformation` protocol is used in Assay files, to indicate that a raw data file (included or not) has been processed to get the final results. Only its name needs to be declared in the Investigation.
@@ -294,7 +300,7 @@ Study Protocol Parameters Name⟶
 
 An Investigation file may only have one Study Protocols section per STUDY. Therefore, all of the above protocols need to be consolidated into one section. Protocols not in use may be omitted. 
 
-The combined Protocols section could look as follows (fixed fields (per protocol) are marked with \*asterisks\*).
+The combined Protocols section could look as follows. Fixed fields (per protocol) are marked in this readme with \*asterisks\*.
 
 
 ```
@@ -306,7 +312,7 @@ Study Protocol Type Term Source REF⟶⟶⟶⟶⟶⟶
 Study Protocol Description⟶Irrigation was applied according needs during summer to prevent water stress.⟶Sowing using seed drill⟶Fertilizer application: Ammonium nitrate at 3 kg/m2⟶⟶⟶
 Study Protocol URI⟶CO_715:0000162⟶CO_715:0000007⟶CO_715:0000011⟶⟶⟶
 Study Protocol Version⟶⟶⟶⟶⟶⟶
-Study Protocol Parameters Name⟶sowing density;pH⟶*Event date*⟶*Event date*⟶*Sampling Date;Sampling Description*⟶*Trait Definition File*⟶
+Study Protocol Parameters Name⟶sowing density;pH⟶⟶⟶*Collection Date;Sample Description*⟶⟶
 Study Protocol Parameters Name Term Accession Number⟶⟶⟶⟶⟶⟶
 Study Protocol Parameters Name Term Source REF⟶⟶⟶⟶⟶⟶
 Study Protocol Components Name⟶⟶⟶⟶⟶⟶
@@ -321,20 +327,19 @@ Or, in table form (the words in *italics* are fixed terms for the respective pro
 | STUDY PROTOCOLS                                      |                                                                               |                         |                                                     |                                      |                         |                        |
 |------------------------------------------------------|-------------------------------------------------------------------------------|-------------------------|-----------------------------------------------------|--------------------------------------|-------------------------|------------------------|
 | Study Protocol Name                                  | *Growth*                                                                      | Planting                | Fertilizing                                         | *Sampling*                           | *Phenotyping*           | *Data transformation*  |
-| Study Protocol Type                                  | Field environment condition                                                   | *Event*                 | *Event*                                             | *Sampling*                           | *Phenotyping*           |  *Data transformation* |
+| Study Protocol Type                                  | Field environment condition                                                   | *Event*                 | *Event*                                             | *Sampling*                           | *Phenotyping*           | *Data transformation*  |
 | Study Protocol Type Term Accession Number            |                                                                               |                         |                                                     |                                      |                         |                        |
 | Study Protocol Type Term Source REF                  |                                                                               |                         |                                                     |                                      |                         |                        |
 | Study Protocol Description                           | Irrigation was applied according needs during summer to prevent water stress. | Sowing using seed drill | Fertilizer application: Ammonium nitrate at 3 kg/m2 |                                      |                         |                        |
 | Study Protocol URI                                   | CO_715:0000162                                                                | CO_715:0000007          | CO_715:0000011                                      |                                      |                         |                        |
 | Study Protocol Version                               |                                                                               |                         |                                                     |                                      |                         |                        |
-| Study Protocol Parameters Name                       | sowing density;pH                                                             | *Event Date*            | *Event Date*                                        | *Sampling Date;Sampling Description* | *Trait Definition File* |                        |
+| Study Protocol Parameters Name                       | sowing density;pH                                                             |                         |                                                     | *Collection Date;Sample Description* |                         |                        |
 | Study Protocol Parameters Name Term Accession Number |                                                                               |                         |                                                     |                                      |                         |                        |
 | Study Protocol Parameters Name Term Source REF       |                                                                               |                         |                                                     |                                      |                         |                        |
 | Study Protocol Components Name                       |                                                                               |                         |                                                     |                                      |                         |                        |
 | Study Protocol Components Type                       |                                                                               |                         |                                                     |                                      |                         |                        |
 | Study Protocol Components Type Term Accession Number |                                                                               |                         |                                                     |                                      |                         |                        |
 | Study Protocol Components Type Term Source REF       |                                                                               |                         |                                                     |                                      |                         |                        |
-
 
 
 ## Study file
@@ -353,41 +358,64 @@ The file, therefore, on MIAPPE terms, follows this structure:
 
 ### Biological Material
 
-| Field # | MIAPPE                                                         | ISA-Tab                                                      |
-|---------|----------------------------------------------------------------|--------------------------------------------------------------|
-| 44      | Biological material ID                                         | Source Name                                                  |
-| 45      | Organism                                                       | Characteristics[Organism]                                    |
+[todo: organism is now just a string]
+[todo: check for any references to ontology use in the ISA creator, since the explanation will be removed from this section]
+[todo: fix numbers]
+
+<!-- removed:
 | 46      | Organism                                                       | Term Source REF                                              |
 | 47      | Organism                                                       | Term Accession Number                                        |
-| 48      | Genus                                                          | Characteristics[Genus]                                       |
-| 49      | Species                                                        | Characteristics[Species]                                     |
-| 50      | Infraspecific name                                             | Characteristics[Infraspecific name]                          |
-| 51      | Biological material latitude                                   | Characteristics[Biological Material latitude]                |
-| 52      | Biological material longitude                                  | Characteristics[Biological Material longitude]               |
-| 53      | Biological material altitude                                   | Characteristics[Biological Material altitude]                |
-| 54      | Biological material coordinates uncertainty                    | Characteristics[Biological Material Coordinates uncertainty] |
-| 55      | Biological material preprocessing                              | Characteristics[Biological Material preprocessing]           |
-| 56      | Material source ID (Holding institute/stock centre, accession) | Characteristics[Material Source ID]                          |
-| 57      | Material source DOI                                            | Characteristics[Material Source DOI]                         |
-| 58      | Material source latitude                                       | Characteristics[Material Source latitude]                    |
-| 59      | Material source longitude                                      | Characteristics[Material Source longitude]                   |
-| 60      | Material source altitude                                       | Characteristics[Material Source altitude]                    |
-| 61      | Material source coordinates uncertainty                        | Characteristics[Material Source coordinates uncertainty]     |
-| 62      | Material source description                                    | Characteristics[Material Source description]                 |
+-->
+
+| Field # | MIAPPE                                                         | ISA-Tab                                                      |
+|---------|----------------------------------------------------------------|--------------------------------------------------------------|
+| 43      | Biological material ID                                         | Source Name                                                  |
+| 44      | Organism                                                       | Characteristics[Organism]                                    |
+| 45      | Genus                                                          | Characteristics[Genus]                                       |
+| 46      | Species                                                        | Characteristics[Species]                                     |
+| 47      | Infraspecific name                                             | Characteristics[Infraspecific name]                          |
+| 48      | Biological material latitude                                   | Characteristics[Biological Material latitude]                |
+| 49      | Biological material longitude                                  | Characteristics[Biological Material longitude]               |
+| 50      | Biological material altitude                                   | Characteristics[Biological Material altitude]                |
+| 51      | Biological material coordinates uncertainty                    | Characteristics[Biological Material Coordinates uncertainty] |
+| 52      | Biological material preprocessing                              | Characteristics[Biological Material preprocessing]           |
+| 53      | Material source ID (Holding institute/stock centre, accession) | Characteristics[Material Source ID]                          |
+| 54      | Material source DOI                                            | Characteristics[Material Source DOI]                         |
+| 55      | Material source latitude                                       | Characteristics[Material Source latitude]                    |
+| 56      | Material source longitude                                      | Characteristics[Material Source longitude]                   |
+| 57      | Material source altitude                                       | Characteristics[Material Source altitude]                    |
+| 58      | Material source coordinates uncertainty                        | Characteristics[Material Source coordinates uncertainty]     |
+| 59      | Material source description                                    | Characteristics[Material Source description]                 |
 
 
-Note that the Organism may be qualified with an ontology term. The ISA Creator configuration for MIAPPE includes a recommendation for the ontology for the [NCBI taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy) for this field. If you are not using the ISA Creator, make sure that you are indicating both the term and the ontology properly.
+
+<!-- Note that the Organism may be qualified with an ontology term. The ISA Creator configuration for MIAPPE includes a recommendation for the ontology for the [NCBI taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy) for this field. If you are not using the ISA Creator, make sure that you are indicating both the term and the ontology properly.
 
 Ontologies referred to in an Investigation, Study or Assay file as Terms (i.e. with a Term Source REF / Term Accession Number field) must be declared at the top of the Investigation file, in the `ONTOLOGY SOURCE REFERENCE` section (see section 2.2.1 [here](https://isa-specs.readthedocs.io/en/latest/isatab.html#format)).
 
-If you are not using the Creator, make sure that you use the proper prefixes/abbreviations to refer to classes from ontologies.
+If you are not using the Creator, make sure that you use the proper prefixes/abbreviations to refer to classes from ontologies. -->
 
+The Organism field should ideally point to a taxon from the [NCBI taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy), though other references are also acceptable. 
 
 Furthermore,the coordinates must be given in decimal degrees format. The altitude fields (for biological material and material source) must only hold numbers, but they are followed by a Unit column to hold the unit abbreviation.
 
 
 You may have to repeat the description of each biological material many times, i.e. once for each observation unit it belongs to. 
 
+
+#### Special case: whole-study level
+
+In some cases, it may be necessary to have a single observation unit representing the entirety of a study. For example, sensors may be placed in a facility, and their measurements may be treated as representative of the global conditions. 
+
+An observation unit would be necessary in this case too. This would mean that, for this unit, the associated source name should encompass all biological materials in this particular study. You can indicate that an observation unit covering the entire facility contents is the subject of these measurement(s) by defining its source as follows:
+
+| Source Name | Characteristics[Organism] | Characteristics[...] | Sample Name | Characteristics[...] | Factor Value[...] |
+|-------------|---------------------------|----------------------|-------------|----------------------|-------------------|
+| `study`     | `NCBI:4107`               |                      |             |                      |                   |
+
+The Organism attribute, which is mandatory, should indicate the genus of the biological material in the study. The above example assumes that the study involved materials only from the [Solanum species](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4107).
+
+Note that, in this case, attributing a factor value to an observation unit is not mandatory (if no factor was applied). 
 
 ### Protocols
 
@@ -403,28 +431,67 @@ In the example in the Investigation section we included two environment paramete
 Note that, in the MIAPPE data model, environment parameter values apply, by definition, to all observation units in a study. Therefore these parameters must have the same value across all rows!
 
 
-#### Events
-
-Each Event is presented much in the same way as the environment parameters.
-
-| Source Name | ... | Protocol REF | Parameter Value[Event Date] | Protocol REF  | Parameter Value[Event Date]                         |
-|-------------|-----|--------------|-----------------------------|---------------|-----------------------------------------------------|
-| source 1    | ... | Planting     | 2017-01-27                  | Fertilization | 2017-01-29T10:23:21+00:00;2017-01-29T10:23:21+00:00 |
-| source 2    | ... | Planting     | 2017-01-28                  | Fertilization | 2017-01-29T11:00:00+00:00                           |
-
-However, note some core differences: The Events may each have multiple dates (semicolon-separated). Additionally, different parameter values (dates) may be applied to different observation units.
-
-
 ### Observation units
 
 Each ISA-Tab source node must, after the application of protocols, lead to a Sample node. ISA-Tab samples are used as MIAPPE observation units, and carry their characteristics:
 
 | Field # | MIAPPE                | ISA-Tab                                 |
 |---------|-----------------------|-----------------------------------------|
-| 63      | Observation unit ID   | Sample Name                             |
-| 64      | Observation unit type | Characteristics[Experimental unit type] |
-| 65      | External ID           | Characteristics[External ID]            |
-| 66      | Spatial distribution  | Characteristics[Spatial distribution]   |
+| 60      | Observation unit ID   | Sample Name                             |
+| 61      | Observation unit type | Characteristics[Observation Unit Type]  |
+| 62      | External ID           | Characteristics[External ID]            |
+| 63      | Spatial distribution  | Characteristics[Spatial distribution]   |
+
+
+The ISA configuration allows, by default, only specific `observation unit type`s, taken from the corresponding MIAPPE definition:
+
+> Type of observation unit in textual form, usually one of the following: `block`, `sub-block`, `plot`, `plant`, `study`, `pot`, `replication or replicate`, `individual`, `virtual_trial`, `unit-parcel`.
+
+Note that the current definition in MIAPPE has a trial level instead of the study level, but this will be changed in the next revision of the standard.
+
+It is not possible to use sub-plant observation levels: The `plant` level is the lowest level in the hierarchy.  
+However, observations can still be made on the sub-plant level, as long as the details are indicated in the associated observed variable (see observed variables).
+Alternatively, it is possible to use samples (i.e. ISA Extracts) for more detailed tracing of sub-plant units, attaching the observations to them instead.
+
+The `observation unit type` is stated in the study file, and repeated in each of the assay files. 
+
+This list of possible values for the observation unit types column is non-exhaustive, but it should cover the majority of cases. It is possible to use a different unit type in the Creator (and in the Validator) by editing the configuration as follows:
+
+#### Adding a new observation unit type
+
+##### Step 1: Edit the study configuration (`s_study_basic.xml`)
+
+The following section (around lines 95-99) looks as follows:
+```
+        <field data-type="list" header="Characteristics[Observation Unit Type]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="true">
+            <description><![CDATA[(MIAPPE: Observation unit type) Type of observation unit in textual form, usually one of the following: block, sub-block, plot, plant, trial, pot, replication or replicate, individual, virtual_trial, unit-parcel]]></description>
+            <default-value><![CDATA[plant]]></default-value>
+            <list-values>block,sub-block,plot,plant,trial,pot,replicate,individual,virtual_trial,unit-parcel</list-values>
+        </field>
+```
+
+Add the name of your unit to the list of allowed values:
+`<list-values>**[new_unit_type]**,block,sub-block,plot,plant,trial,pot,replicate,individual,virtual_trial,unit-parcel</list-values>`
+
+e.g.  
+`<list-values>superblock,block,sub-block,plot,plant,trial,pot,replicate,individual,virtual_trial,unit-parcel</list-values>`
+
+##### Step 2: Create a new assay configuration file
+
+The name of the file should reflect the name of the new observation unit type and adhere to the pattern `phenotyping_[new_unit_type]_level.txt`, e.g. `phenotyping_superblock_level.txt`.
+
+##### Step 3: Edit the new assay configuration file
+
+The following lines have to be changed:
+
+* On line 3, the `table-name` should include the name of the new unit type, e.g.
+		`<isatab-configuration isatab-assay-type="generic_assay" isatab-conversion-target="generic" table-name="superblock_block_level">`
+* On line 5, the `term-label` should also include the name of the new unit type, e.g.
+		`<technology source-abbreviation="" term-accession="" term-label="superblock level analysis"/>`
+* Modify line 12 to include the name of the new observation unit type in the list of values (should be the same as the respective line in the study configuration file), e.g.
+		`<list-values>superblock,block,sub-block,plot,plant,trial,pot,replicate,individual,virtual_trial,unit-parcel</list-values>`
+
+You may then use the new unit type in the ISA Creator.
 
 
 ### Factor values
@@ -454,22 +521,24 @@ For the MIAPPE samples, the mapping is as follows:
 
 | Field # | MIAPPE                            | ISA-Tab                                            |
 |---------|-----------------------------------|----------------------------------------------------|
-| 67      | Sample ID                         | Extract Name                                       |
-| 68      | Plant structure development stage | Characteristics[Plant Structure Development Stage] |
-| 79      | Plant anatomical entity           | Characteristics[Plant Anatomical Entity]           |
-| 70      | Sample description                | Parameter Value[Sampling Description]              |
-| 71      | Collection date                   | Parameter Value[Sampling Date]                     |
-| 72      | External ID                       | Characteristics[External ID]                       |
+| 64      | Sample ID                         | Extract Name                                       |
+| 65      | Plant structure development stage | Characteristics[Plant Structure Development Stage] |
+| 66      | Plant anatomical entity           | Characteristics[Plant Anatomical Entity]           |
+| 67      | Sample description                | Parameter Value[Sampling Description]              |
+| 68      | Collection date                   | Parameter Value[Sampling Date]                     |
+| 69      | External ID                       | Characteristics[External ID]                       |
 
 The two Parameter Values in the above mapping both refer to the Sampling protocol.
 
 The Sampling protocol can be applied as follows. The Plant structure development stage and the plant anatomical entity, according to MIAPPE recommendations, must refer to ontology classes.
 
-| Sample Name | Protocol REF | Parameter Value[Sampling Date]  | Parameter Value[Sampling Description] | Extract Name | Characteristics[Plant Structure Development Stage] | Term Source REF | Term Accession Number | Characteristics[Plant Anatomical Entity] | Term Source REF | Term Accession Number | Characteristics[External ID] |
-|-------------|--------------|---------------------------------|---------------------------------------|--------------|----------------------------------------------------|-----------------|-----------------------|------------------------------------------|-----------------|-----------------------|------------------------------|
-| exp. unit A | Sampling     | 2017-06-22                      |                                       | sample I     |                                                    |                 |                       |                                          |                 |                       |                              |
-| exp. unit B | Sampling     | 2017-06-23                      |                                       | sample II    |                                                    |                 |                       |                                          |                 |                       |                              |
+| Sample Name | Characteristics[Observation Unit Type] | Protocol REF | Parameter Value[Sampling Date]  | Parameter Value[Sampling Description] | Extract Name | Characteristics[Plant Structure Development Stage] | Term Source REF | Term Accession Number | Characteristics[Plant Anatomical Entity] | Term Source REF | Term Accession Number | Characteristics[External ID] |
+|-------------|----------------------------------------|--------------|---------------------------------|---------------------------------------|--------------|----------------------------------------------------|-----------------|-----------------------|------------------------------------------|-----------------|-----------------------|------------------------------|
+| exp. unit A |                                        | Sampling     | 2017-06-22                      |                                       | sample I     |                                                    |                 |                       |                                          |                 |                       |                              |
+| exp. unit B |                                        | Sampling     | 2017-06-23                      |                                       | sample II    |                                                    |                 |                       |                                          |                 |                       |                              |
 
+
+Observations made at the sub-plant level should be recorded as plant level observations using the observed variables to characterize the object of the observation (e.g. Berry sugar content, Fruit weight, Grain Protein content, Leaf 1 width, Leaf 2 width, Leaf 2 length).
 
 ### Phenotyping
 
@@ -477,10 +546,10 @@ Including the Phenotyping protocol is mandatory. The Phenotyping protocol points
 Note that each assay should be about **a single observation level**.
 
 
-| Sample Name | (sampling details) | Protocol REF | Date | Parameter Value[Trait Definition File] | Parameter Value[Observation Level] | Assay Name | Raw Data File | Protocol REF        | Derived Data File |
-|-------------|--------------------|--------------|------|----------------------------------------|------------------------------------|------------|---------------|---------------------|-------------------|
-| sample A    |                    | Phenotyping  |      |                                        |                                    | assay 1    | file 1        | Data Transformation | file 2            |
-| sample B    |                    | Phenotyping  |      |                                        |                                    | assay 2    | NA            | Data Transformation | file 2            |
+| Sample Name | Characteristics[Observation Unit Type] | (sampling details) | Protocol REF | Date | Assay Name | Raw Data File | Protocol REF        | Derived Data File |
+|-------------|----------------------------------------|--------------------|--------------|------|------------|---------------|---------------------|-------------------|
+| sample A    | plant                                  |                    | Phenotyping  |      | assay 1    | file 1        | Data Transformation | file 2            |
+| sample B    | plant                                  |                    | Phenotyping  |      | assay 2    | NA            | Data Transformation | file 2            |
 
 The Date column is optional (you will have to add it in the ISA Creator too, if you choose to include it), and in this case it would refer to the timestamp of a measurement done on an observation unit or (MIAPPE) sample. It is up to the user to decide whether the raw or processed files will accompany the metadata. If no raw data file is included, fill the respective fields with "NA". Note that the transition from raw to processed data file is marked using the Data Transformation protocol.
 
@@ -495,16 +564,43 @@ The trait definition file includes the attributes from MIAPPE's Observed Variabl
 |--------------|------------------------------------------|-----------------|-----------------------|---------------|-----------------|-----------------------|---------------------------------|-----------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|--------|-----------------|-----------------------|------------|
 | Ant_Cmp_Cday | Anthesis computed in growing degree days | CO_322          | CO_322:0000794        | Anthesis time | CO_322          | CO_322:0000030        | Growing degree days to anthesis | CO_322          | CO_322:0000189        | Days to anthesis for male flowering was measured in thermal time (GDD: growing degree-days) according to Ritchie J, NeSmith D (1991;Temperature and crop development. Modeling plant and soil systems American Society of Agronomy Madison, Wisconsin USA) with TBASE=8°C and T0=30°C. Plant height was measured at 5 years with a ruler, one year after Botritis inoculation. | http://doi.org/10.2134/agronmonogr31.c2 | °C day | CO_322          | CO_322:0000510        | Date/Time  |
 
+There should be one trait definition file per study. Its filename is indicated in the Study section of the Investigation file. 
+
+Climatological variables should also be listed in the same file, the same way.
+
+
+## Event File
+
+An external `.csv` file is used to describe concrete occurrences of events. Although external files are outside the scope of ISA validation, the events listed in this file should be declared in the `Study Protocols` section of the Investigation file.
+
+This means that there will be redundancy for certain fields ().
+
+The csv file should look like this:
+
+| Study ID*  | Observation Unit(s)    | Event Date*                   | Event Type  | Event Accession Number | Event Description                                       |
+|------------|------------------------|-------------------------------|-------------|------------------------|---------------------------------------------------------|
+| s_1        | NA                     | 2006-09-27T10:23:21+00:00     | Planting    | CO_715:0000007         | Sowing using seed drill                                 |
+| s_1        | obs_unit_1, obs_unit_2 | 2006-**09-28**T10:23:21+00:00 | Fertilizing | CO_715:0000011         | Fertilizer application: Ammonium nitrate at 3 kg/m2     |
+| s_1        | obs_unit_1, obs_unit_2 | 2006-**10-28**T10:23:21+00:00 | Fertilizing | CO_715:0000011         | Fertilizer application: Ammonium nitrate at **2** kg/m2 |
+| s_1        | obs_unit_3             | 2006-**10-29**T10:23:21+00:00 | Fertilizing | CO_715:0000011         | Fertilizer application: Ammonium nitrate at 3 kg/m2     |
+| **s_2**    | obs_unit_A             | 2006-**10-29**T10:23:21+00:00 | Fertilizing | CO_715:0000011         | Fertilizer application: Ammonium nitrate at 3 kg/m2     |
+Each line in this file represents a single occurrence of an Event, and should therefore have exactly one date. The Observation Unit(s) column should list all affected units (multiple units are allowed on each row). If the column is empty, it is understood that this instance of the event affected all units in the study. Note that each event type may happen on multiple dates.
+
 
 
 ## Data file
 
 There is no official format for the data file. However, we recommend something like the following:
 
-| Observation unit/Sample | Assay Name | Date                      | var1 | var2 | var3 | ... |
-|-------------------------|------------|---------------------------|------|------|------|-----|
-| obs. unit 1             | assay1     | 2017-06-10                | 1    | 1.2  | 4    | ... |
-| sample 1                | assay5     | 2006-09-27T10:23:21+00:00 | 40   | 38   | 41   | ... |
+| Observation Unit ID / Extract ID | Observation Timestamp | Obs. Var. 1 ID | Obs. Var. 2 ID | Obs. Var. 3 ID |
+|----------------------------------|-----------------------|----------------|----------------|----------------|
+| obs. unit X                      |                       |                |                |                |
+| obs. unit Y                      |                       |                |                |                |
+| obs. unit Z                      |                       |                |                |                |
+
+The identity of the observation unit or sample, the observation time and the observed variable identifiers *MUST* be included in the data file. Other columns, depending on the data providers' preferences (e.g. about material identification, experimental factors or design) may be included as well but are fully optional.
+
+For time series data it is possible to repeat the columns after the first one.
 
 
 # Final notes
@@ -514,11 +610,4 @@ After filling in all fields, please verify that the names of materials, protocol
 * If you are using the ISA Creator and you have a single study, please make sure to edit the produced Investigation file and fill in all necessary fields.
 * If you are using the plain text files, please remove the leftmost value in each row (listing the MIAPPE equivalents of each field) in order to get valid ISA files.
 * If you are using the spreadsheet template for ISA-Tab, likewise, remove the leftmost column.
-
-
-
-
-
-#### Pending changes
-* The Study Factor Name is what you must later use in the column headings (of the Study file **or Assay file**) to refer to the respective experimental factors. Note that at least 2 factor values must be provided per factor. This can be done in the form of a semicolon-separated list:
 
