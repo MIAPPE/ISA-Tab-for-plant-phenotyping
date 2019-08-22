@@ -9,7 +9,7 @@
         </field>
         <field data-type="string" header="Characteristics[Organism]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="true">
             <description><![CDATA[(MIAPPE: Organism) An identifier for the organism at the species level. Use of the NCBI taxon ID is recommended.]]></description>
-            <default-value><![CDATA[e.g. NCBI:4577]]></default-value>
+            <default-value><![CDATA[NCBITAXON:4577]]></default-value>
         </field>
         <field data-type="String" header="Characteristics[Genus]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="false">
             <description><![CDATA[(MIAPPE: Genus) Genus name for the organism under study, according to standard scientific nomenclature.]]></description>
@@ -90,7 +90,7 @@
         <protocol-field protocol-type="Growth"/>
         <field data-type="String" header="Sample Name" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="true">
             <description><![CDATA[(MIAPPE: Observation unit ID) Identifier used to identify the observation unit in data files containing the values observed or measured on that unit. Must be locally unique.]]></description>
-            <default-value><![CDATA[çobs_unit_X]]></default-value>
+            <default-value><![CDATA[obs_unit_X]]></default-value>
         </field>
         <field data-type="list" header="Characteristics[Observation Unit Type]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="true">
             <description><![CDATA[(MIAPPE: Observation unit type) Type of observation unit in textual form, usually one of the following: study, block, sub-block, plot, sub-plot, pot, plant]]></description>
