@@ -31,11 +31,11 @@
             <description><![CDATA[(MIAPPE: MIAPPE version) The version of MIAPPE used.]]></description>
             <default-value><![CDATA[1.1]]></default-value>
         </field>
-        <field data-type="String" header="Comment [Created With Configuration]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="false" section="INVESTIGATION">
+        <field data-type="String" header="Comment[Created With Configuration]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="false" section="INVESTIGATION">
             <description><![CDATA[Comment [Created with configuration]]]></description>
             <default-value/>
         </field>
-        <field data-type="String" header="Comment [Last Opened With Configuration]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="false" section="INVESTIGATION">
+        <field data-type="String" header="Comment[Last Opened With Configuration]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="false" section="INVESTIGATION">
             <description><![CDATA[Comment [Last Opened With Configuration]]]></description>
             <default-value/>
         </field>
