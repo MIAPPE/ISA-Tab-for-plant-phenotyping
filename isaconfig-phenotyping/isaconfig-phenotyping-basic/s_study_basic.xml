@@ -9,7 +9,7 @@
         </field>
         <field data-type="string" header="Characteristics[Organism]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="true">
             <description><![CDATA[(MIAPPE: Organism) An identifier for the organism at the species level. Use of the NCBI taxon ID is recommended.]]></description>
-            <default-value><![CDATA[NCBITAXON:4577]]></default-value>
+            <default-value><![CDATA[e.g. NCBITAXON:4577]]></default-value>
         </field>
         <field data-type="String" header="Characteristics[Genus]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="false">
             <description><![CDATA[(MIAPPE: Genus) Genus name for the organism under study, according to standard scientific nomenclature.]]></description>
