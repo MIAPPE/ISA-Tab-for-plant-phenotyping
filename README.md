@@ -593,6 +593,7 @@ The csv file should look like this:
 | s_1        | obs_unit_1, obs_unit_2 | 2006-**10-28**T10:23:21+00:00 | Fertilizing | CO_715:0000011         | Fertilizer application: Ammonium nitrate at **2** kg/m2 |
 | s_1        | obs_unit_3             | 2006-**10-29**T10:23:21+00:00 | Fertilizing | CO_715:0000011         | Fertilizer application: Ammonium nitrate at 3 kg/m2     |
 | **s_2**    | obs_unit_A             | 2006-**10-29**T10:23:21+00:00 | Fertilizing | CO_715:0000011         | Fertilizer application: Ammonium nitrate at 3 kg/m2     |
+
 Each line in this file represents a single occurrence of an Event, and should therefore have exactly one date. The Observation Unit(s) column should list all affected units (multiple units are allowed on each row). If the column is empty, it is understood that this instance of the event affected all units in the study. Note that each event type may happen on multiple dates.
 
 
