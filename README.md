@@ -443,7 +443,7 @@ Each ISA-Tab source node must, after the application of protocols, lead to a Sam
 
 The ISA configuration allows, by default, only specific `observation unit type`s, taken from the corresponding MIAPPE definition:
 
-> Type of observation unit in textual form, usually one of the following: `block`, `sub-block`, `plot`, `plant`, `study`, `pot`, `replication or replicate`, `individual`, `virtual_trial`, `unit-parcel`.
+> Type of observation unit in textual form, usually one of the following: `study`, `block`, `sub-block`, `plot`, `sub-plot`, `pot`, `plant`.
 
 Note that the current definition in MIAPPE has a trial level instead of the study level, but this will be changed in the next revision of the standard.
 
@@ -462,17 +462,17 @@ This list of possible values for the observation unit types column is non-exhaus
 The following section (around lines 95-99) looks as follows:
 ```
         <field data-type="list" header="Characteristics[Observation Unit Type]" is-file-field="false" is-forced-ontology="false" is-hidden="false" is-multiple-value="false" is-required="true">
-            <description><![CDATA[(MIAPPE: Observation unit type) Type of observation unit in textual form, usually one of the following: block, sub-block, plot, plant, trial, pot, replication or replicate, individual, virtual_trial, unit-parcel]]></description>
+            <description><![CDATA[(MIAPPE: Observation unit type) Type of observation unit in textual form, usually one of the following: study, block, sub-block, plot, sub-plot, pot, plant]]></description>
             <default-value><![CDATA[plant]]></default-value>
-            <list-values>block,sub-block,plot,plant,trial,pot,replicate,individual,virtual_trial,unit-parcel</list-values>
+            <list-values>study,block,sub-block,plot,sub-plot,pot,plant</list-values>
         </field>
 ```
 
 Add the name of your unit to the list of allowed values:
-`<list-values>**[new_unit_type]**,block,sub-block,plot,plant,trial,pot,replicate,individual,virtual_trial,unit-parcel</list-values>`
+`<list-values>**[new_unit_type]**,study,block,sub-block,plot,sub-plot,pot,plant</list-values>`
 
 e.g.  
-`<list-values>superblock,block,sub-block,plot,plant,trial,pot,replicate,individual,virtual_trial,unit-parcel</list-values>`
+`<list-values>superblock,study,block,sub-block,plot,sub-plot,pot,plant</list-values>`
 
 ##### Step 2: Create a new assay configuration file
 
@@ -487,7 +487,7 @@ The following lines have to be changed:
 * On line 5, the `term-label` should also include the name of the new unit type, e.g.
 		`<technology source-abbreviation="" term-accession="" term-label="superblock level analysis"/>`
 * Modify line 12 to include the name of the new observation unit type in the list of values (should be the same as the respective line in the study configuration file), e.g.
-		`<list-values>superblock,block,sub-block,plot,plant,trial,pot,replicate,individual,virtual_trial,unit-parcel</list-values>`
+		`<list-values>superblock,study,block,sub-block,plot,sub-plot,pot,plant</list-values>`
 
 You may then use the new unit type in the ISA Creator.
 
