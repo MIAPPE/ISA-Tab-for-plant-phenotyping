@@ -553,7 +553,7 @@ Observations made at the sub-plant level should be recorded as plant level obser
 
 ### Phenotyping
 
-Including the Phenotyping protocol is mandatory. The Phenotyping protocol points to the file holding all trait (MIAPPE observed variable) definitions. The Phenotyping protocol connects a Sample node to an Assay, optionally through an Extract.  
+Including the Phenotyping protocol is mandatory. The Phenotyping protocol connects a Sample node to an Assay, optionally through an Extract.  
 Note that each assay should be about **a single observation unit type**.
 
 
@@ -562,7 +562,9 @@ Note that each assay should be about **a single observation unit type**.
 | sample A    |                    | Phenotyping  |      | block      | file 1        | Data Transformation | file 2            |
 | sample B    |                    | Phenotyping  |      | block      | NA            | Data Transformation | file 2            |
 
-The Date column is optional (you will have to add it in the ISA Creator too, if you choose to include it), and in this case it would refer to the timestamp of a measurement done on an observation unit or (MIAPPE) sample. It is up to the user to decide whether the raw or processed files will accompany the metadata. If no raw data file is included, fill the respective fields with "NA". Note that the transition from raw to processed data file is marked using the Data Transformation protocol.
+The Date column is optional (you will have to add it in the ISA Creator too, if you choose to include it), and in this case it would refer to the timestamp of a measurement done on an observation unit or (MIAPPE) sample. 
+
+It is up to the user to decide whether the raw or processed files will accompany the metadata. If no raw data file is included, fill the respective fields with "NA". Note that the transition from raw to processed data file is marked using the Data Transformation protocol.
 
 
 ## Trait Definition File
